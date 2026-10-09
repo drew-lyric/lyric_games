@@ -1,0 +1,32 @@
+[
+  {
+    "id": "opentdb-cc0b4bcb0ae22141e13810b5",
+    "keep": true,
+    "tier": 2,
+    "text": "At what temperature do the Celsius and Fahrenheit scales show the same numerical value?",
+    "answer": "-40",
+    "acceptedAnswers": [
+      "-40",
+      "minus forty",
+      "negative forty",
+      "minus 40",
+      "negative 40",
+      "-40 degrees",
+      "-40 C",
+      "-40 F"
+    ],
+    "note": "Precise numerical wording; equivalent negative-number and unit variants."
+  },
+  {
+    "id": "opentdb-dd519c1b71f14976824ae9fa",
+    "keep": false,
+    "tier": 4,
+    "note": "Incomplete source wording and duplicates the reviewed Celsius/Fahrenheit temperature fact."
+  },
+  {
+    "id": "opentdb-bcc6ae8b3bfa073b9a6ff369",
+    "keep": false,
+    "tier": 3,
+    "note": "Famous-line prompt does not uniquely identify an exact long quotation for typed recall."
+  }
+]

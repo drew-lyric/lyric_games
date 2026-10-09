@@ -1,0 +1,3571 @@
+[
+  {
+    "id": "triviaqa-1551bc417c77e4d796951368",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Turner Prize-winning artist co-designed the ArcelorMittal Orbit sculpture for London's 2012 Olympic Park?",
+    "category": "Art",
+    "note": "Removed incorrect sculpture height; acknowledged co-design."
+  },
+  {
+    "id": "triviaqa-15587e5b5111d464053a42bb",
+    "keep": true,
+    "tier": 2,
+    "text": "What is the formal process of charging a U.S. president with misconduct called?",
+    "note": "Impeachment is an accusation process, not removal from office."
+  },
+  {
+    "id": "triviaqa-15587ffc57e7e17eacea31c0",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-1561b692437b3ed3a00aac6a",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-15641afe2c0133cfbd3558ec",
+    "keep": true,
+    "tier": 3,
+    "answer": "Pius XII",
+    "acceptedAnswers": [
+      "Pius XII",
+      "Pius 12",
+      "Pius the Twelfth"
+    ]
+  },
+  {
+    "id": "triviaqa-156c6b85cea2550c0cd70f97",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-1585c7262970e6db9b421051",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-15907c063c477ff12aac133a",
+    "keep": true,
+    "tier": 3,
+    "answer": "Hecuba",
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-159ab4c670066dd1fa50a4bc",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-159ae0d5bafbb850c3dd470e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which charity did Eglantyne Jebb and Dorothy Buxton establish in London in 1919?",
+    "answer": "Save the Children",
+    "acceptedAnswers": [
+      "Save the Children",
+      "Save the Children Fund"
+    ]
+  },
+  {
+    "id": "triviaqa-15a43d8776cfef5691b94c91",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored allegation lacks sufficient date/event context."
+  },
+  {
+    "id": "triviaqa-15b4845fc564bde9153c2d2f",
+    "keep": true,
+    "tier": 4,
+    "text": "Which British surgeon treated Edward VII for appendicitis in 1902 and befriended Joseph Merrick?",
+    "answer": "Frederick Treves",
+    "acceptedAnswers": [
+      "Frederick Treves",
+      "Sir Frederick Treves",
+      "Treves"
+    ]
+  },
+  {
+    "id": "triviaqa-15c9a498f283378b1c89bf3c",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-15eae34d148bc1c66cd6d8e7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-15f4bff43530a8b3addeba60",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-15f8595c94596ab8e94908f1",
+    "keep": false,
+    "tier": 2,
+    "note": "False/apocryphal presidential bath-tub story."
+  },
+  {
+    "id": "triviaqa-15fcb3a6b641171fad47a5ee",
+    "keep": false,
+    "tier": 2,
+    "note": "Several correct professions: Marat was a physician, scientist and journalist."
+  },
+  {
+    "id": "triviaqa-162b5293f9f8a27b5c52a567",
+    "keep": true,
+    "tier": 3,
+    "text": "Which U.S. president authorized development of the hydrogen bomb in 1950?",
+    "answer": "Harry S. Truman",
+    "acceptedAnswers": [
+      "Harry Truman",
+      "Harry S. Truman",
+      "Truman"
+    ]
+  },
+  {
+    "id": "triviaqa-163f4fc82fe99c4e7740c416",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1643feb3faa140507b079966",
+    "keep": true,
+    "tier": 4,
+    "answer": "Dover",
+    "acceptedAnswers": [
+      "Dover",
+      "Dover, Kent"
+    ],
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-165b3a9994ce5d03b65e09e9",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1674526aa97c87e2cbf2f283",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-167bb367eaa2886cf7afe50c",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored local pub-name fact may change and is insufficiently identified."
+  },
+  {
+    "id": "triviaqa-1686212c15f34a263308d586",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-16a955a2bde7a667ae0d18b1",
+    "keep": true,
+    "tier": 3,
+    "text": "How many competitors make up a standard team in international outdoor tug-of-war?",
+    "answer": "8",
+    "acceptedAnswers": [
+      "8",
+      "eight"
+    ],
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-16bf9cda15a477db31cb2df2",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-16e15d5cd9c598ce5b2a6979",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-16ebf675c3a19d7718257335",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-16ef5b46480ad2ddf0505daf",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Scottish king was killed at the Battle of Flodden in 1513?",
+    "answer": "James IV",
+    "acceptedAnswers": [
+      "James IV",
+      "James 4",
+      "James the Fourth"
+    ]
+  },
+  {
+    "id": "triviaqa-16fc54e23bdc05c0388236db",
+    "keep": true,
+    "tier": 3,
+    "text": "Which British athlete won the men's 400-metre hurdles gold medal at the 1968 Olympics?",
+    "category": "Sports",
+    "note": "Corrected event from flat 400 metres to hurdles."
+  },
+  {
+    "id": "triviaqa-1730aac2263ebc122dc18f9c",
+    "keep": false,
+    "tier": 2,
+    "note": "False Olympic-title premise: fatal injury occurred at the 1982 World Championships."
+  },
+  {
+    "id": "triviaqa-174d160dc37b36c00550fd20",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-17602ab40eda3d2861aca4d4",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1770d1f3caedf1fd016d2f7c",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-177fa976a5b4b41708e0abaa",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-17ada1b30f2afe9a1c999371",
+    "keep": false,
+    "tier": 2,
+    "note": "Deadliest is ambiguous between single-day deaths, total deaths and total casualties."
+  },
+  {
+    "id": "triviaqa-17df32749accff9a7aa7a494",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Shakespeare play includes the King of Navarre, Longaville, Holofernes and the constable Dull?",
+    "answer": "Love's Labour's Lost",
+    "acceptedAnswers": [
+      "Love's Labour's Lost",
+      "Love's Labor's Lost"
+    ],
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-17e4fb91f3bf79e90ad510c1",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1822717c261878177abd0a60",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-18338fb617cdb0b1aebf3946",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1839f6114d16c455644ba47e",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1871071a370bbb1fd645064b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-188b94bde3594d8acc5da47b",
+    "keep": true,
+    "tier": 1,
+    "text": "Who was Barack Obama's running mate in the 2008 U.S. presidential election?",
+    "note": "Corrected date/role: vice-presidential term began in 2009."
+  },
+  {
+    "id": "triviaqa-18976186091080e4b5b502be",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-18a40553c7dca76ea08350c5",
+    "keep": false,
+    "tier": 2,
+    "note": "Unsupported genealogical claim; likely false."
+  },
+  {
+    "id": "triviaqa-18ab8782d712f53c3124520f",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-18c479990660dd1a83681e85",
+    "keep": false,
+    "tier": 2,
+    "note": "Speculative future-relative wording; original question predates the succession."
+  },
+  {
+    "id": "triviaqa-18cf450de503c210db52c340",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-18ff939c8416cd1f26cd2b7a",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-190c6ff3b761728cfa7ac2d8",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-190cc2ae6b5ff2475b688beb",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-192a7b698ebeba0b516c0327",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-194cfaf7c2207e456f49de34",
+    "keep": false,
+    "tier": 2,
+    "note": "Undated running championship count and unexplained team context."
+  },
+  {
+    "id": "triviaqa-1977cc1336bb77f09f4d08ef",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-19792a02e87b1fa4f1b29140",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-19b3b2a5ec1f788330bbc563",
+    "keep": true,
+    "tier": 3,
+    "answer": "Theodore Roosevelt",
+    "acceptedAnswers": [
+      "Theodore Roosevelt",
+      "Teddy Roosevelt",
+      "Roosevelt"
+    ],
+    "note": "Corrected misspelled canonical answer."
+  },
+  {
+    "id": "triviaqa-19c33c0516ec994b1fbfe412",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-19cb63808f2e0cb69b437f1d",
+    "keep": true,
+    "tier": 3,
+    "answer": "Nuts!",
+    "acceptedAnswers": [
+      "Nuts",
+      "Nuts!"
+    ],
+    "note": "Removed malformed quotation marks."
+  },
+  {
+    "id": "triviaqa-19ef705c2d79bc8f69678676",
+    "keep": false,
+    "tier": 2,
+    "note": "Multiple ancient Chinese imperial dog breeds fit the broad wording."
+  },
+  {
+    "id": "triviaqa-19fa14e8dd8134d9fa863b90",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1a1f3777e894e9c85e434410",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1a26c183ec5629bcb5d1ebc0",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1a505eb29782938bc722e5a2",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1a8a0860be973c63d2adb17d",
+    "keep": true,
+    "tier": 4,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-1a8bac5cf973ca870ceede87",
+    "keep": true,
+    "tier": 2,
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-1ab30cdc1dcb7484daea4d07",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-1abd32d6538262efa45f6ca4",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1acca373916d8c8b8692c165",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Aztec emperor met Hernán Cortés in Tenochtitlan in 1519?",
+    "answer": "Moctezuma II",
+    "acceptedAnswers": [
+      "Moctezuma",
+      "Moctezuma II",
+      "Montezuma",
+      "Montezuma II",
+      "Motecuhzoma II"
+    ],
+    "note": "Specified encounter; Aztec leadership changed during the conquest."
+  },
+  {
+    "id": "triviaqa-1ad24ac1b01cb74c2675ac15",
+    "keep": true,
+    "tier": 2,
+    "text": "Which boxer nicknamed 'Smokin' Joe' defeated Muhammad Ali in the 1971 'Fight of the Century'?",
+    "answer": "Joe Frazier",
+    "acceptedAnswers": [
+      "Joe Frazier",
+      "Frazier"
+    ],
+    "category": "Sports",
+    "note": "Removed relative news/death wording."
+  },
+  {
+    "id": "triviaqa-1ad4be54f96b66277edefbf7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1ad6ee203cb490f386146a88",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-1b25415da7fc857e8765f985",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1b292dd51aacaa40e1734657",
+    "keep": false,
+    "tier": 2,
+    "note": "Answer is explicitly given in the question."
+  },
+  {
+    "id": "triviaqa-1b52e91af594af243048daea",
+    "keep": true,
+    "tier": 3,
+    "text": "Which British World War II bomber was nicknamed the 'Wimpy'?",
+    "answer": "Vickers Wellington",
+    "acceptedAnswers": [
+      "Vickers Wellington",
+      "Wellington",
+      "Wellington bomber"
+    ]
+  },
+  {
+    "id": "triviaqa-1b836171e9efc3deb9f248b0",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1b87f5dcc13efb0d9d3f9f41",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1b9d58844f1240e3c64fac7e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which king of England was succeeded by his sister-in-law, Queen Anne, in 1702?",
+    "answer": "William III",
+    "acceptedAnswers": [
+      "William III",
+      "William 3",
+      "William the Third",
+      "William of Orange"
+    ],
+    "note": "Kingdom of Great Britain did not yet exist."
+  },
+  {
+    "id": "triviaqa-1ba17d458428049b0479890e",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-1bad2c010206a1228719d839",
+    "keep": true,
+    "tier": 3,
+    "answer": "Lawyer",
+    "acceptedAnswers": [
+      "Lawyer",
+      "Attorney"
+    ]
+  },
+  {
+    "id": "triviaqa-1c32d4c0822233aae7f5714a",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1c368d14425a2f20d3210f17",
+    "keep": true,
+    "tier": 2,
+    "answer": "Theodore Roosevelt",
+    "acceptedAnswers": [
+      "Theodore Roosevelt",
+      "Teddy Roosevelt",
+      "Roosevelt"
+    ],
+    "note": "Corrected canonical answer spelling."
+  },
+  {
+    "id": "triviaqa-1c3a1823762ba5c572e4c25e",
+    "keep": true,
+    "tier": 4,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-1c76421eab520ce76b05220b",
+    "keep": true,
+    "tier": 4,
+    "category": "Medicine"
+  },
+  {
+    "id": "triviaqa-1caf4f97872f9843cc42063c",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored collection inventory/count may vary."
+  },
+  {
+    "id": "triviaqa-1ce2f36e5b4d2e4f33a006ec",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1ce732def1be8942980d867d",
+    "keep": true,
+    "tier": 3,
+    "answer": "Leopoldo Galtieri",
+    "acceptedAnswers": [
+      "Leopoldo Galtieri",
+      "Galtieri"
+    ],
+    "note": "Corrected surname spelling."
+  },
+  {
+    "id": "triviaqa-1cf4e1017628810aee24dc47",
+    "keep": true,
+    "tier": 2,
+    "answer": "Helen",
+    "acceptedAnswers": [
+      "Helen",
+      "Helen of Troy"
+    ],
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-1d248948543b2adcd691e478",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1d376411deca21c2f7af9a00",
+    "keep": true,
+    "tier": 2,
+    "text": "Where were the Apollo 11 astronauts when President Richard Nixon spoke to them by telephone on 20 July 1969?",
+    "answer": "The Moon",
+    "acceptedAnswers": [
+      "Moon",
+      "The Moon",
+      "On the Moon"
+    ]
+  },
+  {
+    "id": "triviaqa-1d5392a073e79c27cb8bc03d",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1d58b0a3a06dc94e5ddf8fca",
+    "keep": true,
+    "tier": 3,
+    "text": "Which river, together with the Lusatian Neisse, defines the post-World War II boundary between Germany and Poland?",
+    "answer": "Oder",
+    "acceptedAnswers": [
+      "Oder",
+      "The Oder"
+    ],
+    "category": "Geography",
+    "note": "Replaced either-of-two answer with one specified river."
+  },
+  {
+    "id": "triviaqa-1d5a60a8a9cd5e290460a7bd",
+    "keep": false,
+    "tier": 2,
+    "note": "Unspecified monarch/date; gun-salute totals depend on occasion and location."
+  },
+  {
+    "id": "triviaqa-1d6d2b34a0a0e8843b3f1b96",
+    "keep": true,
+    "tier": 3,
+    "text": "Which ancient Mesopotamian empire was ruled by Nebuchadnezzar II?",
+    "answer": "Neo-Babylonian Empire",
+    "acceptedAnswers": [
+      "Neo-Babylonian Empire",
+      "Babylonia",
+      "Babylon",
+      "Babylonian Empire"
+    ]
+  },
+  {
+    "id": "triviaqa-1d77099d103f6a3258d223e0",
+    "keep": true,
+    "tier": 3,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-1d7aeadc213046493ea14869",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1d85214e048a5e1e9ddd8ab7",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1d8c9399fdcd9a59d8dca77b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1d8ddf26e73b28cad9e8972b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1db7c4e434eaac0dc35d91ef",
+    "keep": true,
+    "tier": 4,
+    "text": "What kind of tree features in both Charles II's escape after Worcester and Connecticut's Royal Charter legend?",
+    "answer": "Oak",
+    "acceptedAnswers": [
+      "Oak",
+      "Oak tree",
+      "An oak tree"
+    ]
+  },
+  {
+    "id": "triviaqa-1dd6883628adc8c4db74432d",
+    "keep": true,
+    "tier": 2,
+    "text": "To what destination do Frodo, Bilbo and Gandalf sail at the end of The Return of the King?",
+    "answer": "Undying Lands",
+    "acceptedAnswers": [
+      "Undying Lands",
+      "The Undying Lands",
+      "Aman",
+      "Valinor"
+    ],
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-1df483e71d2ee23c47bb8253",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1e04dfe01ffd55f48491e989",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate question: Carter's vice-president already reviewed at index 2123."
+  },
+  {
+    "id": "triviaqa-1e1f72eaaf42997f5097d442",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-1e4644dd238425b2f27089c4",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1e581b81473387e8a2ba560f",
+    "keep": true,
+    "tier": 3,
+    "text": "Who succeeded Yuri Andropov as leader of the Soviet Union in 1984?",
+    "note": "Corrected Russia/president premise to Soviet leadership."
+  },
+  {
+    "id": "triviaqa-1e7124eca01a2e4225c69ec9",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1e8a8ac07410fb7b91d3cff9",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-1e98c9b213b781e0ee72f060",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1eb6344f4285c25f3120e448",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-1f4d7803aa647d445d4a3790",
+    "keep": false,
+    "tier": 2,
+    "note": "Apocryphal electric-chair anecdote is not dependable factual trivia."
+  },
+  {
+    "id": "triviaqa-1f51688d36de3fe4c6f50731",
+    "keep": true,
+    "tier": 2,
+    "answer": "Duncan",
+    "acceptedAnswers": [
+      "Duncan",
+      "King Duncan"
+    ],
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-1f616992a52d664a34d76464",
+    "keep": true,
+    "tier": 3,
+    "answer": "Stephen I",
+    "acceptedAnswers": [
+      "Stephen",
+      "Stephen I",
+      "Saint Stephen",
+      "St Stephen"
+    ]
+  },
+  {
+    "id": "triviaqa-1f6f4a964c5680b833721276",
+    "keep": true,
+    "tier": 3,
+    "answer": "James Wolfe",
+    "acceptedAnswers": [
+      "James Wolfe",
+      "Wolfe",
+      "General Wolfe"
+    ]
+  },
+  {
+    "id": "triviaqa-1f7dc7e3c8e2c1f4f7ee39c6",
+    "keep": true,
+    "tier": 4,
+    "text": "On which traditionally named hill near the town of Battle was the Battle of Hastings fought in 1066?",
+    "answer": "Senlac Hill",
+    "acceptedAnswers": [
+      "Senlac Hill",
+      "Senlac"
+    ]
+  },
+  {
+    "id": "triviaqa-1f95e6476fd2e425fd52b1a2",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-1f9a63b45f28d58384b241a6",
+    "keep": true,
+    "tier": 4,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-1f9cc02f54de322fcc74666f",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-1fb2cc65f68e2106f3a6fba7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-1fb666f1cf1bac6d93ec4ca8",
+    "keep": false,
+    "tier": 2,
+    "note": "Arbitrary one-off equipment nickname offers weak durable trivia value."
+  },
+  {
+    "id": "triviaqa-1fcd10261d70a0d22a941f3f",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2009452148bd6e437f3ba736",
+    "keep": true,
+    "tier": 3,
+    "text": "What nickname was given to the stand of the 93rd Highlanders at the Battle of Balaclava in 1854?"
+  },
+  {
+    "id": "triviaqa-20312a09284449747dfffe4e",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-2057bf82a5c1c754dbd4568b",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-205bac30960d444fcb5dc706",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-20620222265b1a3bc6a803d7",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-20b7c258d1f17fdc9606e520",
+    "keep": true,
+    "tier": 3,
+    "text": "Which national capital is served by Queen Alia International Airport?",
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-20cdec23823f716d68fde64e",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-20d3194de115c18a65f32857",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-20db33c1e0054fcc92c7fa05",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-210028df9195c3473c206391",
+    "keep": false,
+    "tier": 2,
+    "note": "Unverifiable haunting claim; multiple royal ghost traditions."
+  },
+  {
+    "id": "triviaqa-2129425f38ef9959a14508a8",
+    "keep": true,
+    "tier": 2,
+    "text": "Which former U.S. president received the Nobel Peace Prize in 2002?",
+    "answer": "Jimmy Carter",
+    "acceptedAnswers": [
+      "Jimmy Carter",
+      "Carter"
+    ]
+  },
+  {
+    "id": "triviaqa-212a67fff2eb10e9d612e923",
+    "keep": true,
+    "tier": 3,
+    "text": "Who resigned as president of the World Bank in 2007 following controversy over a pay rise for his partner?"
+  },
+  {
+    "id": "triviaqa-2142da754a194c54ce0d9aaf",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-215ecec5b529a53d9d64d64d",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate 1981 Mitterrand election question with malformed incomplete answer."
+  },
+  {
+    "id": "triviaqa-21643064cbd255abdba4c846",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "American Revolution",
+      "American Revolutionary War",
+      "American War of Independence",
+      "U.S. War of Independence"
+    ]
+  },
+  {
+    "id": "triviaqa-2167abc8f5a3def62c29f09f",
+    "keep": true,
+    "tier": 2,
+    "text": "What call sign is used by a U.S. Marine Corps helicopter carrying the president?",
+    "note": "Marine One is a call sign, not a helicopter's name."
+  },
+  {
+    "id": "triviaqa-2169eaa813734745a8d25c16",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-21959299a4afa42bf6c22cb1",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-219a95b6310461db011045e2",
+    "keep": true,
+    "tier": 1,
+    "answer": "Rope",
+    "acceptedAnswers": [
+      "Rope",
+      "A rope"
+    ],
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-21a8b24fcf850e458f98237f",
+    "keep": true,
+    "tier": 3,
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-21b2423439c276f5bcbb5635",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored current office holder."
+  },
+  {
+    "id": "triviaqa-21f39a34bce4483b72e3345c",
+    "keep": true,
+    "tier": 3,
+    "text": "In the biblical Book of Daniel, which king orders Daniel thrown into the lions' den?",
+    "answer": "Darius",
+    "acceptedAnswers": [
+      "Darius",
+      "King Darius"
+    ],
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-2205020d71320a904e2ea8dd",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-22133f66415a5539b84047f2",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was president of Ireland in April 2012?",
+    "answer": "Michael D. Higgins",
+    "acceptedAnswers": [
+      "Michael D. Higgins",
+      "Michael Higgins",
+      "Higgins"
+    ]
+  },
+  {
+    "id": "triviaqa-221cd637b848203f440d240c",
+    "keep": true,
+    "tier": 3,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-223470e32ec32c28a15f5268",
+    "keep": true,
+    "tier": 2,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-2285459b2fcbc2ab9d0585aa",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-228876c32c8a62701db6389b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-22c0d8f4a0670a831b4de936",
+    "keep": true,
+    "tier": 2,
+    "answer": "William Henry Harrison",
+    "acceptedAnswers": [
+      "William Henry Harrison",
+      "William H. Harrison",
+      "Harrison"
+    ]
+  },
+  {
+    "id": "triviaqa-22c9115507cf4f019f59f2bd",
+    "keep": true,
+    "tier": 2,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-22ededea6140719c6b4db815",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-22f2f559b9b1a106d5c00875",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-232ae87511264bff5a485204",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2337cdf081fcf674d6e3b2cd",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-23af056b02ebe9225e799d8b",
+    "keep": false,
+    "tier": 2,
+    "note": "Attributed quotation is anecdotal and exact phrasing is not a fair typed answer."
+  },
+  {
+    "id": "triviaqa-23b82bed957c01bccb8d12f5",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-23cbcd94581bae18b92e5690",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-23e147605a6591b9ece330cb",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-23e902766f702e71f2ad28ef",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-23f6bcb9e10bf5162bc6ba5e",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-244cd3ff60eb8732e132d7cf",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Condor Legion question already reviewed at index 2184."
+  },
+  {
+    "id": "triviaqa-246a6bf1388e4ed1c5744c4a",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-247e390c5be1b12d0c33443a",
+    "keep": true,
+    "tier": 3,
+    "answer": "Stamford Bridge",
+    "acceptedAnswers": [
+      "Stamford Bridge",
+      "Battle of Stamford Bridge"
+    ],
+    "note": "Completed truncated canonical answer."
+  },
+  {
+    "id": "triviaqa-24989c12fc106dc292b9e056",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-24a020c0f170f33e376e244d",
+    "keep": true,
+    "tier": 3,
+    "category": "Science"
+  },
+  {
+    "id": "triviaqa-24aa01a8b7e75a93f055c6e4",
+    "keep": false,
+    "tier": 2,
+    "note": "Medal totals can be altered by retrospective reallocations; no initial/final tally specified."
+  },
+  {
+    "id": "triviaqa-24eb82318a23cfd3cb9859c3",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-24f5818ad53d9f1b223a6a2e",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-250082b078cf7208a3c8ce12",
+    "keep": false,
+    "tier": 2,
+    "note": "Misleading presidential role and arbitrary one-off protest detail."
+  },
+  {
+    "id": "triviaqa-251b2a75ef401883fe99ab68",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Irish king was killed at the Battle of Clontarf in 1014?",
+    "answer": "Brian Boru",
+    "acceptedAnswers": [
+      "Brian Boru",
+      "Boru"
+    ],
+    "note": "Removed relative-date and disputed-age clutter."
+  },
+  {
+    "id": "triviaqa-25255c609670ac92d896e290",
+    "keep": false,
+    "tier": 2,
+    "note": "Unstructured multiple-force answer is ambiguous and incomplete."
+  },
+  {
+    "id": "triviaqa-2528bdc44de1a30d6310a346",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-252b6c06c1d594e619609e17",
+    "keep": true,
+    "tier": 2,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-2531406f7aed3febb142d304",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2547ce967ff7ffae7059b380",
+    "keep": true,
+    "tier": 2,
+    "category": "Science"
+  },
+  {
+    "id": "triviaqa-2551b642a7d2ce1537c7706b",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-256fa0518f3b0f550a46b1bc",
+    "keep": true,
+    "tier": 2,
+    "text": "Which English king sealed Magna Carta at Runnymede in 1215?",
+    "answer": "John",
+    "acceptedAnswers": [
+      "John",
+      "King John"
+    ],
+    "note": "Corrected signed to sealed."
+  },
+  {
+    "id": "triviaqa-257b5cae3202b60d26c19f46",
+    "keep": false,
+    "tier": 2,
+    "note": "False answer: surrender instrument was signed aboard USS Missouri in Tokyo Bay, not Manila."
+  },
+  {
+    "id": "triviaqa-25895140f59674f8ae231e11",
+    "keep": false,
+    "tier": 2,
+    "note": "False/misleading flag name; conflates personal flag and royal standard."
+  },
+  {
+    "id": "triviaqa-25bed3aa7822d321fb180a0b",
+    "keep": true,
+    "tier": 3,
+    "answer": "Tumbrils",
+    "acceptedAnswers": [
+      "Tumbrils",
+      "Tumbrels",
+      "Tumbril",
+      "Tumbrel"
+    ]
+  },
+  {
+    "id": "triviaqa-25bf35cd5425c98c7f2e2738",
+    "keep": true,
+    "tier": 3,
+    "text": "Which city hosted the 2006 Winter Olympics, whose mascots were Neve and Gliz?",
+    "answer": "Turin",
+    "acceptedAnswers": [
+      "Turin",
+      "Torino"
+    ],
+    "category": "Sports",
+    "note": "Replaced compound year/city/country answer with a single city."
+  },
+  {
+    "id": "triviaqa-25c7dfcba2e9100fe0d42ab6",
+    "keep": true,
+    "tier": 3,
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-25f8c27bf3ecf517ace9ed24",
+    "keep": true,
+    "tier": 2,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-264e7775f72569786b7c045a",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Himself",
+      "Napoleon",
+      "Napoleon Bonaparte",
+      "He crowned himself"
+    ]
+  },
+  {
+    "id": "triviaqa-2663b8d2c3a9dfe3b34155ec",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-26702a1253b921561e38d114",
+    "keep": true,
+    "tier": 1,
+    "text": "In which city was Barack Obama born?",
+    "answer": "Honolulu",
+    "acceptedAnswers": [
+      "Honolulu",
+      "Honolulu, Hawaii"
+    ],
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-267872849bca4da928b47bd7",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was king of England from 1689 to 1702?",
+    "answer": "William III",
+    "acceptedAnswers": [
+      "William III",
+      "William 3",
+      "William of Orange"
+    ],
+    "note": "Corrected impossible reign dates (1650 was his birth year)."
+  },
+  {
+    "id": "triviaqa-267bcd40fc44e2aca75cd359",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-267d9f846b7c52a2589273c5",
+    "keep": true,
+    "tier": 1,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-269cc3515d59bb8dcbdccd49",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was British prime minister when World War II ended in September 1945?",
+    "note": "Specified September to avoid the European-war/Churchill ambiguity."
+  },
+  {
+    "id": "triviaqa-26a6fb62be6d795cecf2ab7f",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Olympic martial art was governed by an international federation formerly abbreviated WTF?",
+    "category": "Sports",
+    "note": "Anchored former abbreviation; federation changed its name."
+  },
+  {
+    "id": "triviaqa-26e0986575bafc17c1e8ec89",
+    "keep": true,
+    "tier": 3,
+    "text": "In which 1783 treaty did Britain formally recognize U.S. independence?",
+    "answer": "Treaty of Paris",
+    "acceptedAnswers": [
+      "Treaty of Paris",
+      "Paris",
+      "The Treaty of Paris"
+    ],
+    "note": "Corrected false Treaty of Versailles answer."
+  },
+  {
+    "id": "triviaqa-26e70e03cdceb51191e20bdf",
+    "keep": true,
+    "tier": 3,
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-2705f15645e5074af2326af3",
+    "keep": true,
+    "tier": 4,
+    "text": "For which profession did Queen Anne's Bounty provide financial assistance?",
+    "answer": "Clergy",
+    "acceptedAnswers": [
+      "Clergy",
+      "Clergymen",
+      "Clergyman",
+      "Ministers",
+      "Clerics"
+    ]
+  },
+  {
+    "id": "triviaqa-27072aff1d7b26644ee7e07b",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Burnside/sideburns question already reviewed at index 2164."
+  },
+  {
+    "id": "triviaqa-271b7639d425982c0490494c",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-271ebb7a6ba8ec606846abc3",
+    "keep": true,
+    "tier": 2,
+    "text": "Which U.S. president had paralysis and used a wheelchair throughout his presidency?",
+    "answer": "Franklin D. Roosevelt",
+    "acceptedAnswers": [
+      "Franklin D. Roosevelt",
+      "Franklin Roosevelt",
+      "FDR",
+      "Roosevelt"
+    ]
+  },
+  {
+    "id": "triviaqa-27222bafbab6f617378828b1",
+    "keep": true,
+    "tier": 3,
+    "answer": "1314",
+    "acceptedAnswers": [
+      "1314"
+    ],
+    "note": "Corrected nonsensical source answer."
+  },
+  {
+    "id": "triviaqa-273369aa0f7566d2b9ca53c1",
+    "keep": true,
+    "tier": 1,
+    "answer": "Henry VIII",
+    "acceptedAnswers": [
+      "Henry VIII",
+      "Henry 8",
+      "Henry the Eighth"
+    ]
+  },
+  {
+    "id": "triviaqa-27547ac892ecf0123fa95d49",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-27624300ec783e165a27cd86",
+    "keep": true,
+    "tier": 2,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-27698b0f1f56ff3fc4294c26",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-27757d75e0a74bfdf5ae1543",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-279c2153d77c0d109450ed15",
+    "keep": true,
+    "tier": 2,
+    "answer": "Muammar Gaddafi",
+    "acceptedAnswers": [
+      "Muammar Gaddafi",
+      "Muammar Qaddafi",
+      "Gaddafi",
+      "Qaddafi",
+      "Gadhafi",
+      "Colonel Gaddafi"
+    ]
+  },
+  {
+    "id": "triviaqa-27a1d39649076974c84bd3b4",
+    "keep": true,
+    "tier": 1,
+    "text": "Which U.S. president resigned from office in 1974?"
+  },
+  {
+    "id": "triviaqa-27bf6970d114fc0e5d24f5c2",
+    "keep": true,
+    "tier": 3,
+    "text": "Who chaired the British Iraq Inquiry launched in 2009?",
+    "answer": "John Chilcot",
+    "acceptedAnswers": [
+      "John Chilcot",
+      "Sir John Chilcot",
+      "Chilcot"
+    ]
+  },
+  {
+    "id": "triviaqa-27da801b298ffde8c7008e6c",
+    "keep": true,
+    "tier": 4,
+    "text": "Which actress played Catherine of Aragon in The Six Wives of Henry VIII and Queen Victoria in Edward the Seventh?",
+    "answer": "Annette Crosbie",
+    "acceptedAnswers": [
+      "Annette Crosbie",
+      "Crosbie"
+    ],
+    "category": "Entertainment",
+    "note": "Corrected actress surname."
+  },
+  {
+    "id": "triviaqa-280cd464c7b585a6a8aa5546",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-282908d2e4465d80fa7202d1",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-28336a2774e384ec2e6ad8cb",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2865c9e536bbeaf8a4d1a1c4",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-2881097e099d401ce0a93efe",
+    "keep": true,
+    "tier": 3,
+    "text": "Which king of England was the son of John of Gaunt?"
+  },
+  {
+    "id": "triviaqa-28a475a6bb5c3711f5f93243",
+    "keep": true,
+    "tier": 3,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-28ac8315d48f47ff1d4e3b08",
+    "keep": false,
+    "tier": 2,
+    "note": "Insufficiently sourced allegation about an informer; omitted from playable bank."
+  },
+  {
+    "id": "triviaqa-28b3a1eaa1eecf3ca2341462",
+    "keep": true,
+    "tier": 4,
+    "answer": "Guildford Dudley",
+    "acceptedAnswers": [
+      "Guildford Dudley",
+      "Lord Guildford Dudley",
+      "Guilford Dudley",
+      "Dudley"
+    ],
+    "note": "Completed canonical answer."
+  },
+  {
+    "id": "triviaqa-28b69a1dd6b2f9fd566c09b5",
+    "keep": true,
+    "tier": 1,
+    "answer": "February",
+    "acceptedAnswers": [
+      "February"
+    ],
+    "note": "Removed encoding damage and punctuation from answer."
+  },
+  {
+    "id": "triviaqa-28bf3d0f445de886842ca466",
+    "keep": true,
+    "tier": 3,
+    "answer": "Panmunjom",
+    "acceptedAnswers": [
+      "Panmunjom",
+      "Panmunjeom"
+    ]
+  },
+  {
+    "id": "triviaqa-28f88f35c1637917c597ac29",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-29191ebc65a3cfdf5b29a392",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-294cb81b29b0f260cb93252b",
+    "keep": false,
+    "tier": 2,
+    "note": "Current-headquarters premise outdated after company restructuring; unnecessary self-revealing repair."
+  },
+  {
+    "id": "triviaqa-2972ee288236220cea2911f0",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-298157e172b29a298420d8de",
+    "keep": false,
+    "tier": 2,
+    "note": "Albert's cause of death is historically disputed; not a dependable single fact."
+  },
+  {
+    "id": "triviaqa-2982e698f9af4edc755a070f",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was president of Rwanda in 2010?",
+    "note": "Removed vague news-relative wording."
+  },
+  {
+    "id": "triviaqa-29871ffb5582719b7f28cf10",
+    "keep": true,
+    "tier": 3,
+    "text": "In which paddlesport did Gert Fredriksson win six Olympic gold medals?",
+    "answer": "Kayaking",
+    "acceptedAnswers": [
+      "Kayaking",
+      "Kayak",
+      "Canoe sprint",
+      "Canoeing"
+    ],
+    "category": "Sports",
+    "note": "Accepted kayaking rather than requiring the umbrella category canoeing."
+  },
+  {
+    "id": "triviaqa-29a69bd765c568ea828f84eb",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2a0c8338196f98e3ae49146a",
+    "keep": true,
+    "tier": 3,
+    "answer": "Saint Crispin",
+    "acceptedAnswers": [
+      "Saint Crispin",
+      "St Crispin",
+      "Crispin"
+    ],
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-2a5e26912a013a357c1c959b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2a6b9c913e68562c312156a5",
+    "keep": true,
+    "tier": 3,
+    "answer": "Joseph Stilwell",
+    "acceptedAnswers": [
+      "Joseph Stilwell",
+      "Stilwell",
+      "General Stilwell"
+    ],
+    "note": "Corrected surname spelling."
+  },
+  {
+    "id": "triviaqa-2aacec011864a94ecf83b5be",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2abdc53c65df733015fa7d46",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2ad2aad4350ed1cb9de7d24e",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2b1578c1523734965a95a05d",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-2b17e66f8be3502948f5d81c",
+    "keep": true,
+    "tier": 3,
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-2b30e0694eb3f89c37467d8b",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2b3b93fb7cc2d46c826f03a4",
+    "keep": true,
+    "tier": 3,
+    "text": "Which British athlete set a triple-jump world record of 18.29 metres in 1995?",
+    "category": "Sports",
+    "note": "Removed current record-holder wording."
+  },
+  {
+    "id": "triviaqa-2b3ddca771a4b0cd54033eb6",
+    "keep": true,
+    "tier": 4,
+    "answer": "Joseph P. Kennedy Sr.",
+    "acceptedAnswers": [
+      "Joseph P. Kennedy Sr.",
+      "Joseph Kennedy Sr.",
+      "Joseph Kennedy",
+      "Joe Kennedy Sr."
+    ]
+  },
+  {
+    "id": "triviaqa-2b7449b740d05cbae3826dc5",
+    "keep": true,
+    "tier": 3,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-2b74ba445bac2dbaeb7ea893",
+    "keep": true,
+    "tier": 4,
+    "text": "Which of Queen Victoria's children was the mother of Kaiser Wilhelm II?",
+    "answer": "Victoria, Princess Royal",
+    "acceptedAnswers": [
+      "Victoria",
+      "Victoria, Princess Royal",
+      "Victoria Princess Royal",
+      "Princess Victoria"
+    ]
+  },
+  {
+    "id": "triviaqa-2b7c463dc395fa65632e1353",
+    "keep": true,
+    "tier": 3,
+    "answer": "Pierre de Coubertin",
+    "acceptedAnswers": [
+      "Pierre de Coubertin",
+      "Baron de Coubertin",
+      "Coubertin"
+    ],
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2b90f1f05935e2b8abc62f18",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2b924c4526b1246e3ece59fd",
+    "keep": false,
+    "tier": 2,
+    "note": "Unclear intelligence-unit period and combined-function answer."
+  },
+  {
+    "id": "triviaqa-2bbcfbde2fbe2e6109b0d1c0",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-2bcf63f3db8640ff27042607",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2bfc45d62a2b570f5961a6bc",
+    "keep": true,
+    "tier": 2,
+    "text": "What type of ceremony did President Grover Cleveland hold in the White House on 2 June 1886?",
+    "answer": "Wedding",
+    "acceptedAnswers": [
+      "Wedding",
+      "A wedding",
+      "Marriage",
+      "Got married",
+      "He got married"
+    ],
+    "note": "Removed open-ended uniqueness claim."
+  },
+  {
+    "id": "triviaqa-2c17875123b5c510e9dc16a8",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-2c4c3bc56c8496ed5c2c531f",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2c8fafa4e1f5ffd4b879a26a",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2c90f8954bcbefc9f18be4af",
+    "keep": false,
+    "tier": 2,
+    "note": "Country/king unspecified and many arranged-marriage examples could fit."
+  },
+  {
+    "id": "triviaqa-2cb1af8db938eab276947178",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2cb1c8e15230a65e1b2e371e",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2cbccca129a428e38df72405",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2cbf331e5785407a67273ba5",
+    "keep": true,
+    "tier": 3,
+    "answer": "Xerxes I",
+    "acceptedAnswers": [
+      "Xerxes",
+      "Xerxes I",
+      "Xerxes the Great"
+    ]
+  },
+  {
+    "id": "triviaqa-2cfc85f21bf36054ef4cf1a2",
+    "keep": true,
+    "tier": 4,
+    "text": "Who composed the music for the British patriotic song 'Heart of Oak'?",
+    "category": "Music",
+    "note": "Corrected song title and removed imprecise celebration date."
+  },
+  {
+    "id": "triviaqa-2d1f47d84d9a8edb4b4d0eef",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2d415c129a8e4611d64de1c0",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Richard the Lionheart",
+      "Richard I",
+      "Richard",
+      "Richard the First",
+      "Richard Lionheart"
+    ]
+  },
+  {
+    "id": "triviaqa-2d5be27876335bb9ed4b09ea",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2d9007aab1fac40d1b5b3b26",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2d95a2717186e8f0ceecb3b1",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-2d9fbf64b2af9092379a9414",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-2de774a89993d6ac6eb5a3b8",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-2e0c947d94064d9ad479a94e",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-2e1ff881510291abcc550106",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-2e2157aa16466ee3b8bc520d",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2e570039b73388858d3cc687",
+    "keep": true,
+    "tier": 4,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-2e6e204ff06e915f04118655",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-2e7983ef3f4fe63607a8e80d",
+    "keep": true,
+    "tier": 4,
+    "text": "Which British swimmer competed at his fifth Olympics in Beijing in 2008?",
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2e8d766e05fac2cbcd396f58",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2e9cb2e2178b7cfc7ee502e5",
+    "keep": true,
+    "tier": 4,
+    "text": "In the Hebrew Bible, which king of Judah succeeded Asa and was succeeded by Jehoram?",
+    "category": "Religion",
+    "note": "Removed chronology-dependent reign dates."
+  },
+  {
+    "id": "triviaqa-2ead5db9c9a439fbfa7a938c",
+    "keep": true,
+    "tier": 2,
+    "text": "Which Spanish conquistador led the campaign that overthrew the Aztec Empire in 1519–1521?",
+    "answer": "Hernán Cortés",
+    "acceptedAnswers": [
+      "Hernán Cortés",
+      "Hernan Cortes",
+      "Cortes",
+      "Cortés",
+      "Hernan Cortez",
+      "Cortez"
+    ]
+  },
+  {
+    "id": "triviaqa-2ec2a7f2cf48a88cabc4a659",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2ec56010c87a7c0d2a95d7e9",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-2ed92f8c6c4ede540899bd12",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Queen Victoria/Annette Crosbie fact already retained at index 2306."
+  },
+  {
+    "id": "triviaqa-2ed9357b7f35437a3170c4f0",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-2edf88bbdcb9da019897d9f7",
+    "keep": true,
+    "tier": 2,
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-2ee2a9e892c61a35d6f33119",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-2f0db3e462a222f365997d63",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Norwegian woman won the 1928, 1932 and 1936 Olympic figure-skating titles?",
+    "category": "Sports",
+    "note": "Removed false only-skater premise; Gillis Grafström also won three consecutive titles."
+  },
+  {
+    "id": "triviaqa-2f5318d1494487c91e779166",
+    "keep": false,
+    "tier": 2,
+    "note": "Vague post-Revolution leadership premise admits multiple answers."
+  },
+  {
+    "id": "triviaqa-2f59b6b6a7092269d7918c86",
+    "keep": true,
+    "tier": 4,
+    "text": "At which battle in 878 did Alfred the Great defeat Guthrum's Viking army?",
+    "answer": "Edington",
+    "acceptedAnswers": [
+      "Edington",
+      "Battle of Edington",
+      "Ethandun",
+      "Battle of Ethandun"
+    ]
+  },
+  {
+    "id": "triviaqa-2f73fb237b5bab4ea44dee9e",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-2fb41ef40ff752b4243f70f1",
+    "keep": false,
+    "tier": 2,
+    "note": "Unstructured three-country answer; no clear single typed answer."
+  },
+  {
+    "id": "triviaqa-2fc6fbc454734019c8944a31",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-2fcb9d429bf595f289d0e74f",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-2fdaa703a923d94abc310706",
+    "keep": true,
+    "tier": 4,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3039a9d41308e74a1b8e540f",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3043991e4ef261bfea82eb5d",
+    "keep": false,
+    "tier": 2,
+    "note": "Incorrect autonomy year and imprecise changing-ruler list."
+  },
+  {
+    "id": "triviaqa-30b4e9cb459ba25da0cf6bb0",
+    "keep": true,
+    "tier": 2,
+    "text": "Which stone bearing hieroglyphic, demotic and Greek inscriptions helped scholars decipher ancient Egyptian writing?",
+    "note": "Removed inscription-line counts that depend on damaged text."
+  },
+  {
+    "id": "triviaqa-30b7a92310004ff9e352b859",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate James IV/Flodden question already retained at index 2128."
+  },
+  {
+    "id": "triviaqa-30dfe19b7f9731e8e82054a5",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-30f3a1c04e4661ab398d6aac",
+    "keep": true,
+    "tier": 3,
+    "answer": "Herbert Kitchener",
+    "acceptedAnswers": [
+      "Herbert Kitchener",
+      "Lord Kitchener",
+      "Kitchener",
+      "Herbert Horatio Kitchener"
+    ]
+  },
+  {
+    "id": "triviaqa-3108872dd47b88120420c781",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-310937731b173ce86fe32ba7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3134d98630ed7dc3dc0d3acd",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-313805ff53d4ace5f3336941",
+    "keep": true,
+    "tier": 2,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-314c280620583cc81d112c8c",
+    "keep": true,
+    "tier": 2,
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-3197e8380af58ba3d6ceeb57",
+    "keep": true,
+    "tier": 2,
+    "text": "Which Major League Baseball team played its home games at Turner Field from 1997 to 2016?",
+    "category": "Sports",
+    "note": "Anchored former stadium use instead of current tense."
+  },
+  {
+    "id": "triviaqa-319cdb40ed78f5b040e48721",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-31a3c689335223befd34ac99",
+    "keep": true,
+    "tier": 3,
+    "text": "Which country is called Cambria in Latin?",
+    "category": "Geography",
+    "note": "Removed incorrect implication that Cambria was a Roman-era state name."
+  },
+  {
+    "id": "triviaqa-31c4ef51ff8bf039e7a98bdd",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-31c863209f5ec9d067cb06bf",
+    "keep": true,
+    "tier": 2,
+    "text": "Which U.S. president died 31 days after his inauguration in 1841?",
+    "answer": "William Henry Harrison",
+    "acceptedAnswers": [
+      "William Henry Harrison",
+      "William H. Harrison",
+      "Harrison"
+    ],
+    "note": "Removed contested cause of death."
+  },
+  {
+    "id": "triviaqa-31cf8284296b65d35b368c56",
+    "keep": true,
+    "tier": 2,
+    "answer": "The Pianist",
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-31cff6e48c578573910613d5",
+    "keep": true,
+    "tier": 3,
+    "text": "What other name is used for the First Battle of Manassas in 1861?",
+    "answer": "First Battle of Bull Run",
+    "acceptedAnswers": [
+      "First Battle of Bull Run",
+      "Battle of Bull Run",
+      "Bull Run"
+    ],
+    "note": "Corrected place spelling and singular battle."
+  },
+  {
+    "id": "triviaqa-31e0d167510beb695d1bda9d",
+    "keep": true,
+    "tier": 3,
+    "text": "Which U.S. president served from 1857 to 1861 and never married?",
+    "note": "Clarified never married rather than unmarried at some point in office."
+  },
+  {
+    "id": "triviaqa-31e318cbf965ffe3040775e6",
+    "keep": true,
+    "tier": 1,
+    "answer": "Naval battle",
+    "acceptedAnswers": [
+      "Naval battle",
+      "Sea battle",
+      "A naval battle",
+      "A sea battle"
+    ]
+  },
+  {
+    "id": "triviaqa-31eaaefd26cf73c82fbced46",
+    "keep": true,
+    "tier": 3,
+    "text": "In Arthurian legend, at which battle was King Arthur mortally wounded?",
+    "answer": "Camlann",
+    "acceptedAnswers": [
+      "Camlann",
+      "Battle of Camlann"
+    ],
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-31fe4117b23a5bc142fb4c70",
+    "keep": true,
+    "tier": 1,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-32194ecc5770b7806ac723a3",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-321e569edfad09e94ffc4ca5",
+    "keep": true,
+    "tier": 3,
+    "text": "In which year did the coup against Salvador Allende and the Yom Kippur War occur?",
+    "note": "Removed irrelevant horse-racing clue and repaired name."
+  },
+  {
+    "id": "triviaqa-32555f01ba87772d858c7c8b",
+    "keep": true,
+    "tier": 4,
+    "text": "Which English king was buried at Faversham Abbey in 1154?",
+    "answer": "Stephen",
+    "acceptedAnswers": [
+      "Stephen",
+      "King Stephen"
+    ],
+    "note": "Historical burial, not an assertion about an identifiable present grave."
+  },
+  {
+    "id": "triviaqa-32613995bf75856eaf9d71a2",
+    "keep": false,
+    "tier": 2,
+    "note": "Question's World War II invention date is unreliable."
+  },
+  {
+    "id": "triviaqa-3265a4964e53816fc5f918e7",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Treaty of Rome fact already retained at index 2261."
+  },
+  {
+    "id": "triviaqa-327f6a666dbe78cb8c250b49",
+    "keep": true,
+    "tier": 3,
+    "text": "What nationality was Judy Tegart, the player Billie Jean King defeated in the 1968 Wimbledon women's singles final?",
+    "answer": "Australian",
+    "acceptedAnswers": [
+      "Australian",
+      "Australia"
+    ],
+    "category": "Sports",
+    "note": "Corrected player surname."
+  },
+  {
+    "id": "triviaqa-32b0c5716ac518fa14953487",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-32b3ed44b34ca72cad995f21",
+    "keep": false,
+    "tier": 2,
+    "note": "Conflates Bull Run with Custer's defeat at Little Bighorn."
+  },
+  {
+    "id": "triviaqa-32b443e819d31bb6e7fd0d24",
+    "keep": true,
+    "tier": 3,
+    "text": "Who became king when Libya gained independence in 1951?",
+    "answer": "Idris I",
+    "acceptedAnswers": [
+      "Idris",
+      "Idris I",
+      "King Idris"
+    ],
+    "note": "Removed inaccurate direct-independence-from-Italy claim."
+  },
+  {
+    "id": "triviaqa-32e28ebfd82ec1b267f2b0c7",
+    "keep": true,
+    "tier": 2,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-32ebce0e99a6cb5ea49c7d2d",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3322d2d8cab520db624ce958",
+    "keep": true,
+    "tier": 3,
+    "text": "Which British prime minister signed the United Kingdom's EEC accession treaty in 1972?"
+  },
+  {
+    "id": "triviaqa-3338b3257dbd7dd6d32ed0e1",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-3382d7a9069c40b6718f5290",
+    "keep": false,
+    "tier": 2,
+    "note": "Both the Bill of Rights and Act of Settlement excluded Catholic monarchs; ambiguous legislation wording."
+  },
+  {
+    "id": "triviaqa-3383e4b7633d217837024fa9",
+    "keep": true,
+    "tier": 1,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-338af9306f0364968a530a22",
+    "keep": true,
+    "tier": 2,
+    "answer": "Billie Jean King",
+    "acceptedAnswers": [
+      "Billie Jean King",
+      "King"
+    ],
+    "category": "Sports",
+    "note": "Corrected first-name spelling."
+  },
+  {
+    "id": "triviaqa-339cd78c77c052e3c011ad8e",
+    "keep": true,
+    "tier": 4,
+    "answer": "James Hepburn, Earl of Bothwell",
+    "acceptedAnswers": [
+      "James Hepburn",
+      "Earl of Bothwell",
+      "Bothwell",
+      "James Hepburn Earl of Bothwell"
+    ]
+  },
+  {
+    "id": "triviaqa-33a19d48a63d747fe85929c6",
+    "keep": true,
+    "tier": 3,
+    "text": "What was the course length, in metres, for rowing races at the 2024 Paris Olympics?",
+    "answer": "2000",
+    "acceptedAnswers": [
+      "2000",
+      "2,000",
+      "2000 metres",
+      "2,000 metres",
+      "2000 meters",
+      "two thousand",
+      "two thousand metres",
+      "2 km"
+    ],
+    "category": "Sports",
+    "note": "Anchored distance rather than claiming all Olympic rowing, including historical and future formats."
+  },
+  {
+    "id": "triviaqa-33b4d7b21a8a30914e2b2971",
+    "keep": true,
+    "tier": 1,
+    "text": "Which of the Seven Wonders of the Ancient World was traditionally located at Babylon?",
+    "answer": "Hanging Gardens of Babylon",
+    "acceptedAnswers": [
+      "Hanging Gardens of Babylon",
+      "Hanging Gardens",
+      "The Hanging Gardens"
+    ],
+    "note": "Traditional location; historical existence/site remains debated."
+  },
+  {
+    "id": "triviaqa-33b69612acae420800f1df8c",
+    "keep": true,
+    "tier": 2,
+    "text": "By which epithet is the English king Edward who reigned from 1042 to 1066 known?",
+    "answer": "The Confessor",
+    "acceptedAnswers": [
+      "The Confessor",
+      "Confessor",
+      "Edward the Confessor"
+    ]
+  },
+  {
+    "id": "triviaqa-33bb42c1d466b87e4645ca0e",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-341285e2820d450f1d909bde",
+    "keep": true,
+    "tier": 1,
+    "answer": "Aretha Franklin",
+    "acceptedAnswers": [
+      "Aretha Franklin",
+      "Franklin"
+    ],
+    "category": "Music",
+    "note": "Corrected surname spelling."
+  },
+  {
+    "id": "triviaqa-344f7417c052824c0c307b54",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Paulus/Stalingrad question already retained at index 2236."
+  },
+  {
+    "id": "triviaqa-3454cf0790c43b90833adde0",
+    "keep": true,
+    "tier": 4,
+    "text": "Which U.S. president's father, Joseph, was a major Hollywood film-studio investor in the 1920s?",
+    "answer": "John F. Kennedy",
+    "acceptedAnswers": [
+      "John F. Kennedy",
+      "John Kennedy",
+      "JFK",
+      "Kennedy"
+    ],
+    "note": "Removed possessive/malformed answer."
+  },
+  {
+    "id": "triviaqa-345cd7de48f8a0d125c2d1cb",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Scottish cyclist, a twice world individual-pursuit champion, was known as 'The Flying Scotsman'?",
+    "category": "Sports",
+    "note": "Removed false assertion that Obree was an Olympic cyclist."
+  },
+  {
+    "id": "triviaqa-347f75419e6f4ac93d925cf2",
+    "keep": true,
+    "tier": 2,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-34c1f178b0fc1842dbadace7",
+    "keep": false,
+    "tier": 2,
+    "note": "Anthem has multiple versions and verse counts."
+  },
+  {
+    "id": "triviaqa-34c31f5f2724e6b2c0b93905",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-34dfa94d058183532379113a",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-34f7388d910240e846dcea55",
+    "keep": true,
+    "tier": 4,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-350eb1af38b79facdf056eb7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-350f285f3358e2fe7a572619",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-35168fac84910d9b229d9772",
+    "keep": true,
+    "tier": 4,
+    "answer": "Stanley Rous",
+    "acceptedAnswers": [
+      "Stanley Rous",
+      "Sir Stanley Rous",
+      "Rous"
+    ],
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-35186cc4c0016ae2abee0bbe",
+    "keep": true,
+    "tier": 3,
+    "text": "Of which South American country was Juan Manuel Santos president from 2010 to 2018?",
+    "category": "Geography",
+    "note": "Anchored completed presidency."
+  },
+  {
+    "id": "triviaqa-351f69994b43b722d2dd647e",
+    "keep": true,
+    "tier": 2,
+    "text": "In the Hebrew Bible, whom did David succeed as king of Israel?",
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-3534c54f02d88ac084a97a65",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-353941fbb83a4ed70e0649a6",
+    "keep": true,
+    "tier": 2,
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-35521538d2d94f3a66b6066e",
+    "keep": true,
+    "tier": 3,
+    "answer": "Anglo-Zulu War",
+    "acceptedAnswers": [
+      "Anglo-Zulu War",
+      "Zulu War",
+      "The Zulu War"
+    ]
+  },
+  {
+    "id": "triviaqa-3578f73514f7a77ef51123e7",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-35a4e58d930becbb26971df8",
+    "keep": true,
+    "tier": 2,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-35bb6dbd3bbbfc457dfea697",
+    "keep": true,
+    "tier": 4,
+    "text": "Which legendary king of the Britons is said to have founded Bath?",
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-35c4390676f9d4d07473449d",
+    "keep": true,
+    "tier": 3,
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-35c9fd18eb2a17cedf39e15c",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate James IV/Flodden question already retained at index 2128."
+  },
+  {
+    "id": "triviaqa-35f429f956776baceaae4ac5",
+    "keep": false,
+    "tier": 2,
+    "note": "False date: Ravenna became western imperial capital in 402; Roman Empire also had an eastern capital."
+  },
+  {
+    "id": "triviaqa-35fee01712b1016ec85bb258",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-3661248264ba96a787bf8531",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-366613290d54dc4afdf16b51",
+    "keep": true,
+    "tier": 2,
+    "text": "What call sign does a U.S. Air Force aircraft use when carrying the president?",
+    "note": "Specified Air Force; other services use different call signs."
+  },
+  {
+    "id": "triviaqa-368b7d365010b7e0d4b4b1c5",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-36b19c36bb07d9c0ce4aaa45",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-36ceb56bfb65feb61f871590",
+    "keep": true,
+    "tier": 3,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-36dfac643f20f09e7cf38c81",
+    "keep": true,
+    "tier": 3,
+    "text": "Which king of Egypt was overthrown in the 1952 revolution?",
+    "answer": "Farouk I",
+    "acceptedAnswers": [
+      "Farouk",
+      "Farouk I",
+      "King Farouk"
+    ]
+  },
+  {
+    "id": "triviaqa-3717cb953998505ef968823b",
+    "keep": false,
+    "tier": 2,
+    "note": "Martha Gellhorn covered many major wars/events; question is not uniquely answerable."
+  },
+  {
+    "id": "triviaqa-371c061afae48e3d21e5abe6",
+    "keep": true,
+    "tier": 3,
+    "text": "Which fashion designer opened the shop Bazaar on London's King's Road in 1955?",
+    "category": "Art",
+    "note": "Corrected opening year from 1957."
+  },
+  {
+    "id": "triviaqa-3722b2efad5ca5764931d797",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-374354690c056722254be51b",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-374cc1e40133358367c3c85e",
+    "keep": true,
+    "tier": 3,
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-3759041d7234c9228e207305",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-37613239afd806e3ef0eb679",
+    "keep": true,
+    "tier": 3,
+    "category": "Mythology"
+  },
+  {
+    "id": "triviaqa-377cee87ac53fc29c243d1c1",
+    "keep": true,
+    "tier": 1
+  },
+  {
+    "id": "triviaqa-3797a6001e7eb79da9110f0c",
+    "keep": true,
+    "tier": 4,
+    "text": "Which British equestrian competed at her fifth Olympics in Beijing in 2008?",
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-37aee1198f1da24ae061c6ed",
+    "keep": true,
+    "tier": 2,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-380327a98feda2221d96e27e",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Edward VI's father question already retained at index 2195."
+  },
+  {
+    "id": "triviaqa-380483762ac6484927748a74",
+    "keep": true,
+    "tier": 3,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-3813cf14bff7761fa26fe265",
+    "keep": true,
+    "tier": 3,
+    "answer": "Revelation",
+    "acceptedAnswers": [
+      "Revelation",
+      "Book of Revelation",
+      "The Book of Revelation",
+      "Revelations"
+    ],
+    "category": "Religion",
+    "note": "Corrected canonical book title."
+  },
+  {
+    "id": "triviaqa-3817951d70a13c33a04f3089",
+    "keep": true,
+    "tier": 2,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-381c614014dda1b69be7e780",
+    "keep": false,
+    "tier": 2,
+    "note": "False extradition premise, non-answer and stale relative date."
+  },
+  {
+    "id": "triviaqa-38400c5b67215e6e9d26f707",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-386eae681a78f8475f1d8fd6",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Palestinian city has a name traditionally interpreted as 'house of bread' in Hebrew and 'house of meat' in Arabic?",
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-387aee8a5550582eec70e3b8",
+    "keep": true,
+    "tier": 4,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-38800db9f9843d0df5df5322",
+    "keep": true,
+    "tier": 2,
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-38e419793ff4e982b919ba6c",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-38efe1ee067a96b39c284755",
+    "keep": true,
+    "tier": 3,
+    "answer": "François Mitterrand",
+    "acceptedAnswers": [
+      "François Mitterrand",
+      "Francois Mitterrand",
+      "Mitterrand"
+    ],
+    "note": "Corrected surname spelling."
+  },
+  {
+    "id": "triviaqa-392ab12708b696ba0db69927",
+    "keep": true,
+    "tier": 2,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-392cfa8e3fe97ee379eb6bae",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-39c00d8f4248bafe321d0e64",
+    "keep": true,
+    "tier": 3,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-39cf2199f59283b5e86d7dd4",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-39f62aff17e24289d543c0b3",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was crowned queen of England at Westminster Abbey in 1553?",
+    "note": "Removed 'on this day' and corrected Westminster spelling."
+  },
+  {
+    "id": "triviaqa-3a00ded9514e0fa3b6a2a6b7",
+    "keep": true,
+    "tier": 3,
+    "text": "What is the stage name of Thomas Neuwirth, the winner of the 2014 Eurovision Song Contest?",
+    "category": "Entertainment",
+    "note": "Identified the unspecified contest."
+  },
+  {
+    "id": "triviaqa-3a106671def7658096d4965a",
+    "keep": true,
+    "tier": 1,
+    "text": "What is the name of the mandrill shaman in Disney's The Lion King?",
+    "category": "Entertainment",
+    "note": "Rafiki is a mandrill, not a baboon."
+  },
+  {
+    "id": "triviaqa-3a173eba9a6c57c9e97cdcab",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was British prime minister at the outbreak of World War I in 1914?",
+    "note": "Specified which war."
+  },
+  {
+    "id": "triviaqa-3a21e0d3b1d415fefb0a352a",
+    "keep": true,
+    "tier": 3,
+    "text": "What name is shared by an old ballad about a Northumberland hunt, a Washington, D.C. neighborhood and an American actor?",
+    "category": "General knowledge",
+    "note": "Corrected claimed battle to traditional ballad."
+  },
+  {
+    "id": "triviaqa-3a416245232faf4687f81422",
+    "keep": true,
+    "tier": 3,
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-3a4f1a2187a3c2b9bcd2e6e6",
+    "keep": true,
+    "tier": 4,
+    "text": "Which archbishop of York crowned William the Conqueror king of England in 1066?",
+    "answer": "Ealdred",
+    "acceptedAnswers": [
+      "Ealdred",
+      "Aldred"
+    ]
+  },
+  {
+    "id": "triviaqa-3a66d1224a18a19ee1a8377b",
+    "keep": true,
+    "tier": 2,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3a830f14dd88dc981fa92a7e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which war ended in 1939 after Franco's Nationalist forces captured Madrid?",
+    "note": "Removed incorrect war-ending date."
+  },
+  {
+    "id": "triviaqa-3ac9092b2332b172714f3067",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was convicted of the 1968 assassination of Martin Luther King Jr.?"
+  },
+  {
+    "id": "triviaqa-3acd314286379de70b8b92a5",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3b1e87bd6873422c1e4e0feb",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-3b2053c418968b9b3516b110",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3b28f31e37ff7ead2cdfbecc",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3b2dccde9302bf7267634dd7",
+    "keep": true,
+    "tier": 4,
+    "answer": "Jacques Delors",
+    "acceptedAnswers": [
+      "Jacques Delors",
+      "Delors"
+    ],
+    "note": "Corrected surname."
+  },
+  {
+    "id": "triviaqa-3b544a7b5034f3dbf6cfc37f",
+    "keep": true,
+    "tier": 3,
+    "text": "Which rower won Olympic gold in the 2000 coxless four alongside Steve Redgrave, Matthew Pinsent and Tim Foster?",
+    "answer": "James Cracknell",
+    "acceptedAnswers": [
+      "James Cracknell",
+      "Cracknell"
+    ],
+    "category": "Sports",
+    "note": "Replaced either-of-two prompt with one identified missing rower."
+  },
+  {
+    "id": "triviaqa-3b5aff070f3f33e6e3bb42da",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3b5e593a09680bfdb061b9eb",
+    "keep": true,
+    "tier": 2,
+    "text": "What is Barack Obama's middle name?"
+  },
+  {
+    "id": "triviaqa-3b78c33fdc43af5c3a5039ee",
+    "keep": true,
+    "tier": 2,
+    "text": "Which city hosted the 1972 Summer Olympics?",
+    "category": "Sports",
+    "note": "Specified Summer to exclude Sapporo."
+  },
+  {
+    "id": "triviaqa-3ba7f4b3ad67a6131ff83790",
+    "keep": true,
+    "tier": 4,
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-3ba98edff08cf09bc8e9da83",
+    "keep": true,
+    "tier": 1,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3badad8110aef74e5d07d896",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3bbb572c44dcacf50f07d886",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Alfred the Great",
+      "Alfred"
+    ]
+  },
+  {
+    "id": "triviaqa-3bcca6d5b74d9b19bcd40399",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3bdaa7f923320cec833561b4",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Aaron Burr",
+      "Burr"
+    ]
+  },
+  {
+    "id": "triviaqa-3bf58958273d20e948a203d0",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-3bf7378ea818d05b9f67527b",
+    "keep": false,
+    "tier": 2,
+    "note": "Wordplay uses incompatible spellings: President Bartlet versus Bartlett pear/quotations."
+  },
+  {
+    "id": "triviaqa-3c06d0e91a536ffca91ce102",
+    "keep": true,
+    "tier": 3,
+    "text": "In which year did Melbourne host the Summer Olympics?",
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3c1645e4e0acaf442d4c6f32",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3c3dda366a42ca6ea798e816",
+    "keep": true,
+    "tier": 2,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-3c6ce5f05099db1df9dab8b7",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3c6e557d7b46cebae3d5e493",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3ca716ec4b25f989af00052d",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-3cb1ebfae84c1c8664a85989",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3cbad4ab29ea433bffcae0d8",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Statue of Zeus",
+      "Statue of Zeus at Olympia",
+      "Zeus"
+    ]
+  },
+  {
+    "id": "triviaqa-3cbbfa076bffc1f55c2ae6c8",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Yuri led the Soviet Union from 1982 to 1984 after previously heading the KGB?",
+    "answer": "Yuri Andropov",
+    "acceptedAnswers": [
+      "Yuri Andropov",
+      "Andropov"
+    ],
+    "note": "Corrected leadership title and imprecise duration."
+  },
+  {
+    "id": "triviaqa-3cf4e6516dff0ede67f7b539",
+    "keep": true,
+    "tier": 2,
+    "text": "Which winter head covering takes its name from a Crimean War town?",
+    "category": "General knowledge"
+  },
+  {
+    "id": "triviaqa-3d1331ea2592cd63506fe66a",
+    "keep": true,
+    "tier": 3,
+    "text": "Which shooting event at the 1900 Paris Games used live birds?",
+    "answer": "Live pigeon shooting",
+    "acceptedAnswers": [
+      "Live pigeon shooting",
+      "Pigeon shooting",
+      "Shooting live pigeons"
+    ],
+    "category": "Sports",
+    "note": "Removed uncertain bird-death total."
+  },
+  {
+    "id": "triviaqa-3d2d367588f24b9d1d18e18c",
+    "keep": true,
+    "tier": 4,
+    "text": "Which country fought France in the Pastry War of 1838?",
+    "answer": "Mexico",
+    "acceptedAnswers": [
+      "Mexico"
+    ],
+    "note": "Replaced either-country prompt with a single specified country."
+  },
+  {
+    "id": "triviaqa-3d37f26cb2f438999d3fb534",
+    "keep": true,
+    "tier": 2,
+    "text": "Which Catalan architect is famous for his work on Barcelona's Sagrada Família?",
+    "answer": "Antoni Gaudí",
+    "acceptedAnswers": [
+      "Antoni Gaudí",
+      "Antoni Gaudi",
+      "Gaudí",
+      "Gaudi"
+    ],
+    "category": "Art"
+  },
+  {
+    "id": "triviaqa-3d3eb8c340103be3bf56d204",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-3d4c06755bcc6a9dc382e765",
+    "keep": true,
+    "tier": 3,
+    "text": "Which British battlecruiser was sunk by Bismarck at the Battle of the Denmark Strait in 1941?",
+    "answer": "HMS Hood",
+    "acceptedAnswers": [
+      "HMS Hood",
+      "Hood"
+    ],
+    "note": "Corrected battlecruiser classification and Bismarck spelling."
+  },
+  {
+    "id": "triviaqa-3d588b821c9c8e05c4a03292",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3da9bf69f96afba2eb46a2a5",
+    "keep": true,
+    "tier": 3,
+    "text": "What was the official mascot of the London 2012 Summer Olympics?",
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3db1b38b9aaa33f19818eb28",
+    "keep": false,
+    "tier": 2,
+    "note": "Duplicate Shane Gould retirement question already retained at index 2382."
+  },
+  {
+    "id": "triviaqa-3dc09ac4354ef270131cb82d",
+    "keep": true,
+    "tier": 3,
+    "answer": "Hundred Years' War",
+    "acceptedAnswers": [
+      "Hundred Years' War",
+      "Hundred Years War",
+      "The Hundred Years War"
+    ],
+    "note": "Corrected canonical war name."
+  },
+  {
+    "id": "triviaqa-3de45e5f8447da2d568a8049",
+    "keep": true,
+    "tier": 3,
+    "answer": "F. W. de Klerk",
+    "acceptedAnswers": [
+      "F. W. de Klerk",
+      "FW de Klerk",
+      "Frederik Willem de Klerk",
+      "De Klerk"
+    ]
+  },
+  {
+    "id": "triviaqa-3df6a0162f6dcd41dfbcbd5f",
+    "keep": true,
+    "tier": 4,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-3e098bf4e7a97e6dca2f988e",
+    "keep": true,
+    "tier": 2,
+    "answer": "William Tecumseh Sherman",
+    "acceptedAnswers": [
+      "William Tecumseh Sherman",
+      "William Sherman",
+      "Sherman",
+      "General Sherman"
+    ]
+  },
+  {
+    "id": "triviaqa-3e53a62b38bd4fa1660f290d",
+    "keep": true,
+    "tier": 3,
+    "text": "In the Hebrew Bible, which prophet anointed David as king?",
+    "category": "Religion"
+  },
+  {
+    "id": "triviaqa-3e695294168bd182ab6f95ca",
+    "keep": true,
+    "tier": 1,
+    "text": "Which dwarf planet is named after the Roman god of the underworld?",
+    "category": "Science",
+    "note": "Corrected obsolete planet classification and omitted unanchored naming date."
+  },
+  {
+    "id": "triviaqa-3e6c7b0ad02df4b4ddbb3b53",
+    "keep": true,
+    "tier": 4,
+    "answer": "William Lamb, Viscount Melbourne",
+    "acceptedAnswers": [
+      "William Lamb",
+      "Lord Melbourne",
+      "Viscount Melbourne",
+      "Melbourne"
+    ]
+  },
+  {
+    "id": "triviaqa-3e853cc96ac204b2ad832ce5",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3ea0d084e037c682fb491a5d",
+    "keep": true,
+    "tier": 1,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3eaee88d9f5d1dbd73041f9b",
+    "keep": true,
+    "tier": 3,
+    "category": "Geography"
+  },
+  {
+    "id": "triviaqa-3ed4b76e616039a14e32fd20",
+    "keep": false,
+    "tier": 2,
+    "note": "Unexplained common names; queen's executioner is not a dependable uniquely identified category."
+  },
+  {
+    "id": "triviaqa-3ee476e625a7505008e34bd8",
+    "keep": true,
+    "tier": 3,
+    "text": "Which modern country, whose capital is Asmara, was federated with Ethiopia in 1952?",
+    "category": "Geography",
+    "note": "Corrected monarchy/title premise."
+  },
+  {
+    "id": "triviaqa-3eeb8a4581fb1394a8f1e851",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3ef187a987bf36090aeb7bbd",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3f073aeac4f6b32236e88b31",
+    "keep": true,
+    "tier": 3,
+    "answer": "Cyrus the Great",
+    "acceptedAnswers": [
+      "Cyrus",
+      "Cyrus the Great",
+      "Cyrus II"
+    ]
+  },
+  {
+    "id": "triviaqa-3f1bb491a57387d34f12c59d",
+    "keep": true,
+    "tier": 3,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-3f2112d6d3b61b4074112478",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3f2427d63299ed91ef7a1889",
+    "keep": true,
+    "tier": 2
+  },
+  {
+    "id": "triviaqa-3f2cb298fc8f5334197b410c",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3f3610e279473eae03d1a4e4",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3f3885718b9e1c6354b8a6de",
+    "keep": true,
+    "tier": 3,
+    "text": "Which major battle was fought between Napoleon's army and Russian forces near Moscow in September 1812?",
+    "answer": "Borodino",
+    "acceptedAnswers": [
+      "Borodino",
+      "Battle of Borodino"
+    ],
+    "note": "Corrected misspelling and misleading turning-the-tide claim."
+  },
+  {
+    "id": "triviaqa-3f5ac508e2cacc99f5489520",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-3f62d75b6bb44b6f42a8eedc",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was Nero's mother, whom he ordered killed in AD 59?",
+    "answer": "Agrippina the Younger",
+    "acceptedAnswers": [
+      "Agrippina",
+      "Agrippina the Younger",
+      "Julia Agrippina"
+    ]
+  },
+  {
+    "id": "triviaqa-3f7ae6229bed938e1502477f",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3f8bfd14cd63093b3e24b8f1",
+    "keep": false,
+    "tier": 2,
+    "note": "Unsubstantiated salacious anecdote/mischaracterization of a public interaction."
+  },
+  {
+    "id": "triviaqa-3fc1e5db49efa92dc99abfdf",
+    "keep": true,
+    "tier": 4,
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-3fc8d592c4a081e3bf6cf852",
+    "keep": true,
+    "tier": 2,
+    "answer": "Suleiman the Magnificent",
+    "acceptedAnswers": [
+      "Suleiman",
+      "Suleiman I",
+      "Suleiman the Magnificent",
+      "Suleyman",
+      "Suleyman I"
+    ]
+  },
+  {
+    "id": "triviaqa-3fd6501c554e6b44d8ef8c65",
+    "keep": true,
+    "tier": 3,
+    "text": "Which venue hosted badminton at the 2012 London Olympics?",
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3fdd49d50b42d414ebf95fe1",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-3ff4db0720cee7e5f684d86c",
+    "keep": true,
+    "tier": 2,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-3ffacff2c4ed43f481c061dd",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-4026b22fc71f8fc54dd0f889",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-4027a589e3c1ebf9a27f4834",
+    "keep": true,
+    "tier": 3
+  },
+  {
+    "id": "triviaqa-4052db6c4bf6614154ab81df",
+    "keep": true,
+    "tier": 4
+  },
+  {
+    "id": "triviaqa-00040336143bd36dd82c3080",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-00049427cc4d24991021e224",
+    "keep": false,
+    "tier": 2,
+    "note": "Misleading sole-inventor premise; Monopoly derives from Elizabeth Magie's earlier game."
+  },
+  {
+    "id": "triviaqa-0030c2fb102d3159d5e5519c",
+    "keep": true,
+    "tier": 1,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-004269c20b6a7ee09ef4e274",
+    "keep": true,
+    "tier": 2,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-004c4688b351d1ebd11c16be",
+    "keep": true,
+    "tier": 1,
+    "text": "On which part of his body does Harry Potter have a lightning-shaped scar?",
+    "answer": "Forehead",
+    "acceptedAnswers": [
+      "Forehead",
+      "His forehead",
+      "On his forehead"
+    ],
+    "category": "Literature"
+  },
+  {
+    "id": "triviaqa-0054fd8a16cf124cb0af65ef",
+    "keep": true,
+    "tier": 2,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-005eda84952d76ee5ad4b2b8",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored running player count; many youth clubs could satisfy it."
+  },
+  {
+    "id": "triviaqa-0069142c434179e2b838f0bc",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0076280c905e67afce08abf9",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0080d93f50b72218d330b391",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-008df185a6630479a213c7d9",
+    "keep": false,
+    "tier": 2,
+    "note": "Missing year and unresolved relative 'September' context."
+  },
+  {
+    "id": "triviaqa-0092e2f6c48355dd576b5c34",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0097341ae25b651728f591bc",
+    "keep": true,
+    "tier": 2,
+    "category": "History"
+  },
+  {
+    "id": "triviaqa-00a322d67aa5567f1da8d2ce",
+    "keep": true,
+    "tier": 4,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-00e0037e137df3f7281ecb09",
+    "keep": true,
+    "tier": 4,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-010476c6de5438146a0c7ada",
+    "keep": true,
+    "tier": 4,
+    "answer": "Shoeshine",
+    "acceptedAnswers": [
+      "Shoeshine",
+      "Shoe Shine",
+      "Sciuscià",
+      "Sciuscia"
+    ],
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-014366efc3fc490db9a319d0",
+    "keep": true,
+    "tier": 2,
+    "text": "Whose long-running American daytime talk show ended in 2011?",
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0143d00b4a5c0da50e7b6b15",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-014a8d9e9f30f9562c015828",
+    "keep": true,
+    "tier": 3,
+    "answer": "Cat Stevens",
+    "acceptedAnswers": [
+      "Cat Stevens",
+      "Yusuf Islam",
+      "Yusuf"
+    ],
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-015046f599f6ae2d0d95d422",
+    "keep": true,
+    "tier": 1,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-0150b56222268806a8afe059",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0151db5123a460f6c76ddc1d",
+    "keep": true,
+    "tier": 1,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-0170ed4cc1a14155665cfe48",
+    "keep": true,
+    "tier": 2,
+    "text": "Which band released Ceremonials in 2011 as the follow-up to Lungs?",
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-0176bb328ba51ff65cece555",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-01871d3d27d6c92f7d2108b9",
+    "keep": false,
+    "tier": 2,
+    "note": "Unanchored current broadcaster role is no longer reliable."
+  },
+  {
+    "id": "triviaqa-018f2901ce22d6669b01928b",
+    "keep": true,
+    "tier": 3,
+    "answer": "Clark Gable",
+    "acceptedAnswers": [
+      "Clark Gable",
+      "Gable"
+    ],
+    "category": "Entertainment",
+    "note": "Corrected actor name spelling."
+  },
+  {
+    "id": "triviaqa-0198d2e428cd2fec1f846579",
+    "keep": true,
+    "tier": 3,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-01b57a81edab10ff6e6c8b32",
+    "keep": false,
+    "tier": 2,
+    "note": "Disputed tea-bag origin story; earlier patents conflict with sole-introduction premise."
+  },
+  {
+    "id": "triviaqa-01b5cf4bce7e15771cf37b0c",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-01bc2250ca9d0bc80b67837d",
+    "keep": true,
+    "tier": 3,
+    "answer": "Spelbound",
+    "acceptedAnswers": [
+      "Spelbound",
+      "Spellbound"
+    ],
+    "category": "Entertainment",
+    "note": "Corrected troupe's canonical spelling."
+  },
+  {
+    "id": "triviaqa-01d0c1e99153d793505bc151",
+    "keep": true,
+    "tier": 2,
+    "text": "Which 1942 film features Humphrey Bogart as Rick Blaine?",
+    "answer": "Casablanca",
+    "acceptedAnswers": [
+      "Casablanca"
+    ],
+    "category": "Entertainment",
+    "note": "Replaced compound film/character/actor answer with one film."
+  },
+  {
+    "id": "triviaqa-01d5011f04f804388567a194",
+    "keep": true,
+    "tier": 3,
+    "text": "Which American singer had a 1965 hit with 'Eve of Destruction'?",
+    "category": "Music",
+    "note": "Removed unanchored only-hit claim."
+  },
+  {
+    "id": "triviaqa-01e734e73ffac858568d7286",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-01f23d3fb3cd090295e0df0b",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-02112425de469d0a8a126ed0",
+    "keep": true,
+    "tier": 3,
+    "category": "Music"
+  },
+  {
+    "id": "triviaqa-02156063d6300de00ba503c4",
+    "keep": true,
+    "tier": 3,
+    "text": "Which actor played the Riddler in the 1966 Batman feature film?",
+    "category": "Entertainment",
+    "note": "TV Riddler also played by John Astin; specified Gorshin's film role."
+  },
+  {
+    "id": "triviaqa-021bbcc9126b14ee9166c59f",
+    "keep": true,
+    "tier": 4,
+    "answer": "Bottle of poison",
+    "acceptedAnswers": [
+      "Bottle of poison",
+      "Poison",
+      "A bottle of poison"
+    ],
+    "category": "Games"
+  },
+  {
+    "id": "triviaqa-021c7a97f17cfaa50d56d18c",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment"
+  },
+  {
+    "id": "triviaqa-022a44cd7037eaac12b9e9e1",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports"
+  },
+  {
+    "id": "triviaqa-023cfb3b975fb32d14994474",
+    "keep": true,
+    "tier": 2,
+    "category": "Entertainment"
+  }
+]

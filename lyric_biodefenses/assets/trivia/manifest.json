@@ -1,0 +1,37 @@
+{
+  "version": "TriviaQA 1.0 unfiltered",
+  "mirrorUrl": "https://huggingface.co/datasets/mandarjoshi/trivia_qa/resolve/0f7faf33a3908546c6fd5b73a660e0f8ff173c2f/",
+  "mirrorRevision": "0f7faf33a3908546c6fd5b73a660e0f8ff173c2f",
+  "licenseCommit": "ca43b5820b107f3970cf4b7d67f7db7a98117b79",
+  "sourceFiles": [
+    {
+      "path": "unfiltered.nocontext/train-00000-of-00001.parquet",
+      "bytes": 33210864,
+      "sha256": "0a7253ec32dbf5b6fb07d71ce344d028e38f9cf86a27082033ce8957f5709100"
+    },
+    {
+      "path": "unfiltered.nocontext/validation-00000-of-00001.parquet",
+      "bytes": 4390956,
+      "sha256": "58925ac87e2e2031154899e9c1226f15d81e1675237da1a308e234b77b7bdcaf"
+    }
+  ],
+  "stats": {
+    "sourceRecords": 98935,
+    "invalid": 51,
+    "mediaOrRelative": 735,
+    "conflictingGroups": 0,
+    "duplicates": 0,
+    "usable": 98149,
+    "tiers": [
+      24538,
+      24537,
+      24537,
+      24537
+    ]
+  },
+  "outputSha256": "ac7e63c8d81ebedd2ee6c752a7e50bae90003f127e0f704b12a2a8da83b680ce",
+  "sourceCacheSha256": "28ee2b6ebcf8e87d5d0b71113ca4849f499e1386790a31fb3cebe5d28ef9fff5",
+  "licenseSha256": "5cc548335f22310a53877044624711ac3e20e5ed1117617c1fd3fc462c54330e",
+  "upstreamReadmeSha256": "27638c351153d1432b1aaa6188975d19a6e9d5c2522de6255b1535448724e908",
+  "regenerationTool": "hyparquet 1.31.2 (MIT; vendored)"
+}

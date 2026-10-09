@@ -1,0 +1,1089 @@
+[
+  {
+    "id": "opentdb-20114f89083666946013ddb0",
+    "keep": true,
+    "tier": 2,
+    "text": "What letter is conventionally used in mathematics for the imaginary unit, whose square is \u22121?",
+    "acceptedAnswers": [
+      "i"
+    ],
+    "note": "The source incorrectly calls i the imaginary number rather than the imaginary unit; excludes the engineering convention j by specifying mathematics."
+  },
+  {
+    "id": "opentdb-2cc6a3a213f92b9dfd58451a",
+    "keep": true,
+    "tier": 2,
+    "note": "Mainstream location fact is easier than the default medium\u21923 mapping."
+  },
+  {
+    "id": "opentdb-58f9677b749e78a9c7cad8f1",
+    "keep": true,
+    "tier": 3,
+    "text": "Which anticoagulant drug was first marketed as a rodenticide?",
+    "answer": "Warfarin",
+    "acceptedAnswers": [
+      "Warfarin",
+      "Coumadin"
+    ],
+    "note": "Uses generic drug name; the medication brand is not the original rodenticide."
+  },
+  {
+    "id": "opentdb-ce9de8fcb131a0bdeb0a3e50",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Goat",
+      "Goats",
+      "Cashmere goat"
+    ],
+    "note": "Common general-knowledge fact."
+  },
+  {
+    "id": "opentdb-17e8a288cec06992644b1dfd",
+    "keep": true,
+    "tier": 3,
+    "text": "In what year did the Watergate break-in take place?",
+    "note": "The scandal unfolded over several years; identifies the 1972 event."
+  },
+  {
+    "id": "opentdb-239f2a043ad523c6e5ae6fdb",
+    "keep": true,
+    "tier": 3,
+    "text": "Without enchantments, what material makes the fastest mining pickaxe in Minecraft?",
+    "acceptedAnswers": [
+      "Gold",
+      "Golden",
+      "Gold pickaxe",
+      "Golden pickaxe"
+    ],
+    "note": "Corrects punctuation and accepts material/standard adjective forms."
+  },
+  {
+    "id": "opentdb-138214681b866c59ded9af9e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which ship's captain, Stanley Lord, was criticized for failing to assist the Titanic in April 1912?",
+    "acceptedAnswers": [
+      "Californian",
+      "SS Californian",
+      "S.S. Californian"
+    ],
+    "note": "A few miles is an unsettled distance assertion; captain identifies the intended nearby vessel."
+  },
+  {
+    "id": "opentdb-cbdc444d63273934631c101d",
+    "keep": true,
+    "tier": 3,
+    "text": "On what day of August 1991 did the attempted Soviet coup begin?",
+    "answer": "19",
+    "acceptedAnswers": [
+      "19",
+      "19th",
+      "Nineteenth",
+      "August 19",
+      "19 August"
+    ],
+    "note": "Reduces a date-format answer to the clearly requested day number."
+  },
+  {
+    "id": "opentdb-aeee31e96657422ab57e3505",
+    "keep": true,
+    "tier": 3,
+    "text": "Steve Jobs died from complications of a neuroendocrine tumor in which organ?",
+    "answer": "Pancreas",
+    "acceptedAnswers": [
+      "Pancreas",
+      "The pancreas"
+    ],
+    "note": "Asks a short unambiguous organ name rather than conflating pancreatic cancer subtypes."
+  },
+  {
+    "id": "opentdb-66b99fc263c4e488a2c86a5b",
+    "keep": true,
+    "tier": 3,
+    "text": "Who is the second person to use the identity Nite Owl in the Watchmen graphic novel?",
+    "acceptedAnswers": [
+      "Daniel Dreiberg",
+      "Dan Dreiberg",
+      "Dreiberg"
+    ],
+    "note": "Corrects the character's distinctive Nite Owl spelling and adds the common first-name form."
+  },
+  {
+    "id": "opentdb-5e2dae3685c1045de2c3c9ca",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Sonic the Hedgehog game introduced Knuckles the Echidna?",
+    "acceptedAnswers": [
+      "Sonic the Hedgehog 3",
+      "Sonic 3"
+    ],
+    "note": "Corrects introduced typo and accepts the customary short game title."
+  },
+  {
+    "id": "opentdb-5db27f498b74b9d37d0b395f",
+    "keep": true,
+    "tier": 3,
+    "text": "In the 1984 film The NeverEnding Story, what is the name of the young warrior sent to save the Childlike Empress?",
+    "acceptedAnswers": [
+      "Atreyu"
+    ],
+    "note": "The book-within-the-film distinction otherwise permits confusion with Bastian; removes exact-spelling focus."
+  },
+  {
+    "id": "opentdb-174527ebbccfc3507cffa75c",
+    "keep": true,
+    "tier": 2,
+    "note": "Familiar company-name expansion."
+  },
+  {
+    "id": "opentdb-8957514e98789831ba73d80a",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Bells",
+      "Bell"
+    ],
+    "note": "Mainstream game currency fact."
+  },
+  {
+    "id": "opentdb-1994b4cd7fbce7b992f78bcf",
+    "keep": true,
+    "tier": 2,
+    "note": "Familiar animal fact."
+  },
+  {
+    "id": "opentdb-68676d93f42bd300efec5347",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Naked Snake",
+      "Snake",
+      "Big Boss"
+    ],
+    "note": "Naked Snake later becomes Big Boss; both identify the playable character."
+  },
+  {
+    "id": "opentdb-a17b09e4d5e9cc83f814c60b",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Shepard",
+      "Commander Shepard"
+    ],
+    "note": "Accepts the protagonist's ordinary full title."
+  },
+  {
+    "id": "opentdb-818a9b9c3f2af103a0422e6c",
+    "keep": true,
+    "tier": 2,
+    "note": "Common capital fact."
+  },
+  {
+    "id": "opentdb-01f3fa59d9c14151fb526bdc",
+    "keep": true,
+    "tier": 2,
+    "note": "Mainstream programming-language origin fact."
+  },
+  {
+    "id": "opentdb-62e97760c080922e0671ecf7",
+    "keep": true,
+    "tier": 3,
+    "text": "What title was used by Japan's military rulers from the late 12th to the 19th century?",
+    "acceptedAnswers": [
+      "Shogun",
+      "Shoguns",
+      "Sh\u014dgun"
+    ],
+    "category": "History",
+    "note": "Source wording implies every year of both centuries; clarifies title and range."
+  },
+  {
+    "id": "opentdb-11a456e6a958c664a205da64",
+    "keep": true,
+    "tier": 3,
+    "text": "Which sound designer created many of the original Star Wars sounds, including R2-D2's beeps?",
+    "acceptedAnswers": [
+      "Ben Burtt",
+      "Burtt"
+    ],
+    "note": "Sound designer is the appropriate role; foley artist alone misidentifies the work."
+  },
+  {
+    "id": "opentdb-5db184046d3198751e80a74e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which programming language ranked first by GitHub's active-repository metric in its 2015 language report?",
+    "acceptedAnswers": [
+      "JavaScript",
+      "JS"
+    ],
+    "note": "Anchors the historical metric; usage without a metric is ambiguous."
+  },
+  {
+    "id": "opentdb-75e43abe13064c258b1643b3",
+    "keep": true,
+    "tier": 3,
+    "text": "According to a famous story, which Greek mathematician shouted Eureka after realizing how to measure displacement?",
+    "note": "Frames the naked-running discovery anecdote as tradition rather than verified history."
+  },
+  {
+    "id": "opentdb-866581108b16ae2eca6b1389",
+    "keep": true,
+    "tier": 3,
+    "text": "What Motorola processor family served as the main CPU in the Sega Mega Drive, also called the Genesis?",
+    "acceptedAnswers": [
+      "Motorola 68000",
+      "68000",
+      "Motorola 68k",
+      "68k"
+    ],
+    "note": "Clarifies processor family and fixes grammar."
+  },
+  {
+    "id": "opentdb-51cf64150964a40c4789ce1c",
+    "keep": true,
+    "tier": 3,
+    "text": "Saladin came from which ethnic group?",
+    "acceptedAnswers": [
+      "Kurdish",
+      "Kurd",
+      "Kurds"
+    ],
+    "note": "Kurdish describes ethnicity, not modern nationality."
+  },
+  {
+    "id": "opentdb-3cd31b5d7248d53df8e6f55f",
+    "keep": true,
+    "tier": 2,
+    "note": "Common archaeological-location fact."
+  },
+  {
+    "id": "opentdb-100a2b78cfd755326c36ab16",
+    "keep": true,
+    "tier": 3,
+    "text": "What year did the streaming service later named Mixer launch under the name Beam?",
+    "note": "Mixer was a 2017 rebranding of Beam, which launched in 2016; source name/date mismatch corrected."
+  },
+  {
+    "id": "opentdb-27e2f7e4f495b28de0c50ee9",
+    "keep": true,
+    "tier": 2,
+    "note": "Common capital fact."
+  },
+  {
+    "id": "opentdb-2e8dd8ae083a889d2ab94474",
+    "keep": true,
+    "tier": 3,
+    "text": "Poland Spring bottled water is sourced from springs in which US state?",
+    "answer": "Maine",
+    "acceptedAnswers": [
+      "Maine",
+      "Maine USA",
+      "Maine United States"
+    ],
+    "note": "Shortens compound geographic answer to the requested state."
+  },
+  {
+    "id": "opentdb-5892800bfd9080cec8a5e021",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Dean Herbert",
+      "Dean Peppy Herbert",
+      "Peppy",
+      "Dean 'Peppy' Herbert"
+    ],
+    "note": "Accepts normal real name or documented handle without requiring quotation marks."
+  },
+  {
+    "id": "opentdb-67e59d2d909a06ddba3b49d6",
+    "keep": true,
+    "tier": 3,
+    "text": "What family relationship do Apollo Justice and Trucy Wright share in Ace Attorney?",
+    "answer": "Half-siblings",
+    "acceptedAnswers": [
+      "Half-siblings",
+      "Half siblings",
+      "Half brother and sister"
+    ],
+    "note": "Replaces a sentence answer with the concise relationship term."
+  },
+  {
+    "id": "opentdb-bb1995c194c074839624a350",
+    "keep": true,
+    "tier": 3,
+    "text": "In Greek mythology, who was the personification of the Sun?",
+    "category": "Mythology",
+    "note": "Personification distinguishes Helios from Apollo's overlapping solar associations."
+  },
+  {
+    "id": "opentdb-83b61da4a42e91b1470ac40b",
+    "keep": false,
+    "tier": 3,
+    "note": "The exact year Macbeth was written is inferred, often circa1606; a single unsupported exact date is unfair."
+  },
+  {
+    "id": "opentdb-8be791b38d48d98c7c8e23ba",
+    "keep": true,
+    "tier": 3,
+    "text": "In which constituent country of the UK was singer Shirley Bassey born?",
+    "note": "Defines the requested political/geographic level."
+  },
+  {
+    "id": "opentdb-d35c36ebeddde94d7a664c7b",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Treasury office is traditionally held by the British Prime Minister?",
+    "note": "First Lord of the Treasury is a separate office, not the Prime Minister's full title."
+  },
+  {
+    "id": "opentdb-cc8b3e97a38a66eb42e53999",
+    "keep": false,
+    "tier": 3,
+    "note": "Pinwheel was an early show/programming block and cable channel precursor; Nickelodeon's 'original name' oversimplifies disputed branding history."
+  },
+  {
+    "id": "opentdb-45d238518c471e6e0d0f8810",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Herg\u00e9",
+      "Herge",
+      "Georges Remi",
+      "Georges Prosper Remi"
+    ],
+    "note": "Accepts the author's pen name or real name."
+  },
+  {
+    "id": "opentdb-b7240e08cfdbd3a7b0073816",
+    "keep": true,
+    "tier": 1,
+    "note": "Direct familiar mythological creature identification."
+  },
+  {
+    "id": "opentdb-9426a14adf9aafa149a718ee",
+    "keep": true,
+    "tier": 4,
+    "note": "Long technical expansion is materially harder in typed recall than a source multiple-choice medium question."
+  },
+  {
+    "id": "opentdb-deb8fb08fea4ec05730111ab",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Ringo Starr",
+      "Ringo",
+      "Richard Starkey",
+      "Starr"
+    ],
+    "note": "Accepts stage and real names for the identifiable Beatles member."
+  },
+  {
+    "id": "opentdb-3aa8e7d820259975e5c6b989",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Bergamot",
+      "Bergamot oil",
+      "Oil of bergamot"
+    ],
+    "note": "Ingredient can be named as fruit or its extracted oil."
+  },
+  {
+    "id": "opentdb-96167deb418d4aa1b136fdee",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Alexander VI",
+      "Alexander 6",
+      "Alexander the Sixth",
+      "Pope Alexander VI"
+    ],
+    "note": "Correct regnal number required; bare Alexander is ambiguous."
+  },
+  {
+    "id": "opentdb-039b48d346051814459716db",
+    "keep": false,
+    "tier": 3,
+    "note": "Ace Combat5 features several fictional countries, including Osea and Yuktobania; unqualified 'which country is featured' lacks a unique answer."
+  },
+  {
+    "id": "opentdb-2a2f53bad56e627aec694948",
+    "keep": true,
+    "tier": 3,
+    "text": "Which US President won four presidential elections, in 1932, 1936, 1940 and 1944?",
+    "acceptedAnswers": [
+      "Franklin Roosevelt",
+      "Franklin D Roosevelt",
+      "Franklin Delano Roosevelt",
+      "FDR",
+      "Roosevelt"
+    ],
+    "note": "Explicit completed election record avoids future only-president wording."
+  },
+  {
+    "id": "opentdb-dfa20725fea2648470ab870b",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Swedish entrepreneur co-founded Spotify with Martin Lorentzon in 2006?",
+    "acceptedAnswers": [
+      "Daniel Ek",
+      "Ek"
+    ],
+    "note": "Martin Lorentzon also satisfies source question; names the other co-founder to make the answer unique."
+  },
+  {
+    "id": "opentdb-b2a8720144202103e8041f95",
+    "keep": true,
+    "tier": 2,
+    "note": "Familiar international country code."
+  },
+  {
+    "id": "opentdb-4ff1450f6f0008b9062bf472",
+    "keep": false,
+    "tier": 3,
+    "note": "Two-year range answer; exclude this item rather than require an arbitrary separator, word order or endpoint selection."
+  },
+  {
+    "id": "opentdb-d91e6565f0ce8f77683257fc",
+    "keep": false,
+    "tier": 3,
+    "note": "Greatest recurring appearances is scope-dependent and changes as the ongoing franchise grows."
+  },
+  {
+    "id": "opentdb-9e420292b67868332dd3111d",
+    "keep": false,
+    "tier": 3,
+    "note": "Two-country compound answer; excluded from the single typed-answer bank."
+  },
+  {
+    "id": "opentdb-2cc7c3e8f88531c1a48cd7ee",
+    "keep": false,
+    "tier": 3,
+    "note": "Two-continent compound answer; excluded from the single typed-answer bank."
+  },
+  {
+    "id": "opentdb-5cdc46821af802df57e2cf89",
+    "keep": false,
+    "tier": 3,
+    "note": "Unqualified original-mascot/development-history assertion is ambiguous; early Splatoon prototypes included rabbits and Mario was considered at another stage."
+  },
+  {
+    "id": "opentdb-3520a70fc35de187118b7667",
+    "keep": false,
+    "tier": 3,
+    "note": "Two-meaning compound answer, with source additionally calling Odin's ravens crows; excluded."
+  },
+  {
+    "id": "opentdb-86bbce8fbf13e92781fbd852",
+    "keep": false,
+    "tier": 3,
+    "note": "Four-state compound answer; excluded rather than require all permutations."
+  },
+  {
+    "id": "opentdb-afd22d5594bf373b887e2fdb",
+    "keep": false,
+    "tier": 3,
+    "note": "Tom Baker used several scarves of different lengths in different seasons; no single valid seven-meter value."
+  },
+  {
+    "id": "opentdb-d7e65be33f65f443f5053c00",
+    "keep": false,
+    "tier": 3,
+    "note": "Three-organ compound answer with omitted additional ingredients; not a fair single answer."
+  },
+  {
+    "id": "opentdb-99c5a41a5ada89d11204926b",
+    "keep": false,
+    "tier": 3,
+    "note": "Day-specific release of a niche mod is oversized, low-value typed recall."
+  },
+  {
+    "id": "opentdb-5c075a16f300b156507bc03b",
+    "keep": true,
+    "tier": 4,
+    "text": "What is the scientific subspecies name of the western lowland gorilla?",
+    "answer": "Gorilla gorilla gorilla",
+    "note": "Corrects grammar and distinguishes the three-part subspecies from the two-part species name."
+  },
+  {
+    "id": "opentdb-374c696676e500cefaffcc44",
+    "keep": true,
+    "tier": 4,
+    "text": "On what day of December does Finland celebrate its Independence Day?",
+    "answer": "6",
+    "acceptedAnswers": [
+      "6",
+      "6th",
+      "Sixth",
+      "December6",
+      "6 December"
+    ],
+    "note": "Requests a day number to avoid unnecessary date-format friction."
+  },
+  {
+    "id": "opentdb-69df6585036f3614711f918f",
+    "keep": true,
+    "tier": 3,
+    "text": "What is the SI unit of electric potential, named after Alessandro Volta?",
+    "note": "Defines a unique unit and avoids vague nobleman attribution."
+  },
+  {
+    "id": "opentdb-d55ce02908bb18b3eafe28fa",
+    "keep": true,
+    "tier": 3,
+    "text": "Folic acid is the synthetic form of which numbered B vitamin?",
+    "answer": "Vitamin B9",
+    "acceptedAnswers": [
+      "Vitamin B9",
+      "B9",
+      "Vitamin B 9",
+      "B 9",
+      "9",
+      "Folate"
+    ],
+    "note": "Source answer 'Vitamin B' is incomplete; correct numbered vitamin is B9."
+  },
+  {
+    "id": "opentdb-c6415612fd91974ab7590085",
+    "keep": true,
+    "tier": 3,
+    "note": "Regional capital fits precise general knowledge tier3 rather than the source hard default."
+  },
+  {
+    "id": "opentdb-11aeae76d20f92e24ff7130c",
+    "keep": true,
+    "tier": 3,
+    "note": "Mainstream franchise middle-name recall."
+  },
+  {
+    "id": "opentdb-15c25e653eb15fffad027ac8",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Jill",
+      "Jill Stingray",
+      "Stingray"
+    ],
+    "note": "Accepts full character name."
+  },
+  {
+    "id": "opentdb-c2bcdeaaf7966044f3f89df9",
+    "keep": true,
+    "tier": 2,
+    "text": "How many keys are on a standard modern piano?",
+    "acceptedAnswers": [
+      "88",
+      "Eighty-eight",
+      "Eighty eight"
+    ],
+    "note": "Familiar fact; notes/keys clarified and exceptional extended keyboards excluded by standard."
+  },
+  {
+    "id": "opentdb-ca5e97a0f704f2613a0c7082",
+    "keep": false,
+    "tier": 4,
+    "note": "Restaurant closure count changes over time and after reopening; source lacks an as-of date."
+  },
+  {
+    "id": "opentdb-c2cf73edb02949a901e8fc6e",
+    "keep": true,
+    "tier": 2,
+    "text": "What is the anatomical name for the kneecap?",
+    "note": "Patella is familiar anatomical vocabulary, easier than tier4."
+  },
+  {
+    "id": "opentdb-ec2567bec0fea34c81e51341",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Shakespeare play features the stage direction Enter a messenger, with two heads and a hand?",
+    "note": "Exact direction remains a difficult but defined literary fact."
+  },
+  {
+    "id": "opentdb-4256724d1469ead71438b706",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Charles Alderton",
+      "Alderton"
+    ],
+    "note": "Specific commercial-history fact fits tier3."
+  },
+  {
+    "id": "opentdb-4fe7d3ad5fd292c17b47a31d",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Eric Cantona",
+      "Cantona"
+    ],
+    "note": "Widely remembered sporting incident."
+  },
+  {
+    "id": "opentdb-54545a637d699aeffa3cce17",
+    "keep": true,
+    "tier": 3,
+    "text": "The English words bungalow and shampoo were borrowed from languages of which South Asian country?",
+    "note": "Corrects implication of a single language."
+  },
+  {
+    "id": "opentdb-0adcd4ecbb9af48158402152",
+    "keep": false,
+    "tier": 4,
+    "note": "Hair-color depictions vary between artwork and editions; the supplied blond answer is not safe for an unqualified mainstream-Earth616 prompt."
+  },
+  {
+    "id": "opentdb-db06d844e3fadc7f6242d50f",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Red",
+      "Orange red",
+      "Orange-red",
+      "Reddish orange"
+    ],
+    "note": "Coquelicot is a bright orange-red; accept both relevant color descriptions."
+  },
+  {
+    "id": "opentdb-dae2af68e342c3fbdf69738a",
+    "keep": true,
+    "tier": 3,
+    "text": "What are the long contractile structures inside a muscle fibre called?",
+    "acceptedAnswers": [
+      "Myofibrils",
+      "Myofibril"
+    ],
+    "note": "Corrects grammar and asks for the specific structure."
+  },
+  {
+    "id": "opentdb-9a56ae05a9aaf833e88c3ce4",
+    "keep": true,
+    "tier": 2,
+    "text": "In what year did Canadian Confederation unite Ontario, Quebec, Nova Scotia and New Brunswick?",
+    "answer": "1867",
+    "acceptedAnswers": [
+      "1867"
+    ],
+    "note": "Canada did not leave a confederation in1867; a federation was created. Replace incorrect source event and date-format requirement."
+  },
+  {
+    "id": "opentdb-504f8c194345dfde826ef5a5",
+    "keep": true,
+    "tier": 3,
+    "text": "What is the name of the shallow fishing banks southeast of Newfoundland?",
+    "acceptedAnswers": [
+      "Grand Banks",
+      "The Grand Banks",
+      "Grand Banks of Newfoundland"
+    ],
+    "note": "Removes changing fishing productivity claim."
+  },
+  {
+    "id": "opentdb-de3cb61a9cc5158102011f12",
+    "keep": false,
+    "tier": 4,
+    "note": "Two-country compound answer; inappropriate single typed-response contract."
+  },
+  {
+    "id": "opentdb-bfdabef413bbaf6ef83235dd",
+    "keep": false,
+    "tier": 4,
+    "note": "Game HP statistic may depend on version and difficulty; overspecific numeric mechanic without version scope."
+  },
+  {
+    "id": "opentdb-e92003929ebf4f2ae47e7ad6",
+    "keep": true,
+    "tier": 3,
+    "text": "What is the IEC name for a unit equal to 1,024 bytes?",
+    "acceptedAnswers": [
+      "Kibibyte",
+      "KiB"
+    ],
+    "note": "Defines standard binary unit and permits its official symbol."
+  },
+  {
+    "id": "opentdb-8cf7f795e95231140847f929",
+    "keep": false,
+    "tier": 4,
+    "note": "Scientific-number answer is rounded, omits precision and invites multiple exponent/e-notation formats; retain a separately authored Avogadro question instead."
+  },
+  {
+    "id": "opentdb-c004d2b5a4b34213a2d4f994",
+    "keep": false,
+    "tier": 4,
+    "note": "Monster count depends on whether variants and small monsters are counted; unqualified total is not unique."
+  },
+  {
+    "id": "opentdb-4917921d2d80f371d05b46b4",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "C6H12O6",
+      "C\u2086H\u2081\u2082O\u2086"
+    ],
+    "note": "A familiar molecular formula fits tier3 and should accept Unicode subscripts."
+  },
+  {
+    "id": "opentdb-4bcf7fb94851b68d25afbc06",
+    "keep": true,
+    "tier": 4,
+    "text": "Who scored Manchester United's injury-time winning goal in the 1999 UEFA Champions League final?",
+    "answer": "Ole Gunnar Solskj\u00e6r",
+    "acceptedAnswers": [
+      "Ole Gunnar Solskj\u00e6r",
+      "Ole Gunnar Solskjaer",
+      "Solskj\u00e6r",
+      "Solskjaer"
+    ],
+    "note": "Decodes the aelig HTML entity and accepts the ordinary ASCII transliteration."
+  },
+  {
+    "id": "opentdb-b3588b03dfd7f47330d53074",
+    "keep": true,
+    "tier": 3,
+    "text": "What species did the fossil hominin nicknamed Lucy belong to?",
+    "answer": "Australopithecus afarensis",
+    "note": "Species distinction makes the intended scientific name explicit."
+  },
+  {
+    "id": "opentdb-fdd687d712ac7a6c880a4ba9",
+    "keep": false,
+    "tier": 4,
+    "note": "Descriptive game reward requires many unconstrained paraphrases; source answer omits specific affected NPC relationships."
+  },
+  {
+    "id": "opentdb-3ce4f6ad4df5f9f288573db2",
+    "keep": true,
+    "tier": 3,
+    "note": "Defined sporting event year rather than a difficult specialist fact."
+  },
+  {
+    "id": "opentdb-3aad5a17aeb246a2e7ac6468",
+    "keep": false,
+    "tier": 4,
+    "note": "Volkswagen VR6 variants use different cylinder-bank angles, including10.6and15degrees; no single model/generation is identified."
+  },
+  {
+    "id": "opentdb-9ccd726e0a97a833c5b8ee62",
+    "keep": true,
+    "tier": 4,
+    "text": "Who voiced the animatronic Devil's Flight figure in Final Destination3?",
+    "acceptedAnswers": [
+      "Tony Todd",
+      "Todd"
+    ],
+    "note": "Specifies voice role more precisely."
+  },
+  {
+    "id": "opentdb-a64896ce20eb7f43dcaa4af3",
+    "keep": true,
+    "tier": 4,
+    "text": "What is Aoi Asahina's Ultimate talent in Danganronpa: Trigger Happy Havoc?",
+    "acceptedAnswers": [
+      "Ultimate Swimmer",
+      "Swimmer",
+      "Swimming"
+    ],
+    "note": "Corrects game title and accepts ordinary talent-name forms."
+  },
+  {
+    "id": "opentdb-13f73aba7321f06832d1fae7",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      ".30-06",
+      "30-06",
+      "30-06 Springfield",
+      ".30-06 Springfield"
+    ],
+    "note": "Requires the cartridge name, not the generic caliber30."
+  },
+  {
+    "id": "opentdb-5d99e01330dc69437bfbbf1f",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Vatican basilica was rebuilt beginning in1506, with contributions by Bramante, Michelangelo and Bernini?",
+    "acceptedAnswers": [
+      "St Peter's Basilica",
+      "Saint Peter's Basilica",
+      "St Peters",
+      "Saint Peters"
+    ],
+    "note": "Work spanned more than a century; source1503single interior-design date is inaccurate."
+  },
+  {
+    "id": "opentdb-87969104fd26bd2c5d05bfdb",
+    "keep": true,
+    "tier": 3,
+    "text": "The Caribbean animal called the mountain chicken is actually what type of amphibian?",
+    "acceptedAnswers": [
+      "Frog",
+      "A frog"
+    ],
+    "note": "Avoids calling the generic answer frog a scientific species name."
+  },
+  {
+    "id": "opentdb-a1e726aba1a585ac1956cb91",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Richard Neville",
+      "Neville",
+      "Earl of Warwick",
+      "Richard Neville Earl of Warwick",
+      "Warwick"
+    ],
+    "note": "Accepts the well-known title of the Kingmaker."
+  },
+  {
+    "id": "opentdb-c89f85f822588d05a549de31",
+    "keep": true,
+    "tier": 2,
+    "text": "The original Minecraft game released in2011 was written primarily in which programming language?",
+    "note": "Specifies originalJavaEdition rather than laterBedrockC++ versions."
+  },
+  {
+    "id": "opentdb-7df6d0218157ac92f976a400",
+    "keep": false,
+    "tier": 4,
+    "note": "Celebrity's local school is low-value, highly obscure biographical recall."
+  },
+  {
+    "id": "opentdb-8a87d6270599c932998d4303",
+    "keep": true,
+    "tier": 2,
+    "note": "Familiar European capital-location fact."
+  },
+  {
+    "id": "opentdb-7da121222bd92c82c6bdc914",
+    "keep": true,
+    "tier": 3,
+    "note": "Specific widely taught film-production anecdote."
+  },
+  {
+    "id": "opentdb-8f5ac8e62265c59b2c90f73c",
+    "keep": true,
+    "tier": 3,
+    "note": "Regional island-location fact."
+  },
+  {
+    "id": "opentdb-15c1f7b459a3fbe090566b74",
+    "keep": false,
+    "tier": 4,
+    "note": "Two-element compound answer; arbitrary order and synonym matching would be required."
+  },
+  {
+    "id": "opentdb-5f7685dc18bda4e45537281c",
+    "keep": false,
+    "tier": 4,
+    "note": "Three-value compound answer; unsuitable single typed response."
+  },
+  {
+    "id": "opentdb-9728754bee289d506f5c1fe3",
+    "keep": true,
+    "tier": 4,
+    "text": "In what year did Lithuania declare the restoration of its independence from the Soviet Union?",
+    "answer": "1990",
+    "acceptedAnswers": [
+      "1990"
+    ],
+    "note": "Uses the stable, meaningful year instead of demanding an exact month/day."
+  },
+  {
+    "id": "opentdb-134c091a41bd536826aef407",
+    "keep": true,
+    "tier": 3,
+    "text": "Freddie Mercury was raised in which religion?",
+    "note": "Raised-in framing distinguishes documented childhood religion from unverifiable lifelong personal beliefs."
+  },
+  {
+    "id": "opentdb-cd2647f64e916c904a9fc884",
+    "keep": true,
+    "tier": 3,
+    "note": "Common national-language endonym."
+  },
+  {
+    "id": "opentdb-c8c127989267df11fa0614b3",
+    "keep": true,
+    "tier": 3,
+    "text": "What common English noun is the usual translation of the Swedish word grunka?",
+    "acceptedAnswers": [
+      "Thing",
+      "Object",
+      "Gadget",
+      "Thingamajig",
+      "Thingummy"
+    ],
+    "note": "Several ordinary noun translations are valid; do not require the sole source synonym."
+  },
+  {
+    "id": "opentdb-53363429d9baf737beaa551e",
+    "keep": false,
+    "tier": 4,
+    "note": "MonaLisa's completion date is disputed and Leonardo continued working after1504; single exact year is false certainty."
+  },
+  {
+    "id": "opentdb-56d04a6682d3874f654eef2a",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Bee Gees song released in1979 was covered by Steps in1998?",
+    "note": "Corrects BeeGees release from1978to1979."
+  },
+  {
+    "id": "opentdb-c7cc6142b2d00e3314b3b4e9",
+    "keep": false,
+    "tier": 4,
+    "note": "PAL color encoding is used with several scan/frame standards;50Hzcommonly refers tofieldrate,notframes; unqualified video frequency is ambiguous."
+  },
+  {
+    "id": "opentdb-060c77aa767f9900a0e167dd",
+    "keep": true,
+    "tier": 3,
+    "text": "Which side did Francisco Franco lead in the Spanish Civil War?",
+    "answer": "Nationalists",
+    "acceptedAnswers": [
+      "Nationalists",
+      "Nationalist",
+      "Nationalist side",
+      "Nationalist Spain",
+      "The Nationalists"
+    ],
+    "note": "War spanned1936\u20131939; source singular1936parenthesis and country-label answer corrected."
+  },
+  {
+    "id": "opentdb-813a945e40192e38e3352f53",
+    "keep": true,
+    "tier": 4,
+    "text": "Which animation studio produced the first season of Psycho-Pass?",
+    "note": "Later seasons involved different studios; anchors the original season."
+  },
+  {
+    "id": "opentdb-bfa97dd0142a9a7bd6f8a45c",
+    "keep": true,
+    "tier": 3,
+    "note": "Mainstream band-origin fact."
+  },
+  {
+    "id": "opentdb-2d5d537c6ccf61cef5932ddf",
+    "keep": false,
+    "tier": 4,
+    "note": "Gilgamesh is anEsperintroduced inFinalFantasyVIAdvance,notoriginalVI; source lackseditionqualification and may conflate anattackwithaweapon."
+  },
+  {
+    "id": "opentdb-a32e3dd2e8ec0a2c9b185719",
+    "keep": true,
+    "tier": 4,
+    "note": "Verified against Drum Corps International's account: Santa Clara Vanguard won1989with98.80; Phantom Regiment was secondwith98.40. https://www.dci.org/news/dvd-spotlight-of-the-week-1989-santa-clara-vanguard/"
+  },
+  {
+    "id": "opentdb-13bdfd9de9323864f6b688a2",
+    "keep": true,
+    "tier": 4,
+    "text": "Which region's oil fields were a major objective of Germany's1942CaseBlue offensive?",
+    "acceptedAnswers": [
+      "Caucasus",
+      "The Caucasus",
+      "Caucasus region"
+    ],
+    "note": "Sourcecapture objective phrasedasregion,notarbitraryentireplace."
+  },
+  {
+    "id": "opentdb-75d3c9dcda03879a767b383a",
+    "keep": false,
+    "tier": 4,
+    "note": "Area estimates vary historically and between0.44and0.49km\u00b2; units/rounding create another unfairtypedanswer."
+  },
+  {
+    "id": "opentdb-f9149c4b05f3a684523c063e",
+    "keep": true,
+    "tier": 4,
+    "text": "Kygo gained early international attention for remixing which2013EdSheeran song?",
+    "answer": "I See Fire",
+    "acceptedAnswers": [
+      "I See Fire",
+      "Ed Sheeran I See Fire"
+    ],
+    "note": "Subjectiveskyrocketingclaimremoved; requires song titleratherthancompoundartist-title."
+  },
+  {
+    "id": "opentdb-6f63ff6a77b0b87113207068",
+    "keep": false,
+    "tier": 4,
+    "note": "Palantirhadseveralco-foundersincludingPeterThiel,AlexKarpandothers; unqualifiedsingularfounderisnotunique."
+  },
+  {
+    "id": "opentdb-8bdf993ddc93f40eae93dc3e",
+    "keep": false,
+    "tier": 4,
+    "note": "Scoville heat is a sensory measure, and 'hottest chemical' is an unbounded superlative; resiniferatoxin values are estimate-dependent."
+  },
+  {
+    "id": "opentdb-6c45c9b8f7c097b080b0fee8",
+    "keep": false,
+    "tier": 4,
+    "note": "Exact level number and name compound answer for a niche game invites edition/scope problems and is poor general trivia."
+  },
+  {
+    "id": "opentdb-438c99568f9d51be290d8cab",
+    "keep": false,
+    "tier": 4,
+    "note": "Three-actor compound answer; all permutations would need support."
+  },
+  {
+    "id": "opentdb-ccbd495f2eaa1a1e5a89c0cf",
+    "keep": true,
+    "tier": 2,
+    "text": "Apple Park is located in which California city?",
+    "answer": "Cupertino",
+    "acceptedAnswers": [
+      "Cupertino",
+      "Cupertino California"
+    ],
+    "note": "Landmark-location framing is clearer and less mutable than corporate headquarters."
+  },
+  {
+    "id": "opentdb-d92785a2510441d9fa66b26e",
+    "keep": true,
+    "tier": 3,
+    "note": "Specific character-species literary fact."
+  },
+  {
+    "id": "opentdb-d7e51d5e542ce89c63f6c02c",
+    "keep": true,
+    "tier": 2,
+    "note": "Mainstream geographic landform fact."
+  },
+  {
+    "id": "opentdb-65e7f1e6838d8c16f19f5bff",
+    "keep": true,
+    "tier": 4,
+    "text": "What traditional name ending in jackal was once used for the Ethiopian wolf?",
+    "answer": "Simien jackal",
+    "acceptedAnswers": [
+      "Simien jackal",
+      "Simian jackal",
+      "Abyssinian jackal",
+      "Ethiopian jackal"
+    ],
+    "note": "CorrectsJackelspellingandacceptsotherdocumentedhistoricalnames; framingdoesnotassertasimplemomentofdiscovery."
+  },
+  {
+    "id": "opentdb-c89d9de1a1457be061217e91",
+    "keep": false,
+    "tier": 4,
+    "note": "Proseactivityanswerrequiresmanyunlistedparaphrases; fancifulwordisalsoobscurewithoutauniqueshorttypedanswer."
+  },
+  {
+    "id": "opentdb-b0cf043d1f79618e850698d9",
+    "keep": true,
+    "tier": 2,
+    "text": "In which Mark Twain novel do a prince and a poor boy trade places?",
+    "note": "Familiar novel premise; removes the imprecise description of the boy as a beggar.",
+    "answer": "The Prince and the Pauper",
+    "acceptedAnswers": [
+      "The Prince and the Pauper",
+      "Prince and the Pauper"
+    ]
+  }
+]

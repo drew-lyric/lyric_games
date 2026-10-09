@@ -1,0 +1,12 @@
+'use strict';
+const path = require('node:path');
+const rootPath = path.resolve(__dirname, '..');
+const files = ['config', 'clue-bank', 'clues', 'trivia-expanded-bank', 'trivia', 'navigation', 'simulation', 'transport', 'bot'];
+for (const name of files) require(path.join(rootPath, 'js', name + '.js'));
+require(path.join(__dirname, 'test-suite.js'));
+require(path.join(__dirname, 'clue-tests.js'));
+require(path.join(__dirname, 'trivia-tests.js'));
+const results = globalThis.LyricDefense.runTests().concat(globalThis.LyricDefense.runClueTests(), globalThis.LyricDefense.runTriviaTests());
+for (const result of results) console.log((result.ok ? 'PASS ' : 'FAIL ') + result.name + (result.error ? '\n     ' + result.error : ''));
+console.log('\n' + results.filter((result) => result.ok).length + '/' + results.length + ' checks passed.');
+process.exitCode = results.every((result) => result.ok) ? 0 : 1;

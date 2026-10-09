@@ -1,0 +1,4214 @@
+[
+  {
+    "id": "opentdb-6843b8270dc02905b81a9a94",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Camp Crystal Lake",
+      "Crystal Lake"
+    ]
+  },
+  {
+    "id": "opentdb-8be682c37566943da852bb04",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was Luigi's Mansion 3 released?",
+    "answer": "2019",
+    "acceptedAnswers": [
+      "2019"
+    ]
+  },
+  {
+    "id": "opentdb-34f469272c27f40a4b16f637",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "The Rush song YYZ is named after an airport code for which Canadian city?"
+  },
+  {
+    "id": "opentdb-c6da89677b54a57feb80ef74",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ae6414c20b573f2f7b07c2d6",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ceadb919a3aec8a604d022b2",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the name of the protagonist of Half-Life 2?",
+    "acceptedAnswers": [
+      "Gordon Freeman",
+      "Freeman"
+    ]
+  },
+  {
+    "id": "opentdb-92a33e658e03fb54dbb5ec5a",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was Left 4 Dead 2 first released?",
+    "answer": "2009",
+    "acceptedAnswers": [
+      "2009"
+    ]
+  },
+  {
+    "id": "opentdb-f3bed994088c9725a54c62e1",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-23248d013daad8f2d0ffe7c6",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Sailor Guardian is the reincarnation of Princess Serenity in Sailor Moon?",
+    "acceptedAnswers": [
+      "Sailor Moon",
+      "Usagi Tsukino",
+      "Serena"
+    ]
+  },
+  {
+    "id": "opentdb-c5ce40a6a71332850ccf324e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "3",
+      "three"
+    ]
+  },
+  {
+    "id": "opentdb-e089dbb337d371a0eb48bebb",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "South Korea",
+      "Republic of Korea",
+      "Korea"
+    ]
+  },
+  {
+    "id": "opentdb-a3c1dcf55e247aaac7c5acc7",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Ian Fleming",
+      "Fleming"
+    ]
+  },
+  {
+    "id": "opentdb-c326e8c0a69e80e9d8bafe96",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which singer had a hit with Kung Fu Fighting in 1974?",
+    "acceptedAnswers": [
+      "Carl Douglas",
+      "Douglas"
+    ]
+  },
+  {
+    "id": "opentdb-f1f68f24d21d5d2c344dea9b",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which band released Rio, Girls on Film and The Reflex?"
+  },
+  {
+    "id": "opentdb-5647be3872c2d3d4f49ae26b",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-f1eea838d67df9a11d8c7c50",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b2b2dc2a33c3d7aca9422f59",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Watch the Throne",
+      "Watch the Throne album"
+    ]
+  },
+  {
+    "id": "opentdb-ce13b4891ace2ff2d99f4573",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6a0965b79020407616cd0a9c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "The film 28 Days Later is mainly set in which sovereign country?",
+    "acceptedAnswers": [
+      "United Kingdom",
+      "UK",
+      "Britain",
+      "Great Britain"
+    ]
+  },
+  {
+    "id": "opentdb-0790ddbfac2c0d78449d1fab",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-42470c00861a825f909a2d31",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d127f5ce17586d8f646db9d3",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Animal Crossing City Folk",
+      "City Folk",
+      "Animal Crossing Let's Go to the City",
+      "Let's Go to the City"
+    ]
+  },
+  {
+    "id": "opentdb-9b1b909f5df488d36dcf3426",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-858383cc4ec4d45488433708",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9555dfb74bca4f649f5cc3d1",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-5cd47ed6650c9324b3f1afcd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-193dcbb1350d2e91c1230e6f",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "40",
+      "forty"
+    ]
+  },
+  {
+    "id": "opentdb-d049883bfd705a8e58734a56",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which film features the line Nobody puts Baby in a corner?"
+  },
+  {
+    "id": "opentdb-a48dd69e2460f0fd1c755df6",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Agent 47",
+      "47"
+    ]
+  },
+  {
+    "id": "opentdb-c719f3dd68fcd010710b2e15",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which studio originally created Ratchet & Clank?",
+    "acceptedAnswers": [
+      "Insomniac Games",
+      "Insomniac"
+    ]
+  },
+  {
+    "id": "opentdb-1427c8a42ee2795f30bb8caf",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2d27e7f348f005205b071902",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-968332b4089f3a7ca0c7845f",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Willamette Parkview Mall",
+      "Willamette Mall"
+    ]
+  },
+  {
+    "id": "opentdb-faf214a3e420d947622575b8",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6cc46ecdf251fe53dfedabd4",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Milla Jovovich",
+      "Jovovich"
+    ]
+  },
+  {
+    "id": "opentdb-26aa9996b948d49782cef398",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which character is revealed as the original Colossal Titan in Attack on Titan?",
+    "acceptedAnswers": [
+      "Bertolt Hoover",
+      "Bertholdt Hoover",
+      "Berthold Hoover",
+      "Bertolt",
+      "Bertholdt"
+    ]
+  },
+  {
+    "id": "opentdb-222937d5c6d5b2b0caefc2ec",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "House Majority Whip",
+      "Majority Whip",
+      "Whip"
+    ]
+  },
+  {
+    "id": "opentdb-839f5248ccc80ea6d281ce19",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-aa268acb187bab10cf1506e2",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Bendy",
+      "Ink Demon",
+      "The Ink Demon"
+    ]
+  },
+  {
+    "id": "opentdb-332d725404cb6a0c1216b3ee",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a6d0d2df064367382779fd47",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-8fff41a46c306a6bdcda0e26",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-781002e00c30bc4ec1ed361a",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What abbreviation names the ruling English Socialism ideology in George Orwell's 1984?",
+    "acceptedAnswers": [
+      "INGSOC",
+      "Ing Soc"
+    ]
+  },
+  {
+    "id": "opentdb-f0c921cd4dcfe3cd2b187f9d",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-82b756210de58d1c7cf3bb31",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What kind of vehicle fatally hits Jibanyan in his backstory in Yo-Kai Watch?",
+    "answer": "Truck",
+    "acceptedAnswers": [
+      "Truck",
+      "A truck"
+    ]
+  },
+  {
+    "id": "opentdb-c2c1718327670b2e3f152404",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b37fdf58d9b57c9088e90547",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9a3a907abb1a857f678d00e8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ce61805efead0d9909f053bf",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Eric Clapton",
+      "Clapton"
+    ]
+  },
+  {
+    "id": "opentdb-df71d02120bb7208cbbab461",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-38b00428d426af9c334b786f",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Valve",
+      "Valve Corporation"
+    ]
+  },
+  {
+    "id": "opentdb-5d35c899c9a4286650b7cce3",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-26f3fc5b91555348f5e16cdf",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-de777552b3f04b4369542480",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7401fa3ee1c8f9723c44cab3",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "BB-8",
+      "BB8"
+    ]
+  },
+  {
+    "id": "opentdb-bea7b35f866953e8b3b4a54c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c201e83fd37f9c2b9c5478cd",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Kurt Russell",
+      "Russell"
+    ]
+  },
+  {
+    "id": "opentdb-b985642d94a5d0e9d7caf6b7",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What kind of vehicles do players drive while playing soccer in Rocket League?",
+    "acceptedAnswers": [
+      "Cars",
+      "Car",
+      "Rocket powered cars"
+    ]
+  },
+  {
+    "id": "opentdb-975cc22fc3bf8d8f7d626b9d",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "ZUN",
+      "Jun'ya Ota",
+      "Junya Ota"
+    ]
+  },
+  {
+    "id": "opentdb-7967a9392790950cc1cb4181",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "25",
+    "acceptedAnswers": [
+      "25",
+      "025",
+      "#025",
+      "twenty five"
+    ]
+  },
+  {
+    "id": "opentdb-f6cab1e429a2dbc081518143",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Quentin Tarantino",
+      "Tarantino"
+    ]
+  },
+  {
+    "id": "opentdb-fe431d5f3830d02a428a2530",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Vento Aureo",
+      "Golden Wind"
+    ]
+  },
+  {
+    "id": "opentdb-1d10f627da9b7939b62847cd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-67c33279ae65f2073d026424",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Including Xion, how many members are in Organization XIII during Kingdom Hearts 358/2 Days?",
+    "acceptedAnswers": [
+      "14",
+      "fourteen"
+    ]
+  },
+  {
+    "id": "opentdb-16ab29fa0522b70414b88286",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0dd725812abb90ef1b469f5d",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3712f80e5844fae649ceb4b5",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-8684b184233538a8f52e0cff",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3b5c6271526ea618f277af23",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-c299586dd0b852c6db2d8a29",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "The original US edition of Monopoly takes its street names from which New Jersey city?",
+    "answer": "Atlantic City",
+    "acceptedAnswers": [
+      "Atlantic City",
+      "Atlantic City New Jersey"
+    ]
+  },
+  {
+    "id": "opentdb-c0bb26a3a2a167d13f8bc5b1",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0f00e59e8ee4ca23ac3a9b61",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-a5a0b1c31dc72b6c62f4dd8f",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many novels are in the original Harry Potter series?",
+    "acceptedAnswers": [
+      "7",
+      "seven"
+    ]
+  },
+  {
+    "id": "opentdb-e2d3a7c3868693de99e0d8d3",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "November 5th",
+      "November 5",
+      "5 November",
+      "5th November",
+      "5 Nov",
+      "Nov 5",
+      "Fifth of November"
+    ]
+  },
+  {
+    "id": "opentdb-c65c172b8254803ca417de2a",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Treyarch",
+      "Treyarch Studios"
+    ]
+  },
+  {
+    "id": "opentdb-5ad3fe222801ebbf1916f25f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-72ddf8c04213f1c634374eb3",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Chris Martin",
+      "Martin"
+    ]
+  },
+  {
+    "id": "opentdb-6430c52d6efbf255ff8ac073",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1197c4045d5e859573125278",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What fragments of the Shikon Jewel are the protagonists trying to collect in Inuyasha?",
+    "acceptedAnswers": [
+      "Jewel Shards",
+      "Shikon Jewel Shards",
+      "Shards"
+    ]
+  },
+  {
+    "id": "opentdb-0cfbb04364990133bf31c55c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Screech",
+      "Samuel Screech Powers",
+      "Samuel Powers"
+    ]
+  },
+  {
+    "id": "opentdb-8997e6fe305ae917344fde46",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3e50a6245c99d26221da64fd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6ad7b70af52dce79bdf81787",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Michelangelo",
+      "Michaelangelo",
+      "Mikey"
+    ]
+  },
+  {
+    "id": "opentdb-01adbec771adea4385f52629",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a2973dadc8958ce013083350",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Australian Overwatch criminal uses a scrap gun and a hook?",
+    "answer": "Roadhog",
+    "acceptedAnswers": [
+      "Roadhog"
+    ]
+  },
+  {
+    "id": "opentdb-c3b9e9cf3bc2f3d2c7786a75",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Tom Cruise",
+      "Cruise"
+    ]
+  },
+  {
+    "id": "opentdb-00f3463ca8e26c5127cb3bd2",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-504eb2045736ce2e49a880b0",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-207fa9225312bcb86fe0f1e3",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Tony Kushner",
+    "acceptedAnswers": [
+      "Tony Kushner",
+      "Kushner"
+    ]
+  },
+  {
+    "id": "opentdb-31ad22fb0e4df75165b7bb70",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected after review: multiple variants, source ambiguity or unverified precise scope.",
+    "text": "What is the name of Steele's orange husky accomplice in the 1995 film Balto?",
+    "answer": "Kaltag",
+    "acceptedAnswers": [
+      "Kaltag"
+    ]
+  },
+  {
+    "id": "opentdb-709fff50a87d760660f3fba4",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9757526c18a9335afee6a1ab",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Philip J. Fry",
+      "Philip Fry",
+      "Phillip J Fry",
+      "Fry"
+    ]
+  },
+  {
+    "id": "opentdb-6ff134803bf08c7104fb99f1",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c29b4416a54fc8957eb0fd9d",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-10859e0db7f4bc4613b6c741",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d98c1e78a2eb84e3a9231b2b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Candela"
+    ]
+  },
+  {
+    "id": "opentdb-89c801eab672c3fef2234fa0",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b5b2d4adb1c4b16508b94215",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Led Zeppelin IV",
+      "Led Zeppelin 4",
+      "IV",
+      "4",
+      "Four",
+      "Untitled",
+      "Zoso"
+    ]
+  },
+  {
+    "id": "opentdb-b535f3bd5eebb1225edd31da",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bd8fd2cc5eb2842b48427a0a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2ef0e62a48d378fa077b457c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Governor",
+      "Governor",
+      "Philip Blake"
+    ]
+  },
+  {
+    "id": "opentdb-e92a51f5f749dcffa06908a2",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dr. Wily",
+      "Doctor Wily",
+      "Wily"
+    ]
+  },
+  {
+    "id": "opentdb-7cc3d2d404749154e84b5025",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9b2d925902bbf6133dfdb4cf",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7dc5c7d38060d75a61111525",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Hideo Kojima",
+      "Kojima"
+    ]
+  },
+  {
+    "id": "opentdb-b74643bcdc274fa10f15d69c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Korean",
+      "South Korean",
+      "South Korea",
+      "Korea"
+    ]
+  },
+  {
+    "id": "opentdb-6730181d7fb4b088fa057f0f",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which actor voices Howl in the English dub of the 2004 film Howl's Moving Castle?",
+    "acceptedAnswers": [
+      "Christian Bale",
+      "Bale"
+    ]
+  },
+  {
+    "id": "opentdb-f5d014634c45af124a0463f9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ae507867163f7a5097d35223",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What minimum Defence level is required to equip dragon armour in Old School RuneScape?",
+    "acceptedAnswers": [
+      "60",
+      "sixty"
+    ]
+  },
+  {
+    "id": "opentdb-697443c927c18acf4f25c101",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1e367ae81214e57f4b5f261a",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-23a2f2d8e8755be3eae257a2",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Paradox Development Studio",
+      "Paradox",
+      "Paradox Interactive"
+    ]
+  },
+  {
+    "id": "opentdb-84b56ee8c13ae88279f00544",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Marc Laidlaw",
+      "Laidlaw"
+    ]
+  },
+  {
+    "id": "opentdb-b447be5eb11ed1b78327921a",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-35e40eefb05de2fc722fda5c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-5d1a8b3ea785aef5b8f59ddc",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3c66afdadc076df671422e80",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "7",
+      "seven"
+    ]
+  },
+  {
+    "id": "opentdb-e2596f86a010a293804a3bfe",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Tommy Lee Jones",
+      "Jones"
+    ]
+  },
+  {
+    "id": "opentdb-62fd303a28ea44258b028b37",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who voices Po in the English-language Kung Fu Panda films?",
+    "acceptedAnswers": [
+      "Jack Black",
+      "Black"
+    ]
+  },
+  {
+    "id": "opentdb-05151c47ef31d06920f69936",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Five",
+      "5"
+    ]
+  },
+  {
+    "id": "opentdb-f2a4c44580ba57ce37c372ed",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7f85c75496d891a6a44bf493",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was Grand Theft Auto IV first released?",
+    "answer": "2008",
+    "acceptedAnswers": [
+      "2008"
+    ]
+  },
+  {
+    "id": "opentdb-1f96afa441ac32b463332bb5",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-851836794e7f964c8817173b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Nearsighted Jeego",
+      "Jeego"
+    ]
+  },
+  {
+    "id": "opentdb-36255d43b43f137f9f76edc8",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-c5cbcd28acbe031a54c35fd6",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Eurodance group released Doctor Jones, Turn Back Time and Barbie Girl?"
+  },
+  {
+    "id": "opentdb-34139f2308358181b0327db5",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0b8204c5304992018472fbc3",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "V",
+      "5",
+      "Five"
+    ]
+  },
+  {
+    "id": "opentdb-260a9d9fd13fa82c0b2ed8ba",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7a6e5480d394c47b2380fd97",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3fb83f49dc1b5187e3a8e0d1",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many members were in Nirvana when the album Nevermind was released?",
+    "acceptedAnswers": [
+      "Three",
+      "3"
+    ]
+  },
+  {
+    "id": "opentdb-ee57d44c00a68abd6ecabb75",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-fb05dbbc193e747be91528fd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b5eee0d0eba446aa601f8310",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Quake Engine",
+      "Quake",
+      "id Tech 1"
+    ]
+  },
+  {
+    "id": "opentdb-da8012c7fa7cec0858c1ee53",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c5f138eab8e0c2854a8226f1",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which online name is used by Bendy and the Ink Machine co-creator Paul Crawford?",
+    "acceptedAnswers": [
+      "TheMeatly",
+      "The Meatly"
+    ]
+  },
+  {
+    "id": "opentdb-d2fcdf55b419ee0866a346a1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-df4736c0aae0312287eb0fae",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Tails",
+      "Miles Tails Prower",
+      "Miles Prower"
+    ]
+  },
+  {
+    "id": "opentdb-9c4bc1c2920d5f299952992c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Masahiro Sakurai",
+      "Sakurai"
+    ]
+  },
+  {
+    "id": "opentdb-aeb86952eda4b3f9b622f253",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-21c109f706277537d9e96be6",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Robbie Williams",
+      "Williams"
+    ]
+  },
+  {
+    "id": "opentdb-7541097084d58f0e065c31a0",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d9b0ce58c0e10d2655068ff8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bef34bad2ec2ad8e87b5a00d",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What household appliance is turned into a time machine in Steins;Gate?",
+    "acceptedAnswers": [
+      "Microwave",
+      "Microwave oven",
+      "Phone Microwave"
+    ]
+  },
+  {
+    "id": "opentdb-80901b838eea757711941dd8",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "10",
+      "ten"
+    ]
+  },
+  {
+    "id": "opentdb-b5e7ed0384a1dcb24e34be5c",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Garry Newman",
+      "Newman"
+    ]
+  },
+  {
+    "id": "opentdb-66df1a55fd471183097a953c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d9e53449985ea371146dbe7b",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ca7f6cef34006459c15fd58f",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Drums",
+      "Drum",
+      "Drum kit"
+    ]
+  },
+  {
+    "id": "opentdb-d5a3839e92c0b1d95210c168",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6dcd9761aeec6b827cb83d07",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-fc5fd3ec7e2a5869e74153e6",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-270dd0ba6dcb9d507b638c64",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In Rick and Morty, Rick is Morty's what?",
+    "answer": "Grandfather",
+    "acceptedAnswers": [
+      "Grandfather",
+      "Grandpa",
+      "Grandad",
+      "Granddad"
+    ]
+  },
+  {
+    "id": "opentdb-51b5f4d9a862ffd91a2d8e90",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-4a92d83342ed44181245f39c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6ef28976b50829bbf9ad8f73",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "John Green",
+      "Green"
+    ]
+  },
+  {
+    "id": "opentdb-4a85aaa7187990f99cb9507b",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Bass Guitar",
+      "Bass",
+      "Electric bass"
+    ]
+  },
+  {
+    "id": "opentdb-4ba3b897c76c8f117be398f5",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a55af24b20e7635867f5d4a4",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Markus Persson",
+      "Notch",
+      "Persson"
+    ]
+  },
+  {
+    "id": "opentdb-df9da557d897a5c4c7d15903",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Subject 17",
+      "17",
+      "Subject seventeen"
+    ]
+  },
+  {
+    "id": "opentdb-b58cf15ac6005fa36630fd35",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "5",
+      "five"
+    ]
+  },
+  {
+    "id": "opentdb-8f3486f62f23d8cd84c3bf5a",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Rogue One leads directly into which numbered Star Wars episode?",
+    "answer": "IV",
+    "acceptedAnswers": [
+      "IV",
+      "4",
+      "Episode IV",
+      "Episode 4",
+      "A New Hope",
+      "Star Wars A New Hope"
+    ]
+  },
+  {
+    "id": "opentdb-43dfe174e926f4b0cc6eef25",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2f907758a228db5309d46c51",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-168524dccef2f79d89fc8288",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Lucio",
+      "Lúcio"
+    ]
+  },
+  {
+    "id": "opentdb-25fb530e71ed01128eee4140",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Estus Flask",
+      "Estus"
+    ]
+  },
+  {
+    "id": "opentdb-c7cb9b896b031ddb7dc38239",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Besides a stick, which black mined fuel can be used to craft a torch in Minecraft?",
+    "answer": "Coal",
+    "acceptedAnswers": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "opentdb-fe64e2fddc2abfee45b8500d",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who starred in the 1973 martial arts film Enter the Dragon?",
+    "acceptedAnswers": [
+      "Bruce Lee",
+      "Lee"
+    ]
+  },
+  {
+    "id": "opentdb-3b6ca59a127f0f6a78e5d1b7",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Nathaniel Hawthorne",
+      "Hawthorne"
+    ]
+  },
+  {
+    "id": "opentdb-196ccdd656d71509f9523bf1",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Shoot em up",
+      "Shoot 'em up",
+      "Bullet hell",
+      "Danmaku"
+    ]
+  },
+  {
+    "id": "opentdb-c068954d08b02c666973c83a",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-e66236cbd244a2f7f3119b0b",
+    "keep": false,
+    "tier": 1,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-060728d374575f95a99cceea",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dirty Deeds Done Dirt Cheap",
+      "D4C"
+    ]
+  },
+  {
+    "id": "opentdb-2a6219c1139d25fc7313a4cb",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which first-generation Pokemon and its evolutions were excluded from major anime appearances after the Electric Soldier episode incident?",
+    "answer": "Porygon",
+    "acceptedAnswers": [
+      "Porygon",
+      "Porygon Line",
+      "The Porygon Line"
+    ]
+  },
+  {
+    "id": "opentdb-5bc80ceef74a977dec501150",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Quentin Tarantino",
+      "Tarantino"
+    ]
+  },
+  {
+    "id": "opentdb-dc3497d7b8d4691dee844dc0",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was Psy's Gangnam Style music video first uploaded to YouTube?"
+  },
+  {
+    "id": "opentdb-a67c522e7d12dbe23eaa396d",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Jared Leto",
+      "Leto"
+    ]
+  },
+  {
+    "id": "opentdb-f7bc5b2930e4cdd3291dd54e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c4f2a03c20c480de4ccd78ab",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "House",
+      "House rule"
+    ]
+  },
+  {
+    "id": "opentdb-d0e928a8daf10b8594d5ccfd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-3d0a3d06f6e74bb80781c46a",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Fay Wray",
+      "Wray"
+    ]
+  },
+  {
+    "id": "opentdb-2c53628edbd3b1b32f9513de",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Salamander",
+      "Salamander"
+    ]
+  },
+  {
+    "id": "opentdb-346eb695fa9721345d1efeae",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dave Grohl",
+      "Grohl"
+    ]
+  },
+  {
+    "id": "opentdb-682a3cccca3733f2487ede83",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Deer",
+      "Fawn",
+      "White tailed deer"
+    ]
+  },
+  {
+    "id": "opentdb-9aee7f2750e071d73fe27c31",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Maxine Caulfield",
+      "Max Caulfield",
+      "Max",
+      "Caulfield"
+    ]
+  },
+  {
+    "id": "opentdb-cf5857cb3db23d7382ee522c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-fe12d1523afdf0fe9a33f47c",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dave Grohl",
+      "Grohl"
+    ]
+  },
+  {
+    "id": "opentdb-235ae8c3dcd258f8e7c748dc",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a19b3a7c1bf36cefa5191d4b",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Photojournalist",
+      "Photographer",
+      "Journalist"
+    ]
+  },
+  {
+    "id": "opentdb-65066a1be27c07510a49450a",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-e228a868f2025ec1ff7748b7",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b4a65da1d6dc82257b1f8e8e",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Blizzard Entertainment",
+      "Blizzard"
+    ]
+  },
+  {
+    "id": "opentdb-3300a4c8cb7fe2cc0233bddb",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-432302ac4dc12ab05394d9f1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-26e724bbeb9e497924a6aa56",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which kind of chess piece is offered to Black by the move f4 in the King's Gambit?",
+    "answer": "Pawn",
+    "acceptedAnswers": [
+      "Pawn",
+      "A pawn",
+      "Sacrificing a pawn"
+    ]
+  },
+  {
+    "id": "opentdb-cb084ce3a5e147701edea93a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1408977559a98c51a5907a2b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7a445c9d40ca8e76fcc3b6b4",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "John Calvin",
+      "Calvin"
+    ]
+  },
+  {
+    "id": "opentdb-44c0750d6231158a78342c8e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which is the highest-pitched open string on a normally tuned violin?",
+    "answer": "E",
+    "acceptedAnswers": [
+      "E",
+      "E string"
+    ]
+  },
+  {
+    "id": "opentdb-61e010743c4bb6ca173bfda4",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "4",
+      "four"
+    ]
+  },
+  {
+    "id": "opentdb-88119a41746556922a310dbb",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Eddie Vedder",
+      "Vedder"
+    ]
+  },
+  {
+    "id": "opentdb-b83d2c24cc0fd1b24c779ec8",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bb18c1491663cf419ae23495",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Gorilla",
+      "A gorilla"
+    ]
+  },
+  {
+    "id": "opentdb-9dc3db84982542972732caab",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "A time piece",
+      "Time Piece",
+      "Time Pieces"
+    ]
+  },
+  {
+    "id": "opentdb-bd4be644d11320b55eb84db8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-64a12ce45eea2b4d97cf82de",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0961a45b9dfd80564c189171",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "20,000",
+      "20000",
+      "Twenty thousand"
+    ]
+  },
+  {
+    "id": "opentdb-6042765d165a4fb1ea5f9a5a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bdfecd3c19c02045a3c2c17e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-27a2812017f09fc7fbee3d8f",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-e6f12dfe76feb04208b5cdfd",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dodge M4S",
+      "M4S",
+      "Dodge M4S Turbo Interceptor"
+    ]
+  },
+  {
+    "id": "opentdb-049f1681f997e5b511399385",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Steven Spielberg",
+      "Spielberg"
+    ]
+  },
+  {
+    "id": "opentdb-e0ec1a475210921b6a2c4be9",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a7e71690481d03fa27703366",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-82a2f5b91ed26281796530f1",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-160c8fb5eeb6da273609a7f2",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-f677ebbf1eaa1c58821fe8cc",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-93729e7322a6b2e83d1a4fc9",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Ludwig van Beethoven",
+    "acceptedAnswers": [
+      "Ludwig van Beethoven",
+      "Beethoven"
+    ]
+  },
+  {
+    "id": "opentdb-19a9d3683f22954b0b954dca",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-fb5c198630595c19851079b1",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dr. Seuss",
+      "Doctor Seuss",
+      "Seuss",
+      "Theodor Geisel",
+      "Theodor Seuss Geisel"
+    ]
+  },
+  {
+    "id": "opentdb-e0d769e37b38cd7b09602551",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Edward Elric",
+      "Edward",
+      "Ed Elric"
+    ]
+  },
+  {
+    "id": "opentdb-33a14478bad1da62c4e1a551",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-658d50dcc5540f223142610e",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "As what kind of divine being is Haruhi Suzumiya unknowingly treated by her SOS Brigade peers?",
+    "acceptedAnswers": [
+      "God",
+      "A god",
+      "Goddess",
+      "Deity"
+    ]
+  },
+  {
+    "id": "opentdb-d0f6e7de4fa5dccb00926fe2",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What was the first name of the teenage witch played by Melissa Joan Hart, whose aunts were Hilda and Zelda?",
+    "acceptedAnswers": [
+      "Sabrina",
+      "Sabrina Spellman"
+    ]
+  },
+  {
+    "id": "opentdb-420b25dedb5d80e85807fb80",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Blank",
+      "The Blanks"
+    ]
+  },
+  {
+    "id": "opentdb-9cbb753ac84589d269d7526a",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-e1194cd9b97a0caf22f3ad21",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-70ba177fe55eb6f1de8670d9",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many dots are there in total on a standard six-sided die?",
+    "acceptedAnswers": [
+      "21",
+      "twenty one"
+    ]
+  },
+  {
+    "id": "opentdb-8a8eb642cfa2e6e80ea7198b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-410b054d76a44df9a68cf967",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-faa88885b8e255749df8d370",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "J.K. Simmons",
+      "JK Simmons",
+      "Simmons",
+      "Jonathan Kimble Simmons"
+    ]
+  },
+  {
+    "id": "opentdb-4ad03212887794f1d7f06226",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who played Thanos in Avengers: Infinity War and Avengers: Endgame?",
+    "acceptedAnswers": [
+      "Josh Brolin",
+      "Brolin"
+    ]
+  },
+  {
+    "id": "opentdb-059865ad81eb49a8d228fe3c",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many character types are there in the original Mario & Sonic at the Olympic Games?",
+    "acceptedAnswers": [
+      "4",
+      "four"
+    ]
+  },
+  {
+    "id": "opentdb-6326bdd5af95548b3b48eb36",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-36f6b48929dbdee7d20f7419",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Nautilus",
+      "Nautilus"
+    ]
+  },
+  {
+    "id": "opentdb-d27f956ba7bde3ae22bee294",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2be32313ac53f4a152763769",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Über Update",
+    "acceptedAnswers": [
+      "Über Update",
+      "Uber Update",
+      "Uber"
+    ]
+  },
+  {
+    "id": "opentdb-4cead19a509d578a38d0dd06",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Ultimate Lucky Student",
+      "Lucky Student",
+      "Super High School Level Lucky Student"
+    ]
+  },
+  {
+    "id": "opentdb-bd93a488ce5ffb4633ffcd8c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-5ad2d8105ff237f12915ac12",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-8cb22f45335bb4df6a1990b5",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7785c8093e1e9bfee691eeff",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a78a905da98ae3a943d2eceb",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-083ec413d56d19c612eda7b8",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was the board game Twister first released?",
+    "answer": "1966",
+    "acceptedAnswers": [
+      "1966"
+    ]
+  },
+  {
+    "id": "opentdb-e64fdddde6028277535ffd89",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Harmonix",
+      "Harmonix Music Systems"
+    ]
+  },
+  {
+    "id": "opentdb-54e6295bbaf094a8f6dfa992",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-540c02a5fb234828cb2f1fd7",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What acronym names the military unit sent to Black Mesa in the original Half-Life?",
+    "acceptedAnswers": [
+      "HECU",
+      "The HECU",
+      "Hazardous Environment Combat Unit"
+    ]
+  },
+  {
+    "id": "opentdb-912d0530c54c76dc1cf7905b",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Radar",
+      "Radar O Reilly"
+    ]
+  },
+  {
+    "id": "opentdb-75c47f9cd3514cec5fcb1cfd",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-10f44dafa7e6e23c27c3d73f",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-1b8789f8f7a539a564a1b357",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-e17fad40ff93c0071c24898e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Leonard Cohen",
+      "Cohen"
+    ]
+  },
+  {
+    "id": "opentdb-3cd668182c073727df456119",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "The Grand Tour premiered in 2016 on which company's Prime Video streaming service?",
+    "acceptedAnswers": [
+      "Amazon",
+      "Amazon Prime",
+      "Amazon Prime Video",
+      "Prime Video"
+    ]
+  },
+  {
+    "id": "opentdb-b7c469e0459e02d31682ae05",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b01127d2cc72f9e3dfe54f83",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d2ce39fafc81f6fdecbd09d5",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-beb59de5fab4091d2d0b8249",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-e26fc0fb14a2f0587b308c72",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-fa3f1e608c65b1b11f5e7f82",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "William Golding",
+      "Golding"
+    ]
+  },
+  {
+    "id": "opentdb-bd6f56391db69f5804735019",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Billie Joe Armstrong",
+      "Armstrong",
+      "Billie Joe"
+    ]
+  },
+  {
+    "id": "opentdb-705b5a297cc44d4db8d28e2d",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Fonts",
+      "Typefaces",
+      "Font",
+      "Typeface"
+    ]
+  },
+  {
+    "id": "opentdb-a3adbfa4d36927ee0c16ad53",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Rewinding Time",
+      "Rewind time",
+      "Time reversal",
+      "Reverse time",
+      "Time travel"
+    ]
+  },
+  {
+    "id": "opentdb-fb149eea9a634e1d4c61f16b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Ein",
+    "acceptedAnswers": [
+      "Ein"
+    ]
+  },
+  {
+    "id": "opentdb-abc8214c4b85c5dc42eb7f3a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-01f4d327797bdb496bf3e3c4",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Reaper",
+      "The Reaper"
+    ]
+  },
+  {
+    "id": "opentdb-f32db3c56e9f8e483c630039",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "10",
+      "ten"
+    ]
+  },
+  {
+    "id": "opentdb-2c7c7ac8a37bd37605c04510",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9ee5a87007ad9507521992d3",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Osamu Tezuka",
+      "Tezuka"
+    ]
+  },
+  {
+    "id": "opentdb-e489af5a23ededff054ec32b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was the predecessor of Marvel Comics founded as Timely Comics?"
+  },
+  {
+    "id": "opentdb-61891717ca73f56d6c88e2d6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-834eda6488249b8c1d7d64ab",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-85befbe63528e763ffa7f75c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a6773a8e7c2343bb28764174",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Jamie Foxx",
+      "Foxx"
+    ]
+  },
+  {
+    "id": "opentdb-02fdbdf0e705bc9cfcff88a3",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-4482e47e3ebeb901d1700606",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-39692dad51d98dcb8dfa786a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-f23744603202754019143dda",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What codename is used by Solid Snake's twin brother in Metal Gear Solid?",
+    "acceptedAnswers": [
+      "Liquid Snake",
+      "Liquid"
+    ]
+  },
+  {
+    "id": "opentdb-5b93877ac9e119603767981d",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Jake",
+      "Jake Harper"
+    ]
+  },
+  {
+    "id": "opentdb-0d1dadff22b4b45b08142093",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-5e891f1293afe18eb5dff89e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0dd4733b9c2fe89de0d92a6f",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "2",
+      "two"
+    ]
+  },
+  {
+    "id": "opentdb-9248ebfef2b017af3d747733",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dark Brotherhood",
+      "The Dark Brotherhood"
+    ]
+  },
+  {
+    "id": "opentdb-af41c442b8c9e2005f81fe92",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Romeo and Juliet",
+      "Romeo & Juliet"
+    ]
+  },
+  {
+    "id": "opentdb-74dfea2979a57513654b48c9",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c5bf8fb9b9286c07884cb892",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-704a63c2369446a74251ef26",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Michael Keaton",
+      "Keaton"
+    ]
+  },
+  {
+    "id": "opentdb-de49a80c59768e6f7f87f1ac",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Besides Half-Life, which Valve puzzle-game franchise is set in the same fictional universe?",
+    "answer": "Portal",
+    "acceptedAnswers": [
+      "Portal"
+    ]
+  },
+  {
+    "id": "opentdb-2d18236e8f3369e33ce18830",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who co-founded Valve with Mike Harrington?",
+    "acceptedAnswers": [
+      "Gabe Newell",
+      "Newell"
+    ]
+  },
+  {
+    "id": "opentdb-5abb50d0c3b4c5d948d69dd1",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "John McVie",
+      "McVie"
+    ]
+  },
+  {
+    "id": "opentdb-56ad4b12741c62746e488b8f",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9020680f4ea98462e4032cec",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b7887d655eeda04cc4239202",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Richard Dick Whitman",
+      "Richard Whitman",
+      "Dick Whitman",
+      "Whitman"
+    ]
+  },
+  {
+    "id": "opentdb-679d19babd8f712d1bf45755",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2e2ae557a3f0d618f4c25636",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the title of Rage Against the Machine's 1992 debut studio album?"
+  },
+  {
+    "id": "opentdb-901af24f70592a18d7d98c35",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-160cb715b0ca643ba408031b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-65f23e5c4a0ca1980798e66b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "5",
+      "five"
+    ]
+  },
+  {
+    "id": "opentdb-4cdcea717e22881970fb3dc2",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1ceb7d509e349ceae7503cc5",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9ea422daab33b5c2c1266ebe",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the peaceful main ending route in Undertale called?",
+    "answer": "Pacifist",
+    "acceptedAnswers": [
+      "Pacifist",
+      "True Pacifist",
+      "Pacifist Route"
+    ]
+  },
+  {
+    "id": "opentdb-7b8ed2a90a84e91d6b5d58a3",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "id Tech 2",
+      "idTech 2",
+      "Quake II engine",
+      "Quake 2 engine"
+    ]
+  },
+  {
+    "id": "opentdb-6477b8c61af5d9ec2eb354f7",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Overwatch hero, formerly named McCree, says It's high noon?",
+    "answer": "Cassidy",
+    "acceptedAnswers": [
+      "Cassidy",
+      "Cole Cassidy",
+      "McCree",
+      "Jesse McCree"
+    ]
+  },
+  {
+    "id": "opentdb-e597b9937f7a49c560c70837",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In which Washington city did Valve establish its headquarters in 2010?",
+    "answer": "Bellevue",
+    "acceptedAnswers": [
+      "Bellevue",
+      "Bellevue Washington"
+    ]
+  },
+  {
+    "id": "opentdb-4f388b74917b265fa60f2037",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bf04391734956d4cb24853e9",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0a729d4b7adca07b80a37fb6",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-267c7b041572a38b055b0e82",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c1d4f410841f19ecef942db3",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "A Clash of Kings",
+      "Clash of Kings"
+    ]
+  },
+  {
+    "id": "opentdb-4dbec12cdfa2dbce29198271",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "James Potter",
+      "James"
+    ]
+  },
+  {
+    "id": "opentdb-9d4964cde7a5f6a0bd9f8849",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-aad5588962ef6eb83e757808",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which band released Californication, Can't Stop and Under the Bridge?",
+    "answer": "Red Hot Chili Peppers",
+    "acceptedAnswers": [
+      "Red Hot Chili Peppers",
+      "RHCP"
+    ]
+  },
+  {
+    "id": "opentdb-48c0e70bf941cd79e60b52ad",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-fd1773dcf9bdd77d54dda426",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-06e8c72bc5343cb5bbd9991f",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d63e85ff6c6d7f83a5fb2a3e",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-99a486333369d4000d3b1e59",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Aloysius O'Hare",
+      "O'Hare",
+      "Aloysius Ohare"
+    ]
+  },
+  {
+    "id": "opentdb-3cd414aad1a569ae22c505c0",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Pete Townshend",
+      "Townshend"
+    ]
+  },
+  {
+    "id": "opentdb-9ec94198d308b828828fb3e7",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-098b35e5e2d982cbcb5a522f",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Nihilanth",
+      "Nihilanth"
+    ]
+  },
+  {
+    "id": "opentdb-df7eb18f8b47a279890bdef4",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-579b4f3349115cca278e4a46",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-317433544d89ab46ed3fae43",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected after review: multiple variants, source ambiguity or unverified precise scope.",
+    "text": "As of the 2024 version of Rust, how many timed explosive charges were needed to destroy a ladder hatch?",
+    "acceptedAnswers": [
+      "1",
+      "one"
+    ]
+  },
+  {
+    "id": "opentdb-00ab99108abdf060dfca2d98",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Richard Bachman",
+      "Bachman"
+    ]
+  },
+  {
+    "id": "opentdb-08255e3835f25de603bb093f",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "SPARTAN-II",
+      "Spartan 2",
+      "Spartan two",
+      "II",
+      "2"
+    ]
+  },
+  {
+    "id": "opentdb-cc199e56ee06bb6cf67d2944",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Lin Manuel Miranda",
+      "Miranda"
+    ]
+  },
+  {
+    "id": "opentdb-7363a486bf3bf7e7867a9c24",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d294f57da61e4fef6bb52b50",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-580bc992255fca9fb3c665a1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7dd19ed6c85b148287a48fe8",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the subtitle of Part 7 of JoJo's Bizarre Adventure, about a horse race across America?",
+    "answer": "Steel Ball Run",
+    "acceptedAnswers": [
+      "Steel Ball Run",
+      "Part 7 Steel Ball Run"
+    ]
+  },
+  {
+    "id": "opentdb-fd4f6e75362a972f785b6807",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Boston Red Sox",
+      "Red Sox"
+    ]
+  },
+  {
+    "id": "opentdb-62781f1755c7c7d1a8b57d7f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bbb9884120f2f5a911e6bcff",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which George Orwell novel follows Winston Smith under the rule of Big Brother?",
+    "acceptedAnswers": [
+      "1984",
+      "Nineteen Eighty Four"
+    ]
+  },
+  {
+    "id": "opentdb-9f1498845ae314537ea19cc0",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Brass",
+      "Brass family",
+      "Brass instruments"
+    ]
+  },
+  {
+    "id": "opentdb-e11c709589c2f8318d10dece",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In Portal 2, exposure to what material is suggested to have fatally poisoned Cave Johnson?",
+    "answer": "Moon rocks",
+    "acceptedAnswers": [
+      "Moon rocks",
+      "Moon Rock",
+      "Moon Rock Poisoning",
+      "Moon dust"
+    ]
+  },
+  {
+    "id": "opentdb-d43204cc449b9a4101731881",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bbbd0366002ce42e05e9d25c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d4176820d79de2a9f8e04f80",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "J.K. Rowling",
+      "JK Rowling",
+      "Rowling",
+      "Joanne Rowling"
+    ]
+  },
+  {
+    "id": "opentdb-22439d35345c6358ad2248c2",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-965cf24e62e22045db1caa44",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "90",
+      "ninety"
+    ]
+  },
+  {
+    "id": "opentdb-3d16ca329fd984956a246f6e",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Oliver Stone",
+      "Stone"
+    ]
+  },
+  {
+    "id": "opentdb-bbc2af7d403b8bf309e61b55",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Complete the title of Bob Dylan's song Knockin' on ___'s Door.",
+    "answer": "Heaven",
+    "acceptedAnswers": [
+      "Heaven",
+      "Heaven's"
+    ]
+  },
+  {
+    "id": "opentdb-04ceffd8be12e04fc53b1cd5",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-80feac10146d3fed63157a64",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Holden Caulfield",
+      "Holden",
+      "Caulfield"
+    ]
+  },
+  {
+    "id": "opentdb-47fea77c04339d741e79920b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6b66e4bcb1eea4ebbaa4b66f",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was the original The Sims game released?"
+  },
+  {
+    "id": "opentdb-1438de5ff012524d9ff72356",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many pieces are on the board in total at the start of a standard chess game?",
+    "acceptedAnswers": [
+      "32",
+      "thirty two"
+    ]
+  },
+  {
+    "id": "opentdb-20b6fa3c51a653ce7ae09fe7",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Elder Scrolls",
+      "Elder Scrolls"
+    ]
+  },
+  {
+    "id": "opentdb-8593b28bb12dd1a1174736ad",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "The Flash",
+      "Flash",
+      "Barry Allen"
+    ]
+  },
+  {
+    "id": "opentdb-026c5657ab02034bf46d4f3d",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-d1adc6143f814e9c17ca2fe8",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Fluffy"
+    ]
+  },
+  {
+    "id": "opentdb-7091706d8060adbee7516ba0",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "N.W.A",
+      "NWA"
+    ]
+  },
+  {
+    "id": "opentdb-1c227fa43459a18ad500e11d",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Cleveland Brown",
+      "Cleveland"
+    ]
+  },
+  {
+    "id": "opentdb-795290f8bf7e411cfc3779d0",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-def107758026a92dc81a6377",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c263d8f55b42972e21045dcb",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Juan Joya Borja",
+    "acceptedAnswers": [
+      "Juan Joya Borja",
+      "Juan Joya",
+      "Borja"
+    ]
+  },
+  {
+    "id": "opentdb-50e64226272911880c87d50f",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What does the video-game acronym DOTA stand for?",
+    "acceptedAnswers": [
+      "Defense of the Ancients",
+      "Defence of the Ancients"
+    ]
+  },
+  {
+    "id": "opentdb-8fd457e2a8b4500239efeb9f",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Red Hot Chili Peppers album features Give It Away?"
+  },
+  {
+    "id": "opentdb-97d3c4b5740d28890836f75c",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ea159095c6d7bc2bd29c6c75",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "A Cruel Angel's Thesis",
+      "Cruel Angel's Thesis",
+      "Zankoku na Tenshi no Thesis"
+    ]
+  },
+  {
+    "id": "opentdb-f11b157ca73068cd1641aaf9",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7bb4109ae011e3e18e8875dd",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-210212ad8505405c7de54375",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Pendleton Ward",
+      "Ward"
+    ]
+  },
+  {
+    "id": "opentdb-544100abec039ef998e046e7",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In PUBG, what caliber of ammunition does the M24 sniper rifle use?",
+    "acceptedAnswers": [
+      "7.62mm",
+      "7.62",
+      "7.62 mm",
+      "7.62x51mm"
+    ]
+  },
+  {
+    "id": "opentdb-f334dc4d14d61ef24810f41e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Disney girl is best friends with the alien Stitch?",
+    "acceptedAnswers": [
+      "Lilo",
+      "Lilo Pelekai"
+    ]
+  },
+  {
+    "id": "opentdb-f03ef4309fe0dc040b679c11",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Petyr Baelish",
+      "Baelish",
+      "Petyr"
+    ]
+  },
+  {
+    "id": "opentdb-dcfe05041deab5cb1bc7d2cc",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-5a5cd02c9bc201660f9c4a13",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Mary Shelley",
+      "Shelley",
+      "Mary Wollstonecraft Shelley"
+    ]
+  },
+  {
+    "id": "opentdb-1c4eadd4d1cc3d54492377ff",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Mycroft Holmes",
+      "Mycroft"
+    ]
+  },
+  {
+    "id": "opentdb-297ce58bf41f1cc58e85f41b",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-ddf1bec95dcb1f162bf0d2c1",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1959377b599cbd250b9eb66b",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many flagship monsters were featured in the original Monster Hunter Generations?",
+    "acceptedAnswers": [
+      "4",
+      "four"
+    ]
+  },
+  {
+    "id": "opentdb-41da5268812b46ae53269844",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-dd65b2aff61a55ad3b7fccfd",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-69ba0884a5f4dfb68daede06",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-4662b1384ff080c66afadff4",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the name of the Spiral King in Tengen Toppa Gurren Lagann?",
+    "acceptedAnswers": [
+      "Lordgenome",
+      "Lord Genome"
+    ]
+  },
+  {
+    "id": "opentdb-4802866c3a9a413cfbe6af21",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Will Stamper",
+      "Stamper"
+    ]
+  },
+  {
+    "id": "opentdb-ccc06b07f8a8b925d0ce00d9",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many Chaos Emeralds are usually featured in the main Sonic the Hedgehog games?",
+    "acceptedAnswers": [
+      "7",
+      "seven"
+    ]
+  },
+  {
+    "id": "opentdb-087de13ba7effaad8b08c68b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9a7e31e7aa534ad2f25ea5d4",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-091bb36398ce88fdaa47ff7c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-c508c5b2be4924cd85701c30",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-e48a4c420ff6e191b76e0424",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Bryan Cranston",
+      "Cranston"
+    ]
+  },
+  {
+    "id": "opentdb-6155030e9cd1902be62b2f36",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d270c6d634def5b3623215ea",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the first name of the yellow-haired ninja protagonist of Naruto?",
+    "acceptedAnswers": [
+      "Naruto",
+      "Naruto Uzumaki"
+    ]
+  },
+  {
+    "id": "opentdb-09eefb695bfc83a6e283e782",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Alejandro G. Iñárritu",
+    "acceptedAnswers": [
+      "Alejandro G Iñárritu",
+      "Alejandro Iñárritu",
+      "Iñárritu"
+    ]
+  },
+  {
+    "id": "opentdb-cdba532a29ad29452da090de",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "6th",
+      "Sixth",
+      "6",
+      "Generation VI",
+      "VI",
+      "Generation 6"
+    ]
+  },
+  {
+    "id": "opentdb-fbea3c123a2c5ae2c7ae4a04",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bb51f857f23414693fbbe397",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-86613cc814e6c8f983d76a69",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-098ecea22ad596521e1952c4",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7fd8103a53d0feb437d28575",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b8cb544ff06b86065826f287",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Terry Jones",
+      "Jones"
+    ]
+  },
+  {
+    "id": "opentdb-2d6d9b25754d2fbe100f7652",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-461d08d2e223961a1d284507",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Beth",
+      "Beth Smith"
+    ]
+  },
+  {
+    "id": "opentdb-9ac756d21a98715dd9a3f534",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Hunter S. Thompson",
+      "Hunter Thompson",
+      "Thompson"
+    ]
+  },
+  {
+    "id": "opentdb-e87e61fd76aa9ff1ed67a907",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-4015720c9ae50087e870baa4",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "1111",
+      "One one one one"
+    ]
+  },
+  {
+    "id": "opentdb-91138c430119ebd0aa9b1090",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Uma Thurman",
+      "Thurman"
+    ]
+  },
+  {
+    "id": "opentdb-b2067c0dbbae89a4e1cda660",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-04761c7edbaab334acece84c",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Ellen McLain",
+      "McLain"
+    ]
+  },
+  {
+    "id": "opentdb-18e19356b5fb553e78672fdf",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bdde9c9cf252314e26bf53d6",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "David Duchovny",
+      "Duchovny"
+    ]
+  },
+  {
+    "id": "opentdb-10ccaa59792690ae22ea3fb6",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-a2d6c2d16a9124fe45cba21a",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In Splatoon 2, which Off the Hook member is an Octoling?",
+    "answer": "Marina",
+    "acceptedAnswers": [
+      "Marina",
+      "Marina Ida"
+    ]
+  },
+  {
+    "id": "opentdb-a96cca1f4a0145ab11b1b438",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-c4fdb5e840b8c4a0a05618c2",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-03681fa57e0d4536587bff1a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-568db46e7edc3cabef0fc222",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In what year was the original Super Mario Bros. released in Japan?"
+  },
+  {
+    "id": "opentdb-d035c0bc46229fc679276ee5",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-abd32547883fd59ab4205e73",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Eric Idle",
+      "Idle"
+    ]
+  },
+  {
+    "id": "opentdb-7312ff49e10e284bc7911824",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-87609fe4888845b6c1f51860",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "United States of America",
+      "United States",
+      "USA",
+      "US",
+      "America"
+    ]
+  },
+  {
+    "id": "opentdb-12a75ae3c3f3cd33c9bef8f3",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6ecc9963fb1f888a54d694ac",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-04dfa376f2e84da9c7934787",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who voices protagonist Eddie Riggs in Brütal Legend?",
+    "acceptedAnswers": [
+      "Jack Black",
+      "Black"
+    ]
+  },
+  {
+    "id": "opentdb-f0a478680b6836afeb3c076f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9c13e76e7ac045c0b92d8add",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Cardboard Box",
+      "Box",
+      "A cardboard box"
+    ]
+  },
+  {
+    "id": "opentdb-47da331ac1cbfdcbd9543df0",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Labrador Retriever",
+      "Labrador",
+      "Yellow Labrador",
+      "Lab"
+    ]
+  },
+  {
+    "id": "opentdb-6261b918ce88a660cb6d22d9",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-10a3591b5bd8f1328f0c2445",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Alex Turner",
+      "Turner"
+    ]
+  },
+  {
+    "id": "opentdb-a6e7028fe622758588852117",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Boris Grishenko",
+      "Boris"
+    ]
+  },
+  {
+    "id": "opentdb-2a565099406ca3a34929eacc",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Dave Mustaine",
+      "Mustaine"
+    ]
+  },
+  {
+    "id": "opentdb-59c3eb809e69d20df243fcae",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-7af247e806f468d1b9b38692",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which company originally developed Pokemon Go?",
+    "acceptedAnswers": [
+      "Niantic",
+      "Niantic Labs"
+    ]
+  },
+  {
+    "id": "opentdb-f8092de44b6e5ba436f34e97",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b57e1c9b48809775417a7ad0",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In Supernatural, what is the first name of Sam Winchester's brother?",
+    "acceptedAnswers": [
+      "Dean",
+      "Dean Winchester"
+    ]
+  },
+  {
+    "id": "opentdb-1cea6a7d237eeeb23087acad",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Eggo Waffles",
+      "Eggo",
+      "Waffles",
+      "Eggos"
+    ]
+  },
+  {
+    "id": "opentdb-db980733002814ad779af874",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Marty McFly",
+      "Marty",
+      "McFly"
+    ]
+  },
+  {
+    "id": "opentdb-71083b18164ec39b530d3f9a",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Borg",
+      "The Borg"
+    ]
+  },
+  {
+    "id": "opentdb-a2c32b0b84b7e9c8c15e9b6a",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-488e396f31ead3263bc6bba7",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6ee7cbd71efbdf8022b478bb",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b23b2abd560c92529c9e2539",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which 2003 Final Fantasy game stars the female trio Yuna, Rikku and Paine?",
+    "acceptedAnswers": [
+      "Final Fantasy X-2",
+      "Final Fantasy 10-2",
+      "FFX-2",
+      "X-2"
+    ]
+  },
+  {
+    "id": "opentdb-50008223e8186a7278a5372e",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-abdd8cbe99c786016b084702",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Green"
+    ]
+  },
+  {
+    "id": "opentdb-f344639efc7788a764c8e341",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-12168ec928466f05fd56c4a6",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-e5f57782ea7951a8097d05b9",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which Pokemon has the natural ability Wonder Guard?",
+    "acceptedAnswers": [
+      "Shedinja"
+    ]
+  },
+  {
+    "id": "opentdb-ef9c02a0814ba9a288380d98",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Grand Theft Auto San Andreas",
+      "GTA San Andreas",
+      "San Andreas"
+    ]
+  },
+  {
+    "id": "opentdb-27419c8a56fa34c75449ee35",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-6426ff768ef07cbe9abd78b1",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In which US state was Will born and raised in The Fresh Prince of Bel-Air?"
+  },
+  {
+    "id": "opentdb-b1bed832b18261ba332d636d",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-c4292b50e372ea77ed880b42",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is Stan's surname in South Park?",
+    "acceptedAnswers": [
+      "Marsh",
+      "Stan Marsh"
+    ]
+  },
+  {
+    "id": "opentdb-1657820171197070de405f72",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-0f9bceab8cc4dc56485c1a62",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-03a73f93382a34c34f557910",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Lin Manuel Miranda",
+      "Miranda"
+    ]
+  },
+  {
+    "id": "opentdb-18e71b874ed0b29be276ac83",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-52a7034f124659ed78e62d89",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who voiced the Genie in the original 1992 animated Aladdin film?",
+    "acceptedAnswers": [
+      "Robin Williams",
+      "Williams"
+    ]
+  },
+  {
+    "id": "opentdb-53a4a5592c26ef8a11a739e9",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-05344a379e16e5fe0524f957",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-9f6ae6f858923e733e183091",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-2821b61b8cad7fb69845f81b",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the default starting pistol for terrorists in classic Counter-Strike: Global Offensive competitive matches?",
+    "acceptedAnswers": [
+      "Glock-18",
+      "Glock 18",
+      "Glock"
+    ]
+  },
+  {
+    "id": "opentdb-64065ada60fa8c9e629e3498",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-d2c46ee3f08bfa21f99aff27",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "In which decade did the Beatles and other British bands lead the British Invasion of US pop music?",
+    "answer": "1960s",
+    "acceptedAnswers": [
+      "1960s",
+      "1960's",
+      "60s",
+      "60's",
+      "sixties",
+      "nineteen sixties"
+    ]
+  },
+  {
+    "id": "opentdb-21478b211d9227f915297cd9",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Marshall Mathers",
+      "Marshall Bruce Mathers",
+      "Marshall Bruce Mathers III",
+      "Mathers"
+    ]
+  },
+  {
+    "id": "opentdb-817e0a3cbc50d24e027f7e9f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-fd9ed739316652986b2b648b",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-371af28a7b7f54e993791048",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which character is revealed as the original Armored Titan in Attack on Titan?",
+    "acceptedAnswers": [
+      "Reiner Braun",
+      "Reiner",
+      "Braun"
+    ]
+  },
+  {
+    "id": "opentdb-66de87feb3dc560df4b47852",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Rick and Morty",
+      "Rick & Morty"
+    ]
+  },
+  {
+    "id": "opentdb-23b74bcf366dc267d17d1a70",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which standard orchestral brass instrument normally plays the lowest notes?",
+    "acceptedAnswers": [
+      "Tuba",
+      "The tuba"
+    ]
+  },
+  {
+    "id": "opentdb-787a2b5c3cdf9ab3e81deee4",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the minimum number of obsidian blocks needed for a working Nether portal in Minecraft?",
+    "acceptedAnswers": [
+      "10",
+      "ten"
+    ]
+  },
+  {
+    "id": "opentdb-d92e3766e2b81a4e259b6b5e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who initially runs the village shop in the original Animal Crossing?",
+    "acceptedAnswers": [
+      "Tom Nook",
+      "Nook"
+    ]
+  },
+  {
+    "id": "opentdb-2acc74c5d074bd3e0eca5f3e",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Charles Dickens",
+      "Dickens"
+    ]
+  },
+  {
+    "id": "opentdb-fe843472b3a09bc2b470a96b",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-27b8bc313e2f706c4f899e2f",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-b481e2693d1b4991930347e4",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "How many studio albums did Daft Punk release before their 2021 split?",
+    "acceptedAnswers": [
+      "4",
+      "four"
+    ]
+  },
+  {
+    "id": "opentdb-7703b62926d454406cc0c051",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Normandy",
+      "SSV Normandy",
+      "Normandy SR1",
+      "Normandy SR2"
+    ]
+  },
+  {
+    "id": "opentdb-4814501b0e5f9661f90b6485",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-90ff0da69ed9105f2aa165dc",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the name of the chemistry teacher who becomes Heisenberg in Breaking Bad?",
+    "acceptedAnswers": [
+      "Walter White",
+      "Walter",
+      "Walt White",
+      "Walt"
+    ]
+  },
+  {
+    "id": "opentdb-462313799314d7c0c3e80bcb",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-25743703435ad45c8cd3be93",
+    "keep": true,
+    "tier": 2,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Robert Kirkman",
+      "Kirkman"
+    ]
+  },
+  {
+    "id": "opentdb-274ec3bd27b4a717f3ebb770",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-bebb23cff461b6c09afb836f",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-f5149943b6c690c00ae77f32",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-0a22e784ad271e622e9fc5d0",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "What is the civilian name of the main superhero in the CW series The Flash?",
+    "acceptedAnswers": [
+      "Barry Allen",
+      "Barry"
+    ]
+  },
+  {
+    "id": "opentdb-a8efcb95635cf8c3c50c7e11",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-e875a0d462e6dfde4a976758",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1a1df74473642943d82a1bd6",
+    "keep": false,
+    "tier": 1,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-69939b7b13bcfa62ae3246dc",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Who voiced Ruby Rose in the original English-language RWBY series?",
+    "acceptedAnswers": [
+      "Lindsay Jones",
+      "Lindsay Tuggey"
+    ]
+  },
+  {
+    "id": "opentdb-d76b7f53f3d1f75f17d8c48d",
+    "keep": true,
+    "tier": 4,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "answer": "Vinny",
+    "acceptedAnswers": [
+      "Vinny",
+      "Vinny Vinesauce",
+      "Vincent"
+    ]
+  },
+  {
+    "id": "opentdb-c2306acda86de8e04811b4b4",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Cinderella"
+    ]
+  },
+  {
+    "id": "opentdb-070f5c21114a74e1c9691488",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "A Song of Ice and Fire",
+      "Song of Ice and Fire"
+    ]
+  },
+  {
+    "id": "opentdb-03bec21ebc4ef2e58aa89832",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-8b5835bbd54cfe9b5f3bbff6",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-41966a50b929770552f5a6dc",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-4bd88b38b761226ca31925d2",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1e864292a3af52007f9a81fa",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "text": "Which title character did David Tennant play in the Royal Shakespeare Company's 2008 Shakespeare production?",
+    "acceptedAnswers": [
+      "Hamlet"
+    ]
+  },
+  {
+    "id": "opentdb-1dc663d3da241e187193a150",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-0703c02ee64230cb71ed0615",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-122b856ff4405af7b27660e9",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "J. G. Quintel",
+      "JG Quintel",
+      "Quintel"
+    ]
+  },
+  {
+    "id": "opentdb-6dafb832c6bb1539fefa16fc",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Kiefer Sutherland",
+      "Sutherland"
+    ]
+  },
+  {
+    "id": "opentdb-88cb3c48f242f278dd6b40ce",
+    "keep": true,
+    "tier": 1,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "World War II",
+      "World War 2",
+      "WWII",
+      "WW2",
+      "Second World War"
+    ]
+  },
+  {
+    "id": "opentdb-b64b80fa36250e332f50bc59",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-d6b13e99bedeba17cbbc9010",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial review for standalone typed answers and difficulty; upstream facts remain provisional."
+  },
+  {
+    "id": "opentdb-1e8cc9076f0dbc2c53a62f57",
+    "keep": false,
+    "tier": 2,
+    "note": "Rejected: ambiguous, unsupported, multi-answer, duplicate fact, current-relative or malformed prompt."
+  },
+  {
+    "id": "opentdb-2bf7dcbf9b26681e77c7be38",
+    "keep": false,
+    "tier": 1,
+    "note": "Rejected after review: multiple variants, source ambiguity or unverified precise scope.",
+    "text": "In modern standard US and UK Monopoly editions, what color are the two cheapest properties?",
+    "acceptedAnswers": [
+      "Brown",
+      "Purple",
+      "Dark purple"
+    ]
+  },
+  {
+    "id": "opentdb-21d6d0e6f0a0109b30afbe1c",
+    "keep": true,
+    "tier": 3,
+    "note": "Edited wording or accepted answers for a standalone typed response; editorial difficulty.",
+    "acceptedAnswers": [
+      "Willie Wombat",
+      "Willy Wombat"
+    ]
+  }
+]

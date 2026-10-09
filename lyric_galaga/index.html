@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1728">
+  <title>Lyric Antigen Assault</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="js/config.js"></script>
+  <script defer src="js/patterns.js"></script>
+  <script defer src="js/simulation.js"></script>
+  <script defer src="js/assets.js"></script>
+  <script defer src="js/render.js"></script>
+  <script defer src="js/ui.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="index.html" aria-label="Lyric Antigen Assault home">
+        <span class="brand-plate"><img src="../lyric_biodefenses/assets/branding/lyric-logo.jpg" alt="Lyric"></span>
+        <span class="brand-game">ANTIGEN ASSAULT<small>THE SPECIFICITY OF SURVIVAL</small></span>
+      </a>
+      <div class="header-actions">
+        <button id="instructions-button" class="button-quiet" aria-haspopup="dialog">Instructions <span aria-hidden="true">?</span></button>
+        <button id="pause-button" class="button-quiet" disabled>Pause <kbd>P</kbd></button>
+        <button id="restart-button" class="button-quiet" disabled>Restart <span aria-hidden="true">↻</span></button>
+      </div>
+    </header>
+
+    <main>
+      <div class="mission-heading">
+        <div><span class="eyebrow">B-CELL CULTURE / DEFENSE PROTOCOL</span><h1 id="mission-title">Antigen interception</h1></div>
+        <span id="mission-state" class="mission-state"><i class="status-dot"></i> SYSTEM READY</span>
+      </div>
+      <div class="workspace">
+        <section class="arena-panel panel" aria-label="Antigen Assault game">
+          <div class="hud-strip">
+            <div class="hud-stat stage-stat"><span class="eyebrow">CAMPAIGN</span><strong id="stage-value">01 <span>/ 05</span></strong><small id="wave-value">WAVE 01 / 04</small></div>
+            <div class="hud-stat"><span class="eyebrow">SCORE</span><strong id="score-value">000000</strong></div>
+            <div class="hud-stat lives-stat"><span class="eyebrow">HULLS</span><div id="lives-value" class="hulls" aria-label="3 lives"><i></i><i></i><i></i></div></div>
+            <div class="hud-stat time-stat"><span class="eyebrow">TIME</span><strong id="time-value">00:00</strong></div>
+          </div>
+          <div class="canvas-frame">
+            <canvas id="game-canvas" width="960" height="720" tabindex="0" aria-label="Antigen Assault arena. Arrow keys to move, with vertical travel limited to a band near the bottom. Space to fire, Z to cycle weapons, X to activate settled opsonins, P to pause."></canvas>
+            <div id="game-overlay" class="game-overlay">
+              <section id="overlay-card" class="overlay-card" aria-labelledby="overlay-title">
+                <div class="overlay-topline"><span id="overlay-kicker" class="eyebrow">A LYRIC GAMES CAMPAIGN</span><span id="overlay-badge">01—06</span></div>
+                <canvas id="welcome-art" width="440" height="138" aria-hidden="true"></canvas>
+                <h2 id="overlay-title">ANTIGEN<br>ASSAULT</h2>
+                <p id="overlay-description">The bloodstream is clogged with antigens.<br>Only Lyric polyclonal antibody blasters can destroy them and save the day!<br></p>
+                <div id="welcome-flow" class="welcome-flow"><span>01 <strong>MATCH</strong></span><i>→</i><span>02 <strong>BIND</strong></span><i>→</i><span>03 <strong>CLEAR</strong></span></div>
+                <button id="overlay-action" class="button-primary">Start campaign <span aria-hidden="true">→</span></button>
+              </section>
+            </div>
+            <div id="stage-banner" class="stage-banner" hidden><span class="eyebrow" id="stage-kicker">SECTOR CLEAR</span><strong id="stage-banner-title">Next sector</strong><span id="stage-countdown">3</span></div>
+            <div id="toast" class="arena-toast" role="status" hidden></div>
+          </div>
+          <div class="arena-footer"><span><i class="status-dot"></i> CULTURE DEFENSE ARRAY</span><span id="arena-hint">MATCH ANTIBODY TO ANTIGEN</span></div>
+        </section>
+
+        <aside class="mission-panel" aria-label="Weapons and controls">
+          <section class="panel response-panel" aria-label="Antigen response setting">
+            <label class="response-toggle" for="antigen-response"><span>ANTIGEN RESPONSE</span><input type="checkbox" id="antigen-response" checked aria-describedby="response-description"></label>
+            <p id="response-description">Make it a real challenge — antigens fire back!</p>
+          </section>
+          <section class="panel weapon-panel">
+            <div class="panel-heading"><h2><span class="section-number">01</span> ANTIBODY ARRAY</h2><kbd>Z</kbd></div>
+            <p class="panel-subtitle">Cycle antibodies to match the antigen.</p>
+            <div id="weapon-list" class="weapon-list" aria-label="Weapon inventory"></div>
+            <div class="weapon-readout"><span class="eyebrow">EQUIPPED</span><strong id="weapon-value">GREEN ANTIBODY</strong></div>
+            <div id="ivig-readout" class="ivig-readout"><div class="ivig-heading"><canvas id="ivig-icon" width="48" height="48" aria-hidden="true"></canvas><span>IVIG</span><strong id="ivig-value">INACTIVE</strong></div><progress id="ivig-timer" max="30" value="0" aria-label="IVIG time remaining" hidden></progress><p>IVIG provides broad-spectrum efficacy for 30 seconds!</p></div>
+          </section>
+
+          <section class="panel opsonin-panel">
+            <div class="panel-heading"><h2><span class="section-number">02</span> OPSONIN RESERVE</h2><span class="orb-icon" aria-hidden="true"></span></div>
+            <div class="reserve-stats"><div><span class="eyebrow">IN STOCK</span><strong id="stock-value">0</strong></div><div><span class="eyebrow">SETTLED</span><strong id="placed-value">0</strong></div></div>
+            <div class="detonate-help"><kbd>X</kbd><span>Call macrophages to <strong>all settled orbs</strong>.</span></div>
+          </section>
+
+          <section class="panel control-panel">
+            <div class="panel-heading"><h2><span class="section-number">03</span> FLIGHT CONTROLS</h2><span class="keyboard-tag">KEYBOARD</span></div>
+            <dl><div><dt><kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd></dt><dd>Move ship</dd></div><div><dt><kbd>SPACE</kbd></dt><dd>Fire / charge</dd></div><div><dt><kbd>Z</kbd></dt><dd>Cycle weapon</dd></div><div><dt><kbd>X</kbd></dt><dd>Activate opsonins</dd></div><div><dt><kbd>P</kbd> <kbd>ESC</kbd></dt><dd>Pause / resume</dd></div></dl>
+          </section>
+        </aside>
+      </div>
+      <footer class="app-footer"><span>LYRIC ANTIGEN ASSAULT</span></footer>
+    </main>
+  </div>
+
+  <dialog id="instructions-dialog" aria-labelledby="instructions-title">
+    <div class="dialog-heading"><span class="eyebrow">FLIGHT MANUAL / LYRIC GAMES</span><button id="close-instructions" class="button-quiet" aria-label="Close instructions">Close <span aria-hidden="true">×</span></button></div>
+    <h2 id="instructions-title">Protect the culture.</h2>
+    <p>Clear five sectors, then defeat a boss whose vulnerable core switches between four antigen colors. You have three lives. After a hit, your ship is protected for two seconds.</p>
+    <dl class="instructions-list"><div><dt>01 / MATCH</dt><dd>Move with <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd>. Vertical travel covers a band about 20% of the arena height near the bottom. Hold <kbd>SPACE</kbd> to fire. Use <kbd>Z</kbd> to cycle antibodies. Only the matching color binds and destroys an antigen. New colors unlock in sectors 2, 3, and 4.</dd></div><div><dt>02 / PLACE</dt><dd>Shoot rare white orbs with any antibody to collect opsonins. Use <kbd>Z</kbd> to cycle to white. Hold <kbd>SPACE</kbd> to charge the power bar, then release: more power places the orb farther up the arena. Flying orbs pass through antigens.</dd></div><div><dt>03 / ENGULF</dt><dd>Press <kbd>X</kbd> to activate all settled opsonins. After half a second, macrophages engulf nearby antigens of every color. Their attack also damages a nearby boss. Inventory carries between sectors; placed orbs clear at each transition.</dd></div><div><dt>04 / IVIG</dt><dd>Hit the rare rainbow antibody as it crosses the arena. For 30 seconds of active play, your ship glows and fires eight antibodies per volley: two of each color. White mode still places opsonins.</dd></div><div><dt>05 / RESPONSE</dt><dd>Toggle Antigen response in the sidebar. When off, antigens and the boss stop firing, and waves and summons arrive 50% faster. Their movement and collision damage stay the same.</dd></div></dl>
+    <p class="instructions-footnote"><kbd>P</kbd> or <kbd>ESC</kbd> pauses. Switching windows pauses automatically. Switching weapons or pausing cancels a charge without using an opsonin.</p>
+    <button id="instructions-done" class="button-primary">Ready for flight <span aria-hidden="true">→</span></button>
+  </dialog>
+  <div id="status-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="noscript">Enable JavaScript to enter the Lyric Games lab.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1521">
+  <title>Lyric Defense — culture under pressure</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="js/config.js"></script>
+  <script defer src="js/clue-bank.js"></script>
+  <script defer src="js/clues.js"></script>
+  <script defer src="js/trivia-expanded-bank.js"></script>
+  <script defer src="js/trivia.js"></script>
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/simulation.js"></script>
+  <script defer src="js/transport.js"></script>
+  <script defer src="js/lan-transport.js"></script>
+  <script defer src="js/bot.js"></script>
+  <script defer src="js/assets.js"></script>
+  <script defer src="js/render.js"></script>
+  <script defer src="js/ui.js"></script>
+</head>
+<body>
+  <div class="app-shell" inert>
+    <header class="app-header">
+      <a class="brand" href="index.html" aria-label="Lyric Defense home">
+        <span class="brand-plate"><img class="brand-logo" src="assets/branding/lyric-logo.jpg" alt="Lyric"></span>
+        <span class="brand-game">DEFENSE<small>CULTURE UNDER PRESSURE</small></span>
+      </a>
+      <div class="header-center"><span class="status-dot"></span><span id="mode-label">LOCAL LAB</span><span class="header-version">PROTOTYPE 04</span></div>
+      <div class="header-actions"><span class="match-clock" id="match-time">00:00</span><button id="pause-button" class="button-quiet" disabled>Pause <kbd>P</kbd></button><button id="restart-button" class="button-quiet" disabled>Restart <span aria-hidden="true">↻</span></button><button id="leave-button" class="button-quiet" hidden>Leave room</button></div>
+    </header>
+
+    <main>
+      <div id="network-strip" class="network-strip" hidden><span>ROOM <strong id="network-room">—</strong></span><span id="network-status" role="status">Connecting to host…</span><span id="network-players"></span></div>
+      <section class="wallet-strip" aria-label="Currency wallet">
+        <div class="wallet-title"><span class="eyebrow">YOUR RESERVES</span><span>Antibody inventory</span></div>
+        <div class="wallet-currencies" id="wallet-currencies">
+          <div class="wallet-currency tier-1"><span class="currency-pixel" aria-hidden="true"></span><div><small>IgG1</small><strong id="wallet-igg1">0</strong></div><span class="producer-label" id="producer-igg1"></span></div>
+          <div class="wallet-currency tier-2"><span class="currency-pixel" aria-hidden="true"></span><div><small>IgG2</small><strong id="wallet-igg2">0</strong></div><span class="producer-label" id="producer-igg2"></span></div>
+          <div class="wallet-currency tier-3"><span class="currency-pixel" aria-hidden="true"></span><div><small>IgG3</small><strong id="wallet-igg3">0</strong></div><span class="producer-label" id="producer-igg3"></span></div>
+          <div class="wallet-currency tier-4"><span class="currency-pixel" aria-hidden="true"></span><div><small>IgG4</small><strong id="wallet-igg4">0</strong></div><span class="producer-label" id="producer-igg4"></span></div>
+          <div class="wallet-currency tier-5"><span class="currency-pixel" aria-hidden="true"></span><div><small>IVIG</small><strong id="wallet-ivig">0</strong></div></div>
+        </div>
+        <button id="craft-button" class="craft-button" disabled><span>Craft IVIG <span aria-hidden="true">↗</span></span><small>6 / 3 / 2 / 1 IgG</small></button>
+      </section>
+
+      <div class="workspace">
+        <div class="play-column">
+          <section class="clue-panel panel" aria-labelledby="clue-title">
+            <div class="section-heading"><h2 id="clue-title"><span class="section-number">01</span> <span id="question-terminal-label">TRIVIA TERMINAL</span></h2><span class="difficulty-badge tier-1" id="difficulty-badge">EASY · +1 IgG1</span></div>
+            <div class="clue-text" id="clue-text">A good culture starts with a good answer.</div>
+            <form id="answer-form" autocomplete="off">
+              <label class="sr-only" id="answer-label" for="answer-input">Trivia answer</label>
+              <div class="answer-entry trivia" id="answer-entry"><div id="answer-letters" class="answer-letters" aria-hidden="true"></div><input id="answer-input" class="answer-input" type="text" maxlength="512" placeholder="Type your answer…" autocomplete="off" autocapitalize="off" spellcheck="false" disabled aria-describedby="clue-text difficulty-badge answer-hint"></div>
+              <button type="submit" id="answer-button" class="button-primary" disabled>Submit <span aria-hidden="true">↵</span></button>
+            </form>
+            <div class="clue-footer"><span id="answer-hint">Answer trivia. Earn antibodies. Defend your culture.</span><button id="skip-button" class="skip-button" disabled>Skip <span id="skip-count">2 / 2</span><span class="skip-meter"><i id="skip-progress"></i></span></button></div>
+          </section>
+
+          <section class="reactor-panel panel" aria-labelledby="reactor-title">
+            <div class="section-heading reactor-heading"><h2 id="reactor-title"><span class="section-number">02</span> BIOREACTOR</h2><span class="reactor-id"><span class="status-dot"></span><span id="reactor-code">CULTURE BCL–01</span></span></div>
+            <div class="reactor-status-row"><div class="contamination-label">Contamination <strong id="contamination-value">0%</strong></div><div class="contamination-track"><i id="contamination-fill"></i><span></span><span></span><span></span></div><span class="reactor-status" id="reactor-status">STABLE</span></div>
+            <div class="canvas-frame" id="canvas-frame"><canvas id="reactor-canvas" width="800" height="360" aria-label="Your bioreactor. Click to polymerize the selected laser image and block enemies. Your B-cell culture is on the right."></canvas><div class="reactor-overlay" id="reactor-overlay" hidden><span class="eyebrow" id="overlay-eyebrow">PREPARING CULTURE</span><strong id="overlay-title">3</strong><span id="overlay-description">Your reactor opens in a moment.</span><button id="overlay-action" class="button-primary" hidden>Resume match</button></div></div>
+            <div class="reactor-footer"><span class="laser-label"><span class="laser-crosshair" aria-hidden="true">⌖</span> POLYMER LASER <strong id="laser-status">READY</strong></span><span class="laser-meter"><i id="laser-progress"></i></span><span class="coating-label" id="coating-status">SINGLE RING · BLOCKS ONLY</span></div>
+          </section>
+
+          <section class="opponent-panel panel" aria-labelledby="opponent-title">
+            <div class="opponent-preview"><canvas id="opponent-canvas" width="800" height="360" aria-label="Opponent bioreactor preview"></canvas><span id="opponent-feed" class="preview-label">LIVE FEED / BCL–02</span></div>
+            <div class="opponent-info"><div class="section-heading"><h2 id="opponent-title"><span class="section-number">03</span> OPPONENT CULTURE</h2><span class="bot-tag" id="opponent-mode">LOCAL BOT</span></div><div class="opponent-stats"><div><small>CONTAMINATION</small><strong id="opponent-contamination">0<span>%</span></strong></div><div><small>ACTIVE ENEMIES</small><strong id="opponent-enemies">0</strong></div><div><small>B-CELL COMPONENTS</small><strong id="opponent-producers">0</strong></div></div><div class="opponent-contamination-track"><i id="opponent-fill"></i></div><p id="opponent-description">Send contaminants from the shop to pressure the opposing culture.</p></div>
+          </section>
+
+          <section id="sandbox-panel" class="sandbox-panel panel" hidden aria-labelledby="sandbox-title"><div class="section-heading"><h2 id="sandbox-title"><span class="section-number">DEV</span> SANDBOX CONTROLS</h2><span class="bot-tag">LOCAL ONLY</span></div><div class="sandbox-controls"><button id="debug-grant" class="button-secondary">+10 all currencies</button><button id="debug-reveal" class="button-secondary">Reveal answer</button><button id="debug-solve" class="button-secondary">Solve question</button><label class="toggle-label"><input type="checkbox" id="debug-natural" checked> Natural pressure</label><label class="toggle-label"><input type="checkbox" id="debug-bot"> Opponent bot</label></div><div class="sandbox-spawn"><label>Target <select id="debug-target"><option value="p1">Your reactor</option><option value="p2">Opponent reactor</option></select></label><label>Enemy <select id="debug-enemy"></select></label><button id="debug-spawn" class="button-secondary">Spawn enemy</button><label>Contamination <input id="debug-contamination" type="number" min="0" max="100" value="0"> %</label><button id="debug-set-contamination" class="button-secondary">Set</button></div><p id="debug-answer" class="debug-answer" hidden></p></section>
+
+          <footer class="play-help"><span><kbd>CLICK</kbd> Place polymer</span><span><kbd>ENTER</kbd> Submit answer</span><span id="pause-help"><kbd>P</kbd> Pause</span><span class="help-note">Walls buy time. Coatings fight back.</span></footer>
+        </div>
+
+        <aside class="shop-panel panel" aria-labelledby="shop-title">
+          <div class="shop-heading"><div><span class="eyebrow">SPEND YOUR RESERVES</span><h2 id="shop-title">Culture shop</h2></div><span class="shop-symbol" aria-hidden="true">+</span></div>
+          <div class="shop-tabs" role="tablist" aria-label="Shop categories"><button role="tab" data-tab="CULTURE" aria-selected="false">Culture</button><button role="tab" data-tab="OFFENSE" aria-selected="false">Offense</button><button role="tab" data-tab="LASER" aria-selected="true" class="active">Laser</button><button role="tab" data-tab="CLUES" aria-selected="false">Clues</button></div>
+          <div class="shop-tree" id="shop-tree" role="tabpanel" aria-label="Laser upgrades"></div>
+          <div class="shop-detail" id="shop-detail"><div class="detail-kicker"><span class="eyebrow" id="detail-tree">FUNCTIONALIZATION</span><span class="detail-state" id="detail-state">AVAILABLE</span></div><div class="detail-title"><canvas id="detail-icon" width="48" height="48" aria-hidden="true"></canvas><h3 id="detail-name">Ethanol Coating</h3></div><p id="detail-description">Add a damaging coating to newly polymerized circles.</p><img id="detail-image" class="detail-reference" src="assets/references/polymer-grid.png" alt="Fluorescent array of nine separate orange-red polymer rings" hidden><div id="detail-prerequisites" class="detail-prerequisites" hidden></div><div class="purchase-row"><div class="detail-cost" id="detail-cost"></div><button id="buy-button" class="button-primary" disabled>Purchase <span aria-hidden="true">↗</span></button></div><span class="purchase-hint" id="purchase-hint">Solve easy clues to earn IgG1.</span></div>
+          <div class="shop-footnote"><span class="tiny-pixel" aria-hidden="true"></span><p>Start with a single polymer ring.<br>Upgrade its image and its coating.</p></div>
+        </aside>
+      </div>
+      <footer class="app-footer"><span>LYRIC DEFENSE <i>/</i> EXPERIMENTAL CULTURE SYSTEM</span><span>OFFLINE READY <i>·</i> NO ACCOUNT REQUIRED</span></footer>
+    </main>
+  </div>
+
+  <div id="welcome-screen" class="welcome-backdrop"><section class="welcome-card" role="dialog" aria-modal="true" aria-labelledby="welcome-title"><div class="welcome-topline"><span class="eyebrow">WELCOME TO THE LOCAL LAB</span><span class="welcome-badge">01</span></div><canvas id="welcome-art" width="280" height="120" aria-hidden="true"></canvas><h1 id="welcome-title">LYRIC<br>BIODEFENSES</h1><p>Grow your reserves of IgG. Defend your culture. Contaminate your opponent!</p><div class="welcome-flow"><span>01 <strong>SOLVE</strong></span><i>→</i><span>02 <strong>CULTURE</strong></span><i>→</i><span>03 <strong>ATTACK</strong></span></div><button id="start-bot" class="button-primary welcome-start">Start bot match <span aria-hidden="true">→</span></button><button id="start-sandbox" class="button-quiet welcome-sandbox">Open developer sandbox</button><a class="trivia-review-link" href="trivia-review.html">Browse the trivia question bank</a><details class="lan-lobby" id="lan-lobby"><summary>Play with a friend <span>LAN 1v1</span></summary><div class="lan-fields"><label for="lan-name">Your name <span>optional</span></label><input id="lan-name" type="text" maxlength="24" placeholder="Researcher" autocomplete="nickname"><button id="lan-create" class="button-secondary">Create a room <span aria-hidden="true">↗</span></button><div class="lan-join-row"><label class="sr-only" for="lan-room-code">Room code</label><input id="lan-room-code" type="text" maxlength="8" placeholder="ROOM CODE" autocapitalize="characters" spellcheck="false" autocomplete="off"><button id="lan-join" class="button-secondary">Join room</button></div><p id="lan-status" class="lan-status" role="status">Both players open the same host address, then share a room code.</p><p id="lan-file-help" class="lan-file-help" hidden>To play on your network, run <code>node server.js</code> in this folder and open the host address it prints. Your friend opens that address on the same network. Offline modes above work directly from this file.</p></div></details><small>Mouse + keyboard. Offline solo or live LAN play.</small></section></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic]="true"></div>
+  <noscript><div class="noscript">Enable JavaScript to enter the Lyric Defense lab.</div></noscript>
+</body>
+</html>

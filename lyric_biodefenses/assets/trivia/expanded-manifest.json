@@ -1,0 +1,161 @@
+{
+  "version": "expanded-v1",
+  "created": "2026-10-06",
+  "count": 5000,
+  "tierCounts": [
+    479,
+    1101,
+    2020,
+    1400
+  ],
+  "sourceCounts": {
+    "Original": 132,
+    "OpenTDB": 2449,
+    "TriviaQA": 2419
+  },
+  "sources": [
+    {
+      "id": "OpenTDB",
+      "name": "Open Trivia Database",
+      "count": 2449,
+      "url": "https://opentdb.com/",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "https://github.com/leakyhose/open-trivia-dataset/tree/77d8e3cb5c8e264d50220eee75cfe08d233b1910",
+      "pin": "77d8e3cb5c8e264d50220eee75cfe08d233b1910",
+      "rawSha256": "40aae7eab2644d73e9f97b164499cc98ca4f8226e03a2991469e4a5bef7caaba",
+      "changes": "Typed-answer adaptations, explicit corrections, aliases, filtering, deduplication and editorial difficulty."
+    },
+    {
+      "id": "TriviaQA",
+      "name": "TriviaQA reviewed supplement",
+      "count": 2419,
+      "url": "https://nlp.cs.washington.edu/triviaqa/",
+      "license": "Apache-2.0",
+      "licenseFile": "assets/trivia/LICENSE.txt",
+      "archiveManifest": "assets/trivia/manifest.json",
+      "archiveSha256": "ac7e63c8d81ebedd2ee6c752a7e50bae90003f127e0f704b12a2a8da83b680ce",
+      "changes": "Individually screened subset with wording, answer, alias and difficulty corrections. Archive difficulty discarded."
+    },
+    {
+      "id": "Original",
+      "name": "Original project questions",
+      "count": 132,
+      "reference": "assets/trivia/review-sample.json and harder-originals.json",
+      "changes": "Original sample recalibrated to Easy/Medium, plus 32 harder originals."
+    }
+  ],
+  "answerFormat": "typed",
+  "difficultyWeights": [
+    6,
+    3,
+    2,
+    1
+  ],
+  "difficultyStatus": "Editorial estimates, not measured success rates; source labels and explicit semantic review, not answer-frequency quartiles.",
+  "reviewCoverage": {
+    "supplementCandidates": 3200,
+    "supplementIndividuallyScreened": 3200,
+    "opentdbEasyCandidates": 879,
+    "opentdbEasyIndividuallyScreened": 879,
+    "opentdbAdditionalSourceSampleReviewed": 450,
+    "opentdbExplicitDecisionIds": 1202,
+    "limitations": "Editorial screening is not independent primary-source fact verification of all 5,000 questions. Unreviewed source medium/hard records remain provisional."
+  },
+  "aliasPolicy": "Whole normalized answers; explicit reviewed variants and equivalent integer number words. Meaningful numeric and language punctuation preserved.",
+  "sourceInputs": {
+    "version": "expanded-source-records-v1",
+    "created": "2026-10-06",
+    "opentdbPin": "77d8e3cb5c8e264d50220eee75cfe08d233b1910",
+    "opentdbRawSha256": "40aae7eab2644d73e9f97b164499cc98ca4f8226e03a2991469e4a5bef7caaba",
+    "triviaqaArchiveSha256": "ac7e63c8d81ebedd2ee6c752a7e50bae90003f127e0f704b12a2a8da83b680ce",
+    "selection": "Conservative structural filter; 3,200 archived candidates selected by topic with a two-per-canonical-answer cap. Final decisions recorded separately.",
+    "opentdbCandidates": 2650,
+    "supplementCandidates": 3200,
+    "recordsSha256": "1a0d006c41094058d3ddbbfb65f39ebc640a3daa9f47d01421e31de1bc275880",
+    "originalSampleSha256": "eed56688388101fb3c0b0630f681d0dda6c32aeb8b4164789da66663c6c124f1",
+    "harderOriginalsSha256": "d814487064e407a914c1aad747413df98340af5f13ff90593caf798c4eecb147"
+  },
+  "decisionFiles": [
+    {
+      "file": "editorial-architecture.json",
+      "records": 800,
+      "retained": 675,
+      "sha256": "f86de79609893906a8bbbe33a8875517376f998abbab9bb62d8e0b27b6151b01"
+    },
+    {
+      "file": "editorial-opentdb-architecture.json",
+      "records": 124,
+      "retained": 91,
+      "sha256": "72e83731383160d7b08b5bb6bf8c24208ec7a22fb09dbef8d1f9e97d7f7f1959"
+    },
+    {
+      "file": "editorial-opentdb-extra.json",
+      "records": 200,
+      "retained": 182,
+      "sha256": "1e5fd0d74bb3ca5f50f80fa9b0ab49798ecd459f2af23a7d859992ed7a759276"
+    },
+    {
+      "file": "editorial-opentdb-final.json",
+      "records": 3,
+      "retained": 1,
+      "sha256": "4af9d2c6ab941fae2a00c27c5f000ac5ddee679589a6d2e534e95a0ecdd628b5"
+    },
+    {
+      "file": "editorial-opentdb-own.json",
+      "records": 381,
+      "retained": 314,
+      "sha256": "4eaecc44a3fd4d6721067d92f6c3f869388fe72ea9178df505a8e3226f7f34e5"
+    },
+    {
+      "file": "editorial-opentdb-root.json",
+      "records": 497,
+      "retained": 468,
+      "sha256": "9572d32eeee08096aa93e1fb6d000f2887e1552055e0375042a997f5b20bf2c8"
+    },
+    {
+      "file": "editorial-own.json",
+      "records": 1400,
+      "retained": 1123,
+      "sha256": "bcc2b057e4c58efa27be235776c55e73a53db3a2695bd175170d7f1557083524"
+    },
+    {
+      "file": "editorial-root.json",
+      "records": 500,
+      "retained": 466,
+      "sha256": "9a3cdde43a416ab30495687e0ca5978b8fe78a0bd477ce29aa7c83846366d948"
+    },
+    {
+      "file": "editorial-ui.json",
+      "records": 500,
+      "retained": 443,
+      "sha256": "f224b3e1812448ea79031ddca35b05b3aa579ce3583d7bcb75840c478054c637"
+    }
+  ],
+  "screening": {
+    "editorialRejected": 646,
+    "structuralRejected": 39,
+    "conflictingPrompts": 2,
+    "duplicatePrompts": 5,
+    "nearDuplicateFacts": 8,
+    "invalidAliasesRemoved": 0
+  },
+  "eligiblePoolCount": 5282,
+  "eligibleTierCounts": [
+    494,
+    1159,
+    2020,
+    1609
+  ],
+  "selectedQuestionSha256": "87c0445f14ca7afb6b91aad85d5e0dcebeffb2b7927c16e7a7cb24c92598d30c",
+  "outputSha256": "18e7105be6e9f887589d840b98ea2eec327b0eff9796955a18c9b6433d94cee0",
+  "jsonSha256": "fec42e9de4d52867cca271984c96ffb7b6ef3f9d3c58f84690056e4083bce62d",
+  "regeneration": {
+    "command": "node scripts/import-trivia-expanded.js",
+    "verification": "node scripts/import-trivia-expanded.js --check",
+    "runtimeDownloads": false,
+    "inputRecords": "assets/trivia/expanded-source-records.json",
+    "rawSnapshot": "assets/trivia/opentdb-source.json",
+    "editorialDecisions": "assets/trivia/editorial-*.json"
+  }
+}

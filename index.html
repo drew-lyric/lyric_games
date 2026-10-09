@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1521">
+  <title>Lyric Bio Game Selection</title>
+  <link rel="stylesheet" href="launcher.css">
+  <script defer src="launcher.js"></script>
+</head>
+<body>
+  <header class="arcade-header">
+    <a href="#" class="brand" aria-label="Lyric Games home"><span class="brand-plate"><img src="lyric_biodefenses/assets/branding/lyric-logo.jpg" alt="Lyric"></span></a>
+    <button id="all-games" class="quiet-button" title="Return to the collection. Leaving Biodefenses also leaves your LAN room." hidden>← All games</button>
+  </header>
+  <main id="library-screen" class="library">
+    <div class="intro"><h1>Lyric Bio Game Selection</h1><span class="collection-number" aria-label="3 games">03<small>GAMES</small></span></div>
+    <div class="game-grid" role="group" aria-label="Choose a game">
+      <button class="game-card selected" data-game="biodefenses" aria-pressed="true">
+        <span class="card-art defense-art" aria-hidden="true"><span class="culture-ring ring-one"></span><span class="culture-ring ring-two"></span><span class="culture-ring ring-three"></span><span class="culture-core"></span><span class="culture-cell cell-one"></span><span class="culture-cell cell-two"></span><span class="culture-cell cell-three"></span></span>
+        <span class="card-title">Lyric<br>Biodefenses</span>
+      </button>
+      <button class="game-card" data-game="antigen-assault" aria-pressed="false">
+        <span class="card-art assault-art" aria-hidden="true"><span class="antigen antigen-green"></span><span class="antigen antigen-blue"></span><span class="antigen antigen-purple"></span><span class="antigen antigen-gold"></span><span class="ship-trail trail-left"></span><span class="ship-trail trail-right"></span><span class="ribbon-ship"></span></span>
+        <span class="card-title">Lyric<br>Antigen Assault</span>
+      </button>
+      <button class="game-card" data-game="sterile-solver" aria-pressed="false">
+        <span class="card-art sterile-art" aria-hidden="true"><span class="sterile-line line-blue"></span><span class="sterile-line line-red"></span><span class="sterile-line line-mixed"></span><span class="sterile-flask flask-blue"></span><span class="sterile-flask flask-red"></span><span class="sterile-flask flask-mixed"></span><span class="sterile-reactor"><i></i></span><span class="sterile-pump pump-blue"></span><span class="sterile-pump pump-red"></span></span>
+        <span class="card-title">Lyric<br>Sterile Solver</span>
+      </button>
+    </div>
+    <section class="launch-panel" aria-label="Selected game actions"><div class="launch-actions"><button id="play-button" class="primary-button">PLAY <span aria-hidden="true">→</span></button><button id="instructions-button" class="quiet-button" aria-haspopup="dialog">INSTRUCTIONS <span aria-hidden="true">+</span></button></div></section>
+  </main>
+  <section id="game-screen" class="game-screen" aria-label="Active game" hidden><div id="game-mount"></div></section>
+  <p id="launcher-status" role="status" class="launcher-status" hidden></p>
+  <dialog id="instructions-dialog" aria-labelledby="instructions-title" aria-describedby="instructions-summary"><div class="dialog-heading"><button id="close-instructions" class="quiet-button" aria-label="Close instructions">CLOSE ×</button></div><h2 id="instructions-title"></h2><p id="instructions-summary"></p><div id="instructions-content"></div><button id="dialog-play" class="primary-button">PLAY <span aria-hidden="true">→</span></button></dialog>
+  <noscript><p class="noscript">Enable JavaScript to open Lyric Games.</p></noscript>
+</body>
+</html>

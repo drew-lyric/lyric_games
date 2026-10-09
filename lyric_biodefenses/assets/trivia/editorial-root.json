@@ -1,0 +1,3880 @@
+[
+  {
+    "id": "triviaqa-1858308ac96aff154dc7ae1f",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1865042cb3aa3890a44dccb0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1883e3748ae9cde5a79513c4",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1894b9c04e1708eb72ed5788",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-18a33b55f694675d18067fef",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-18c0d0a156dcb7fee934a5b8",
+    "keep": true,
+    "tier": 2,
+    "text": "Which book of the Old Testament immediately follows Genesis?",
+    "note": "Replaced ambiguous Ten Commandments question, which also appears in Deuteronomy."
+  },
+  {
+    "id": "triviaqa-18d674cf21e6e07bcea2f9bc",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-18d9d51469c542032127e859",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-18e6e2d720d3ab467ff3f4a2",
+    "keep": true,
+    "tier": 3,
+    "text": "Which small Hawaiian stringed instrument developed from the Portuguese braguinha?",
+    "note": "Corrected instrument name and phrasing."
+  },
+  {
+    "id": "triviaqa-1901b740e13b4477f2b6489c",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-191b251a582c910649b6f65a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-191d2f526078c00cbfa56be7",
+    "keep": true,
+    "tier": 4,
+    "text": "Who wrote the poem For the Fallen in 1914?",
+    "note": "Corrected title typo."
+  },
+  {
+    "id": "triviaqa-192fc8a7d822c696c6f5544e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which author created the character Tracy Beaker?",
+    "note": "Corrected character spelling."
+  },
+  {
+    "id": "triviaqa-194a6f4c882fbad3c2095e9f",
+    "keep": true,
+    "tier": 4,
+    "text": "Which composer wrote the Scottish and Italian symphonies?",
+    "answer": "Felix Mendelssohn",
+    "acceptedAnswers": [
+      "Felix Mendelssohn",
+      "Mendelssohn",
+      "Felix Mendelssohn Bartholdy"
+    ],
+    "note": "Removed relative date and clarified canonical name."
+  },
+  {
+    "id": "triviaqa-1959b5944977d5b3cf4ef279",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-197c0a7f43372119a483a6a0",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1986e006477ac3fdf8b3f650",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19d93e7a28c1af5eb198d19d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19da546f9804e8176202ea4c",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Jean-Paul Sartre",
+      "Sartre",
+      "Jean Paul Sartre"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19e1e6520caf6d132579a52d",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19e99c9faefe5dfa65c21b0c",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Chimera",
+      "The Chimera",
+      "Chimaera",
+      "The Chimaera"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19ecd5674edc90ecf41f0469",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19ee531f83bc1a75d3f6f575",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19efd9f2925b671283f8bd9f",
+    "keep": true,
+    "tier": 3,
+    "text": "Which James Joyce novel follows Leopold Bloom through Dublin?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-19f328dc7e0515f49a5b111c",
+    "keep": true,
+    "tier": 2,
+    "text": "In which present-day country was Frederic Chopin born?",
+    "answer": "Poland",
+    "acceptedAnswers": [
+      "Poland"
+    ],
+    "note": "Changed ambiguous nationality question to birthplace."
+  },
+  {
+    "id": "triviaqa-1a0dd0273af1cdf449344667",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a0e659c5cbae7d58dd32c0b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a2c20689936e61dc1745045",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a608ac4b66c7f2eeb8de6df",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a753da9eac225aeddb3f368",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a7606f1c2fb40ae1917bede",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1a7df6d3c2ab99cd4ca4c217",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1a9e87a9df2423d65cff25ba",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Pevensie",
+      "The Pevensies",
+      "Pevensies"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1ab7f234c3e591b0a78feeb1",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1ac5d5ee7f58701edea85e41",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1ae3dfb96f54d7cfa0984b57",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b2b034fdfb5f22684fc854d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b2b63df5ee815f745123e76",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b39254c139d80c980d98438",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1b7023ba7ca01f62be44caa1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b78d1d396102ebd5fd09cad",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b7aaeee4dfd73751d934d8e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b8f5792a436109a40d1e469",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1b9b0a34267f3e2af2cf3ab0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1bacc3af4db9598fce958d30",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1bc0c8f10c9a27eee1e9a4d5",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1bf916b43b32e7ca4dae7541",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c0b702e1314be9b6c4cfca9",
+    "keep": true,
+    "tier": 1,
+    "acceptedAnswers": [
+      "Star",
+      "A star",
+      "Stars"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c0ee624e71e98e4db13d4f0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c25f06a68528f183741fa57",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c2c81963eb4c2231e39351c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c376650f845b9cf197ad519",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c383e9a65787ed8837fa2af",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c38e4969f5877f6b3faf7bf",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c3afedccc808a0258ddb5af",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c4e9905a3a91e7ad1d1f421",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c543d6b9b21bc6c81770819",
+    "keep": true,
+    "tier": 3,
+    "answer": "Symphony No. 3",
+    "acceptedAnswers": [
+      "Symphony No.3",
+      "Symphony No. 3",
+      "Symphony3",
+      "3",
+      "Third",
+      "The Third",
+      "3rd",
+      "Third Symphony",
+      "Eroica",
+      "Eroica Symphony"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c61ec5ce47f606692d3cfc7",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c6576bb12a392e19bc53b57",
+    "keep": true,
+    "tier": 4,
+    "text": "Who painted Ophelia, using Elizabeth Siddal as his model?",
+    "acceptedAnswers": [
+      "John Everett Millais",
+      "Millais",
+      "Sir John Everett Millais"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c8f559595351bb82508b9ac",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1c9ad7ce52882a97107e0c39",
+    "keep": true,
+    "tier": 4,
+    "text": "Which 1968 John le Carre novel is set in a time of unrest and resurgent neo-Nazism?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1cc100cc74ec2f40f7992bd0",
+    "keep": true,
+    "tier": 3,
+    "answer": "Edgar Allan Poe",
+    "acceptedAnswers": [
+      "Edgar Allan Poe",
+      "Edgar Allen Poe",
+      "Poe"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1cc16439aee90be77c6f50bc",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d095b28677d63fa1edd2a3a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d2561718da904dbfc6fb224",
+    "keep": true,
+    "tier": 3,
+    "answer": "Anton Chekhov",
+    "acceptedAnswers": [
+      "Anton Chekhov",
+      "Anton Chekov",
+      "Chekhov",
+      "Chekov"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d25b00034317629c255b844",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1d37216c83ff5601fad981a6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d52288159722b6f47927b72",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d597b32709d32f2a69b7ee1",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1d9856bd1d42ae442a7cfcf4",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1da5a535983e10caad79cb4f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1dac1dad37c613e0fa1ac10e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1de8501cb42afd6e0a1e0cef",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e01cde3d1a0bf9e5aa684fe",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e075a131d6eda95dccaa215",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e17205e627f9a3f21f5a591",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e3555b282f0c47f4022169a",
+    "keep": true,
+    "tier": 3,
+    "text": "Which 1974 Stephen King novel centres on a teenage girl with telekinetic powers?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e381f103021534bbf8e719c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e39f4973c90d4a901c6980d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e5fb039772afa3622b656f8",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e672c2efd641a197b27f31c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1e8e4150f0b7878aa59ec1b7",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1ec65e4ae1b5382a4c17bfbe",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f18a6d9cda6bb4a93aac7f4",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Miss Honey",
+      "Honey",
+      "Jennifer Honey",
+      "Miss Jennifer Honey"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f39d462d35ebbd1c46998a6",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f433fb6ed53592c477229f0",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f43b6adabdf6db208b77912",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f4794f1434034840790a07e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f56bfa7ca51e9f59c8706a9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1f632fc510ae128d6dd2f057",
+    "keep": true,
+    "tier": 3,
+    "text": "What instrument is associated with the musician Pablo Casals?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1fa5de7511dc87d6fffe52ef",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1fb47d897cb9d429c6b5901c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1feabc2b889231bcc3a7b813",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1ffecc8ea5449b696f5fe5cf",
+    "keep": true,
+    "tier": 2,
+    "answer": "Emily Bronte",
+    "acceptedAnswers": [
+      "Emily Bronte",
+      "Emily",
+      "Emily Brontë"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2063ad33d611cde22819197f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-206595968f04d7568b286855",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-207195d1b526efa6cd639425",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2082addb7d1f87b58b0d0e4d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-20fc06aeaff1b638934e147b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-20fdf470ebd2ee59370895a4",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Amy",
+      "Amy Dorrit"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2102e19d9bad95dde6177fc2",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Norwegian novelist created detective Harry Hole?",
+    "answer": "Jo Nesbo",
+    "acceptedAnswers": [
+      "Jo Nesbo",
+      "Jo Nesbø",
+      "Nesbo",
+      "Nesbø"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-211457db4dc98d42bda00401",
+    "keep": true,
+    "tier": 2,
+    "text": "What is the flat board on which a painter holds and mixes colours called?",
+    "answer": "Palette",
+    "acceptedAnswers": [
+      "Palette",
+      "Artist's palette",
+      "Painter's palette"
+    ],
+    "note": "Rewrote an open-ended use question into a specific object question."
+  },
+  {
+    "id": "triviaqa-2127940d859e6125416d087e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-215effaf81f7c4afb50d8770",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-216ca0dcd3a400337f26f32c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2180b3afe14e0e0c7c5cda54",
+    "keep": true,
+    "tier": 3,
+    "text": "Who painted The Blue Boy?",
+    "note": "Removed questionable second artwork reference."
+  },
+  {
+    "id": "triviaqa-218a8fb4082043d86d48613a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-21a9ebfe59337d69b6a5e48e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-21bde2b7c897453841812a11",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-21e03fa46deae2c2fca4a9f8",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-220d9f27ba6449c7934e19cb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-220ec8e64195e2d54e674c77",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-221ab03e2ff704b435898926",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22225ef6d30667a16add8b2b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2226eb72a688a7de37c7a893",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-222eb4b0c931daa15ea4bd0c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-223f42f4d1399171e4a1a0dd",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-225c150573d3b649463f7901",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22659f5a5eb5c80da5aeed7f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2285383c5a71dae140ba7f4c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22908747add8d4dd2b4ae4a5",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22a45059ba00b7c6592ccb8f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22b8b7f04ed3b0b9ca5210a0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22cb0d46688715a80bebc659",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-22cf039c0e569a794ec5efd6",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-22ddd0d1d63c65a90a0caf2f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2311210129a778cb2a710718",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-233267bfd9fba74ae5ec0b72",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2341f708541942e6e9d07124",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2353d5ed9cc0370d32196d82",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2356fe24d9a10684b740e4ab",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2366ec81b981da6509f7b7da",
+    "keep": true,
+    "tier": 4,
+    "text": "In Roman religion, which goddess was associated with funerals and burial?",
+    "answer": "Libitina",
+    "acceptedAnswers": [
+      "Libitina"
+    ],
+    "note": "Corrected the source spelling and funeral association."
+  },
+  {
+    "id": "triviaqa-23683e573f7c84ad68d8b1fc",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-236fab4a0d784ef393f2ac73",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-237b72be05189e81d98b6067",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2391b4a701128d7a8665ccf5",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-23b78ce68905ae3e4c778e58",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-23e501332e5192110c4acf06",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-23e574ff456c30241915160f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-23f9d3fc43ed3d5046b81c18",
+    "keep": true,
+    "tier": 4,
+    "text": "Who composed the opera The Bartered Bride?",
+    "acceptedAnswers": [
+      "Bedrich Smetana",
+      "Bedřich Smetana",
+      "Smetana"
+    ],
+    "note": "Removed relative-date reference."
+  },
+  {
+    "id": "triviaqa-23fb8dd02d4760ea8879080e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-241f11e105642bfc04c5a071",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-241f9389defe684eabd00bb8",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2429e463b7844eb545440675",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-242bf8a5739eae160ff3e133",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-243804c22c0ef7ecdd9f5afb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-24442b085788bca3832826c8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-246717bc6a8b22ce9c99aedb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-246e61c3c2f42188255d6d27",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-248c2f1695337682f74ea573",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-248cfde7a73a9ddc599a6822",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-24a9b9888ecb3a54ded0a042",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-24bd217150423efc969a183c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-24c1f1d47f14add1b18c7a68",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-24c9d28c6769c231450afe8a",
+    "keep": true,
+    "tier": 3,
+    "text": "Which H. G. Wells novel has a central character known as the Time Traveller?",
+    "answer": "The Time Machine",
+    "acceptedAnswers": [
+      "The Time Machine",
+      "Time Machine"
+    ],
+    "note": "Changed book-and-author demand to one title."
+  },
+  {
+    "id": "triviaqa-253b08d781babb9086a792fd",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-255ba9a7bd253be8839b1b9c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2595df4907ac727015ae2a7e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which band recorded Money for Nothing in 1985?",
+    "answer": "Dire Straits",
+    "acceptedAnswers": [
+      "Dire Straits"
+    ],
+    "note": "Replaced ambiguous co-writer demand (Knopfler/Sting) with recording band."
+  },
+  {
+    "id": "triviaqa-25a9e983d240f8ecfdedb460",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-25b1e277c6f4ba44edfe47a6",
+    "keep": true,
+    "tier": 4,
+    "text": "What is the name of Andrew Lloyd Webber's stage musical sequel to The Phantom of the Opera?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25b7078ab9532b44fc554e9d",
+    "keep": true,
+    "tier": 4,
+    "answer": "Jean-Francois Millet",
+    "acceptedAnswers": [
+      "Jean-Francois Millet",
+      "Jean Francois Millet",
+      "Jean Millet",
+      "Millet"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25b789714b5a74ed555ac8a8",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25bd118d19fa1b30c9df23b5",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25cd950c93c985413ffb7f08",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25d87210f3740a2074e71365",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25e21a0c5944862fef6a60a6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-25f71a92470458300b027f6c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-260b2f202d617c83cc523a97",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-261748454b85310481853f78",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-263190fe65b9c13940f57c4b",
+    "keep": true,
+    "tier": 3,
+    "text": "Who wrote the novel Jurassic Park?",
+    "note": "Removed incorrect source publication year."
+  },
+  {
+    "id": "triviaqa-2642756ac21da6e26d645ede",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-265f713990eef461f26de571",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2672acd8a9735e92971411db",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-267b2d1626b6d1f7ad887f4d",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-267cb6ea66a574ee4ef248a9",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-26a4d4b614cd2d18e6a22135",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-26b7a83dfe6085cc0406e0bf",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-26c6ca2f11272be92208f602",
+    "keep": true,
+    "tier": 3,
+    "text": "Who wrote Do Androids Dream of Electric Sheep?, the novel adapted as Blade Runner?",
+    "acceptedAnswers": [
+      "Philip K. Dick",
+      "Philip Dick",
+      "Dick"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-26daca4cc933de17f31d7e03",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-26e4ddf7591af452410998ee",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-273820368867bdb1c2b25e32",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-273b7796c1282ecfa7c72c75",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2758e36483ecd175f4371748",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-275b5b417d4ae7c0cba390c6",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2767ce24fa4589b46bd9c1e9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-27acd6e6633e92e75b7156f7",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-27c369b67921cf1743fd0c89",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-27cf09f4b65548acb2f70cad",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-27eca99b0960854ff861bfdd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-27f1e66ead928f269f2e30ea",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-285adac50f6ab3d5e5b94a2b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2865682af80be38c26655f24",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2868030be87b0f15a141b6bb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2868795c22724c79c5bc157b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-286c07e8e13b05a779be8bf8",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2897c6112968a26817b7623b",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-289c19864064bae7a371b7ae",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-28a1085d5898d3ed4ff91fad",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-28c5d832a747516bbf3e1581",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-28e27e795aa921483c8652a0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-290d4df1a06bbf8a804c499d",
+    "keep": true,
+    "tier": 3,
+    "answer": "Robert Burns",
+    "acceptedAnswers": [
+      "Robert Burns",
+      "Burns",
+      "Robbie Burns",
+      "Rabbie Burns"
+    ],
+    "note": "Corrected corrupt source answer Robbie Bums."
+  },
+  {
+    "id": "triviaqa-29548f20b12aacdc599ec5d1",
+    "keep": true,
+    "tier": 3,
+    "text": "Who wrote the novel The Joy Luck Club?",
+    "note": "Removed incorrect source publication year."
+  },
+  {
+    "id": "triviaqa-2967a479a205c624614ffb05",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2986b78a11670594a520cddd",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-29a3f3fedf5c1255da943cd7",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Van Gogh painting did Anna Boch buy at the 1890 Brussels exhibition?",
+    "answer": "The Red Vineyard",
+    "acceptedAnswers": [
+      "The Red Vineyard",
+      "Red Vineyard",
+      "The Red Vineyard at Arles",
+      "Red Vineyard at Arles",
+      "Red Vineyards"
+    ],
+    "note": "Replaced disputed only-sale claim with an identified transaction."
+  },
+  {
+    "id": "triviaqa-29b5cda33b77a2c5c448d3d1",
+    "keep": true,
+    "tier": 3,
+    "text": "Which famous escape artist was born Erik Weisz and died in 1926?",
+    "acceptedAnswers": [
+      "Harry Houdini",
+      "Houdini"
+    ],
+    "note": "Removed disputed punch-as-cause implication."
+  },
+  {
+    "id": "triviaqa-2a0a064f8ae91c84b003fec8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a1789ce22bd489e61ede162",
+    "keep": true,
+    "tier": 2,
+    "answer": "To Kill a Mockingbird",
+    "acceptedAnswers": [
+      "To Kill a Mockingbird",
+      "To Kill a Mocking Bird"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a1b6c0bbc6bfab8b6d14591",
+    "keep": true,
+    "tier": 4,
+    "text": "Which French artist painted the Water Lilies series?",
+    "acceptedAnswers": [
+      "Claude Monet",
+      "Monet"
+    ],
+    "note": "Removed disputed Father of Impressionism epithet."
+  },
+  {
+    "id": "triviaqa-2a4082fb7ff0a9dd8581758c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a424a076cf278cb2883053c",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2a4f25894573504f0fccb5a8",
+    "keep": true,
+    "tier": 3,
+    "text": "Who wrote the lyrics for the stage musical The Sound of Music?",
+    "answer": "Oscar Hammerstein II",
+    "acceptedAnswers": [
+      "Oscar Hammerstein II",
+      "Oscar Hammerstein",
+      "Hammerstein II",
+      "Hammerstein"
+    ],
+    "note": "Removed embedded answer choices and supplied canonical name."
+  },
+  {
+    "id": "triviaqa-2a5a6b01deae5a0e2ca02cbd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a5ecbfbe6be08baf1d49eec",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a629ce74b3c1c7173cf8c3f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2a997a1661414e6c698472da",
+    "keep": true,
+    "tier": 4,
+    "text": "Which crime writer created Inspector Thomas Lynley?",
+    "note": "Corrected character spelling."
+  },
+  {
+    "id": "triviaqa-2a9c72c29eff7e603791983b",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ab297e6e3686bc50526c96d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2abc01c21368591cc7a0e99f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ae15cead816738d123f5fdc",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ae8c52bcabe8efa51810d27",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2af823e70abbad9aee521dcd",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2b16a2aebe2c0926d8022a25",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2b1a49e2801f1119a7727f76",
+    "keep": true,
+    "tier": 4,
+    "answer": "Branwell Bronte",
+    "acceptedAnswers": [
+      "Branwell Bronte",
+      "Branwell Brontë",
+      "Branwell"
+    ],
+    "note": "Corrected source misspelling Bramwell."
+  },
+  {
+    "id": "triviaqa-2b1d6ea81d958221266dc446",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2b50739371de8574bb272ce2",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Mitford sister wrote the 1945 novel The Pursuit of Love?",
+    "acceptedAnswers": [
+      "Nancy",
+      "Nancy Mitford"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2b5e904339ae3a73c82e68fc",
+    "keep": true,
+    "tier": 3,
+    "text": "In which Puccini opera are Rodolfo and Mimi the central lovers?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2b90f12254e093303080f1b3",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Tenor saxophone",
+      "Saxophone",
+      "Tenor sax",
+      "Sax"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2bce58d750739e4701f07c33",
+    "keep": true,
+    "tier": 3,
+    "text": "Who wrote The Common Sense Book of Baby and Child Care?",
+    "answer": "Benjamin Spock",
+    "acceptedAnswers": [
+      "Benjamin Spock",
+      "Spock",
+      "Dr Benjamin Spock",
+      "Dr. Benjamin Spock",
+      "Dr Spock",
+      "Doctor Benjamin Spock"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2bea90f3a20e8f54bdbdf20e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2bf5bad0961232f4a9dbb0cc",
+    "keep": true,
+    "tier": 3,
+    "text": "Who painted At the Moulin Rouge and designed posters for Parisian nightlife?",
+    "answer": "Henri de Toulouse-Lautrec",
+    "acceptedAnswers": [
+      "Henri de Toulouse-Lautrec",
+      "Henri Toulouse-Lautrec",
+      "Toulouse-Lautrec",
+      "Toulouse Lautrec",
+      "Lautrec"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2bfa867060eb819ccea008aa",
+    "keep": true,
+    "tier": 4,
+    "answer": "James Ellroy",
+    "acceptedAnswers": [
+      "James Ellroy",
+      "Ellroy",
+      "James Elroy",
+      "Elroy"
+    ],
+    "note": "Corrected source name spelling."
+  },
+  {
+    "id": "triviaqa-2c363e99d372d9097a4d4f82",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2c3c8f3b327a39bdc531003c",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2c45b7b61fbbffc671a9dc09",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2c47fce25cfaf1685de346d3",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "American Civil War",
+      "Civil War",
+      "US Civil War",
+      "U.S. Civil War"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2c859d82cfa26c9946761b79",
+    "keep": true,
+    "tier": 3,
+    "text": "Which French Impressionist painter of nudes was born in Limoges in 1841?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2c8da5c91885420f3da7440e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2c98e4b513bbf12ba903ab9c",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ca4d42b3f3d8e9e56873148",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2cee97bbf3e7aa17557a403a",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2cff0271386c7e75447f6857",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2d1057321025acc3c9481473",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2d2feab286e232594cfd308a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2d708d085810a9fb5dd7a252",
+    "keep": true,
+    "tier": 4,
+    "answer": "Aaron Copland",
+    "acceptedAnswers": [
+      "Aaron Copland",
+      "Copland"
+    ],
+    "note": "Corrected source name spelling."
+  },
+  {
+    "id": "triviaqa-2d9a89e7b0e9bbde2830bf50",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2daa989002302d4e451e5b5e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2db729a2abcd9c39348743d1",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2db94ef0c4c74e6aeeb8eab2",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2dbc128793cca7f80a180d4a",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2dc1d62300da14d259f8ef1d",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2dc4c74078cf6b8cab829a41",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2dc87552ffbea15d2b2aa5d7",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2dd949c4a0f0782b7ccae33c",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "1984",
+      "Nineteen Eighty-Four",
+      "Nineteen Eighty Four"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ddb3ad179db6c0b90a423d4",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2df445ca6c6e245e0ec59a38",
+    "keep": true,
+    "tier": 1,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e077403072f435e5d6603ca",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e1982dcc826dc3c19dcdd10",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e51dc08fcd6ec97b0bca32f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e5a13fc184a4f22a5a8074e",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e6695c94dff1c473fc75496",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e8d13908fbc86b5194aa4c6",
+    "keep": true,
+    "tier": 3,
+    "text": "What breed was Uggie, the canine star of the film The Artist?",
+    "answer": "Jack Russell Terrier",
+    "acceptedAnswers": [
+      "Jack Russell Terrier",
+      "Jack Russell"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2e8e1f9efcb185ada176f002",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ed23647a2da7bae858369f2",
+    "keep": true,
+    "tier": 4,
+    "answer": "John Kenneth Galbraith",
+    "acceptedAnswers": [
+      "John Kenneth Galbraith",
+      "J K Galbraith",
+      "Galbraith"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2ed9daea499a79f2d3666ccb",
+    "keep": true,
+    "tier": 2,
+    "text": "What is the name of the dog who serves as the children's nurse in Peter Pan?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2efccf38d73b7d910e794384",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2f0293d3fcf962990b848ab6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2f0800b389c80c6bdb28170a",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-2f23c99e3185db4dcfaa7e49",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2f729d9cc9219205048d37ee",
+    "keep": true,
+    "tier": 4,
+    "text": "Who painted The Rokeby Venus?",
+    "acceptedAnswers": [
+      "Diego Velazquez",
+      "Diego Velázquez",
+      "Velazquez",
+      "Velázquez"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2fd22b2ed6506483f5ee2184",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Fret",
+      "Frets"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-2fd8dce953fa42d728591e64",
+    "keep": true,
+    "tier": 4,
+    "answer": "Akela",
+    "acceptedAnswers": [
+      "Akela"
+    ],
+    "note": "Corrected source character spelling."
+  },
+  {
+    "id": "triviaqa-2fdb0d35b42d1b01ab2687fb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-302523e487528adc30853f2c",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3046a39f8b3530dcac521016",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-30480a327ec31f7c49f364f2",
+    "keep": true,
+    "tier": 4,
+    "text": "In accounting, what is the excess of an acquisition price over the fair value of identifiable net assets called?",
+    "note": "Corrected book-value simplification to fair-value definition."
+  },
+  {
+    "id": "triviaqa-304bba2cda2b53fc76df0baf",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Fulham footballer won the Football Writers' Association Footballer of the Year award in 1975?",
+    "note": "Removed changing only-player claim."
+  },
+  {
+    "id": "triviaqa-305b0ae6efa673a3509cd2b6",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-306a19070616624e159e34f3",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-307ab4ca2a7dd81f787abe82",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3080f8b429890e85717da29e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-30822b953518eac54ee9972a",
+    "keep": true,
+    "tier": 4,
+    "text": "Who composed the music for Magic Moments and Twenty Four Hours from Tulsa?",
+    "note": "Removed relative birthday reference."
+  },
+  {
+    "id": "triviaqa-3088db774d3d7b6286f721fa",
+    "keep": true,
+    "tier": 4,
+    "answer": "E. Nesbit",
+    "acceptedAnswers": [
+      "E. Nesbit",
+      "Edith Nesbit",
+      "Nesbit",
+      "E Nesbit"
+    ],
+    "note": "Corrected author surname."
+  },
+  {
+    "id": "triviaqa-30899a90862ea5447f198267",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-309c46ff9db9c5245f966117",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-30a7cf4649129e91de875565",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-30b1a1b5c349eb8494f99914",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-30b3fe02432e9dd5aa5ca712",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-30d397b9792d56649edd6a2e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-30e3b1c520fe4e3510242931",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-311077641913fea1f76b9759",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3168173dbb0733627125ed31",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3198df6a8cabf3be8b6a2871",
+    "keep": true,
+    "tier": 4,
+    "text": "Which John Keats poem supplied the phrase Tender Is the Night used for F. Scott Fitzgerald's novel title?",
+    "answer": "Ode to a Nightingale",
+    "acceptedAnswers": [
+      "Ode to a Nightingale"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-31c31f7987437459b54b88e9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-31cd101ceff58c4c11a01bd3",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-31d612c7d943f4c2f6945927",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-320357111f63c65540229ebf",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3234451ce08771b8ea33534d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-324b9397a674ed700452a473",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-326e19df1ace2901a94af8dd",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-32835ec700aa527951cfb74a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-3284a2b269f14eef0ab2d04e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32a37b4d447fd27198d1c2ed",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32acd68a44ddc6040096c0b8",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32b7567ddf793cb4e9883c61",
+    "keep": true,
+    "tier": 4,
+    "answer": "The Yeomen of the Guard",
+    "acceptedAnswers": [
+      "The Yeomen of the Guard",
+      "Yeomen of the Guard"
+    ],
+    "note": "Corrected title from singular Yeoman."
+  },
+  {
+    "id": "triviaqa-32bd89c0ecd31d654de83c3b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32c78c0300a886ee7e6baf50",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32c92223019f752b4c7cefa1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32cffd477349554fbc593679",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32d7b725b59dfae632bd7f9e",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-32fe489e628d20795ce86da0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-330a9a434b04d904ce083013",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-33109d4e384c0e1b326f7d75",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-332a3d09d323820ff4089663",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-332e28fc762845af03d35f25",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Spanish painter died in Bordeaux in April 1828?",
+    "note": "Corrected source century typo."
+  },
+  {
+    "id": "triviaqa-3351eeb3d284033cbfae74e1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-337ca0a53d920b319bb586c2",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-338390f575b9ca0dd491e1a4",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-33a8adbde23cbf9a7778e80c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-33b7dabf794e68fc8e904b93",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Verdi opera was first performed in Cairo in 1871?",
+    "note": "Removed mistaken Suez-opening association."
+  },
+  {
+    "id": "triviaqa-00031fad6b52bd7b862aa7ce",
+    "keep": true,
+    "tier": 3,
+    "answer": "Crimean War",
+    "acceptedAnswers": [
+      "Crimean War",
+      "Crimean",
+      "The Crimean War"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-00c75aea5e2cf69a2ef22c82",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-00d293125361d8d9e2a33a93",
+    "keep": true,
+    "tier": 4,
+    "category": "General knowledge",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-00da5eba33ff3ded2845c816",
+    "keep": true,
+    "tier": 3,
+    "text": "Which English football club moved to Walkers Stadium in 2002, later named King Power Stadium?",
+    "category": "Sports",
+    "note": "Removed time-dependent league membership."
+  },
+  {
+    "id": "triviaqa-00eddf894b147d8fa3c9c137",
+    "keep": true,
+    "tier": 4,
+    "text": "In what year did Queen Elizabeth II begin paying income tax?",
+    "answer": "1993",
+    "acceptedAnswers": [
+      "1993",
+      "Nineteen ninety three",
+      "Nineteen ninety-three"
+    ],
+    "note": "Clarified monarch and tax scope."
+  },
+  {
+    "id": "triviaqa-00f15e26655edb3969f57763",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-010c28427c1abc87c4738078",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-015cd678a7469d6a61a066fa",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-015db6474042a3e1da7125fb",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports",
+    "acceptedAnswers": [
+      "Carl Lewis",
+      "Lewis"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0185c4f1f9708b4038eeb5e5",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01878cb0135b4addd5ed83d6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01ab950c53ad6f0889c3cdd8",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Korean War",
+      "The Korean War",
+      "Korean"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01bae648313dfde646ff7948",
+    "keep": true,
+    "tier": 3,
+    "text": "What were the informal radio addresses delivered by Franklin D. Roosevelt between 1933 and 1944 called?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01e8d40ae6866be6b60346a0",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01eef67b5a7945108b89a33d",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-01f6d90c3145a4719e57cf1b",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "1950s",
+      "1950's",
+      "Fifties",
+      "The fifties",
+      "Nineteen fifties",
+      "1950-1959"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0290feb2d8d7501b45a44b8f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-03007c1b87fc902043ce0542",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0325b431b8d3ef2030ce3fcf",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0339c4a5fe68775d07e2084f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0342a6910504c894fb067bf6",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-034ac0428b11c214bdca9330",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-034dd89b335da069d33a4acf",
+    "keep": true,
+    "tier": 3,
+    "category": "Nature",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-039798637ac10376eee51b9f",
+    "keep": true,
+    "tier": 3,
+    "text": "What was the name of the M 4 tank widely used by the United States during World War II?",
+    "acceptedAnswers": [
+      "Sherman",
+      "M4 Sherman",
+      "Sherman tank"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-03c4d8e3a9a01c90b906598c",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Hubert H Humphrey",
+      "Hubert Humphrey",
+      "Humphrey"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-03ebc0f96bb0ebd4d59d56a4",
+    "keep": true,
+    "tier": 2,
+    "text": "Which US president who served from 2001 to 2009 has twin daughters named Jenna and Barbara?",
+    "acceptedAnswers": [
+      "George W Bush",
+      "George Bush",
+      "Bush"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-03f6908a138097657362005c",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-04041196983d5ac726439479",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-044628cb67d3ca0da5da0740",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "15 September",
+      "September15",
+      "15th September",
+      "September15th",
+      "Sept15",
+      "15Sept",
+      "15Sep"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0452c576a10076c6ad7c6b79",
+    "keep": true,
+    "tier": 4,
+    "text": "Who was the US vice president during World War I?",
+    "acceptedAnswers": [
+      "Thomas R Marshall",
+      "Thomas Marshall",
+      "Marshall"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-046e54bf2dafa3f971a3744d",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Charles I",
+      "Charles1",
+      "King Charles I"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-04f62835dc52d8e301e6fc04",
+    "keep": true,
+    "tier": 4,
+    "answer": "Pythagoras",
+    "acceptedAnswers": [
+      "Pythagoras"
+    ],
+    "note": "Corrected source spelling."
+  },
+  {
+    "id": "triviaqa-04fe1e34fcb61d8b3ee2cec0",
+    "keep": true,
+    "tier": 3,
+    "answer": "Bobby Riggs",
+    "acceptedAnswers": [
+      "Bobby Riggs",
+      "Riggs",
+      "Robert Riggs"
+    ],
+    "category": "Sports",
+    "note": "Corrected source spelling."
+  },
+  {
+    "id": "triviaqa-050c32844010eb1c6ea8d5b1",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-051f6e16573f5a389754b53b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-052f30b3367c5845f1c3b285",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "John",
+      "King John",
+      "John of England"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-054682eaefd7e685bab4ede1",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0555ff19cb2f0508ac6c7294",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-057dce6db520ffbaf719c44a",
+    "keep": true,
+    "tier": 4,
+    "text": "Which English king reigned from 1399 to 1413 and was born at Bolingbroke Castle?",
+    "acceptedAnswers": [
+      "Henry IV",
+      "Henry4",
+      "Henry the fourth",
+      "King Henry IV"
+    ],
+    "note": "Removed uncertain birth-year claim."
+  },
+  {
+    "id": "triviaqa-05b26aa3a3a1d7fd6b37ac4b",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-05cef6c655ceb9d2718c9eab",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-05d2a8519d31b0bfcfc76d77",
+    "keep": true,
+    "tier": 3,
+    "text": "Which US president served as both the 22nd and 24th president?",
+    "acceptedAnswers": [
+      "Grover Cleveland",
+      "Cleveland"
+    ],
+    "note": "Removed obsolete only-nonconsecutive-president claim."
+  },
+  {
+    "id": "triviaqa-05d944610241757c076855b4",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "James I",
+      "James1",
+      "King James I",
+      "James VI and I"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-05f980d874c2dd3e72a5c1cd",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-062a3e6d83119c0cc16f5ebb",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Lord Halifax",
+      "Halifax",
+      "Edward Wood",
+      "Edward Wood1stEarl of Halifax",
+      "Earl of Halifax"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-062a647c94dd91aca1ebf5a0",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Tostig",
+      "Tostig Godwinson"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-06374c22a398bfe99359fdfe",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0637e798f81439e9d1c4515d",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0641bc6d7cf4de6af6deee96",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-0647935ccd072d8f5f98e587",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "HMS Conqueror",
+      "Conqueror"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-066708e3ff7bf78a51c53554",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-06854ec54172621aaf3559ae",
+    "keep": true,
+    "tier": 2,
+    "text": "According to the Bible, who was the son of Jesse and the father of Solomon?",
+    "answer": "David",
+    "acceptedAnswers": [
+      "David",
+      "King David"
+    ],
+    "category": "Religion",
+    "note": "Restored answer from corrupt Quiz35Answers source boilerplate."
+  },
+  {
+    "id": "triviaqa-0685642513a44cb3552ca0d4",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-06ba5273b395f26147ae3ace",
+    "keep": true,
+    "tier": 3,
+    "text": "What is the name of the sponge cake with pink and yellow squares wrapped in marzipan?",
+    "answer": "Battenberg",
+    "acceptedAnswers": [
+      "Battenberg",
+      "Battenberg cake",
+      "Battenburg",
+      "Battenburg cake"
+    ],
+    "category": "Food",
+    "note": "Removed unverified wedding-origin legend."
+  },
+  {
+    "id": "triviaqa-06c8b882d0d9384421e507d9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-06d0c0d7b0c811982ea0eecc",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-070103c3281302acf4b9a956",
+    "keep": true,
+    "tier": 3,
+    "answer": "Franco-Prussian War",
+    "acceptedAnswers": [
+      "Franco-Prussian War",
+      "Franco Prussian War",
+      "Franco-Prussian"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0720f77e6dcce8d290f81e5c",
+    "keep": true,
+    "tier": 3,
+    "answer": "Robert Clive",
+    "acceptedAnswers": [
+      "Robert Clive",
+      "Clive",
+      "Clive of India",
+      "Colonel Robert Clive"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-072ed769efd6e02802882081",
+    "keep": true,
+    "tier": 4,
+    "text": "Which English king was acclaimed king on the battlefield after the Battle of Bosworth in 1485?",
+    "acceptedAnswers": [
+      "Henry VII",
+      "Henry7",
+      "Henry the seventh",
+      "King Henry VII"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0733a908e53cfdb5f0b04985",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Bernard Montgomery",
+      "Montgomery"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-073471dec6d11ac6b4cd0f50",
+    "keep": true,
+    "tier": 3,
+    "category": "Fashion",
+    "acceptedAnswers": [
+      "Ralph Lauren",
+      "Lauren"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-075f58de8536933cc0654349",
+    "keep": true,
+    "tier": 2,
+    "text": "Where in London are the British Crown Jewels displayed?",
+    "acceptedAnswers": [
+      "Tower of London",
+      "The Tower of London",
+      "The Tower",
+      "Tower"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0760680e7732d12476a9e886",
+    "keep": true,
+    "tier": 4,
+    "text": "Which building at Pompeii collapsed in November 2010?",
+    "answer": "House of the Gladiators",
+    "acceptedAnswers": [
+      "House of the Gladiators",
+      "House of Gladiators",
+      "Schola Armaturarum",
+      "Pompeii's House of the Gladiators"
+    ],
+    "note": "Clarified building rather than wholeWorldHeritage-site claim."
+  },
+  {
+    "id": "triviaqa-07b8714186948e9f06f5222a",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "William IV",
+      "William4",
+      "William the fourth",
+      "King William IV"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-07bdf12f1c6a3a5a480b4b82",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-07c1a321203793fa3dad8dcc",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "John Hinckley Jr",
+      "John Hinckley",
+      "Hinckley",
+      "John Hinckley Junior"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-07c363e0c5ca10b67bfb272c",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-07eaa151aa37608737c0739f",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "George H W Bush",
+      "George Herbert Walker Bush",
+      "H W Bush",
+      "Bush"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-07eafb87746d3bd68f596dc4",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-07f5749ed9cf9037b7db4211",
+    "keep": true,
+    "tier": 3,
+    "text": "What oil did ancient Greek athletes rub onto their bodies before scraping it off with a strigil?",
+    "acceptedAnswers": [
+      "Olive oil",
+      "Olive"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-080a82076b1da5afa2d8a118",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Edward II",
+      "Edward2",
+      "Edward the second",
+      "King Edward II"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-08310a9bddb053bfef365aa7",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0831c73bb87909ded7dd1383",
+    "keep": true,
+    "tier": 4,
+    "answer": "Maximilian I",
+    "acceptedAnswers": [
+      "Maximilian I",
+      "Maximilian",
+      "Maximilian of Mexico",
+      "Ferdinand Maximilian",
+      "Maximilian1"
+    ],
+    "note": "Corrected source name spelling."
+  },
+  {
+    "id": "triviaqa-0836fe2ad248df3febe6ab76",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment",
+    "acceptedAnswers": [
+      "John Cleese",
+      "Cleese"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-083be829c0fec536db11ee69",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-08516bfb6e9eaeec3ef248fd",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "John Balliol",
+      "Balliol"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-08792102a6cc3017f43e57fc",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Abraham Lincoln",
+      "Lincoln"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-088398cf9771e7dd70afb651",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-088c4978533b5ea7fae6d620",
+    "keep": true,
+    "tier": 4,
+    "answer": "Worcester",
+    "acceptedAnswers": [
+      "Worcester",
+      "Battle of Worcester"
+    ],
+    "note": "Restored truncated source answer Battleof."
+  },
+  {
+    "id": "triviaqa-08a26688b8c4686bb08a724a",
+    "keep": true,
+    "tier": 4,
+    "answer": "Lindsey Davis",
+    "acceptedAnswers": [
+      "Lindsey Davis",
+      "Davis"
+    ],
+    "category": "Literature",
+    "note": "Corrected author spelling."
+  },
+  {
+    "id": "triviaqa-08cccc64e416ee7481a3c560",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "1968",
+      "Nineteen sixty-eight",
+      "Nineteen sixty eight"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-08e3d43e7f35bc3714185b85",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-08e65672842a6da489170aca",
+    "keep": true,
+    "tier": 4,
+    "text": "Which US president received a patent in 1849 for a device to lift boats over shoals?",
+    "acceptedAnswers": [
+      "Abraham Lincoln",
+      "Lincoln"
+    ],
+    "note": "Replaced changing only-president claim with dated fact."
+  },
+  {
+    "id": "triviaqa-09896a58393a7fd24799f59e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-0995d55c3b3b540fd7253f8d",
+    "keep": true,
+    "tier": 4,
+    "text": "Which ancient people lived in the cities Gaza, Ashdod, Ashkelon, Ekron, and Gath?",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-099a78ed1dc5ede05eb875c4",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Juan Peron",
+      "Juan Domingo Peron",
+      "Peron"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-09a0625ef20376ee7d233b8f",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-09a9fa4d41b6611901e78036",
+    "keep": true,
+    "tier": 4,
+    "category": "Sports",
+    "acceptedAnswers": [
+      "David Broome",
+      "Broome"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-09cd7433e26fe76d616e50b1",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Sir Henry Percy",
+      "Henry Percy",
+      "Harry Hotspur",
+      "Hotspur"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-09db69063d5b75c40e44891f",
+    "keep": true,
+    "tier": 3,
+    "text": "Which queen in Greek mythology was married to Cepheus and gave her name to a constellation?",
+    "category": "Mythology",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-09f46663eb6969fd190dfa69",
+    "keep": true,
+    "tier": 4,
+    "text": "In what year did the Bosnian War begin?",
+    "note": "Removed incorrect source claim that Graf won her seventhWimbledon in1992."
+  },
+  {
+    "id": "triviaqa-0a2e5dc9f6984d0259c6dabd",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0a7c6f166ddbd7ec13b8f4f7",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Benjamin Harrison",
+      "Harrison"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0a8f5e66396b46d4b68e58ec",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Nero",
+      "Emperor Nero"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0aa3e9f7fe72159d6c0a1751",
+    "keep": true,
+    "tier": 2,
+    "text": "Which US president features on the 20 dollar Federal Reserve Note design first issued in 1929?",
+    "acceptedAnswers": [
+      "Andrew Jackson",
+      "Jackson"
+    ],
+    "note": "Anchored banknote design historically."
+  },
+  {
+    "id": "triviaqa-0ac721b98dfb043cc166c4a4",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "John",
+      "King John",
+      "John of England"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0b7254172c15b6a9695f3494",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "James S Sherman",
+      "James Schoolcraft Sherman",
+      "James Sherman",
+      "Sherman"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0bdf0f759c868c20f80efec2",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Theodore Roosevelt",
+      "Teddy Roosevelt",
+      "Theodore",
+      "Teddy"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0be1684a272d483d0fc2292e",
+    "keep": true,
+    "tier": 4,
+    "text": "Which Japanese company designed the A6M Zero fighter aircraft used in World War II?",
+    "acceptedAnswers": [
+      "Mitsubishi",
+      "Mitsubishi Heavy Industries"
+    ],
+    "note": "Manufacturer claim also fit Nakajima; designer is specific."
+  },
+  {
+    "id": "triviaqa-0bf31166966209ddcfcff33a",
+    "keep": true,
+    "tier": 2,
+    "text": "Traditional Roman numerals contain no symbol for which whole number?",
+    "acceptedAnswers": [
+      "Zero",
+      "0",
+      "Nought",
+      "Naught"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0bf8a4adf132a5181cb68b45",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Henry I",
+      "Henry1",
+      "Henry the first",
+      "King Henry I"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c18ffb162587d835a4cdd7f",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c1cd7e4ce40e33c544be42b",
+    "keep": true,
+    "tier": 4,
+    "text": "Who designed the wedding dress for Princess Elizabeth, the future Queen Elizabeth II, in 1947?",
+    "category": "Fashion",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c2311bae68177c39427b6f3",
+    "keep": true,
+    "tier": 2,
+    "text": "What call sign is used by a US Marine Corps aircraft carrying the president?",
+    "acceptedAnswers": [
+      "Marine One",
+      "Marine1"
+    ],
+    "note": "Corrected helicopter-name question to call sign."
+  },
+  {
+    "id": "triviaqa-0c234953ed7f68f60970159b",
+    "keep": true,
+    "tier": 3,
+    "text": "Which team sport first appeared at the 1920 Summer Olympics, then moved to the Winter Games in 1924?",
+    "category": "Sports",
+    "acceptedAnswers": [
+      "Ice hockey",
+      "Hockey"
+    ],
+    "note": "Excluded figure skating by specifying1920and team sport."
+  },
+  {
+    "id": "triviaqa-0c2d0e87fad3c66b57b57d23",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment",
+    "acceptedAnswers": [
+      "Jamie Foxx",
+      "Foxx"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c301d72f324a7afb6afaa38",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c385fd7a142ce5778ca821b",
+    "keep": true,
+    "tier": 3,
+    "text": "Who succeeded Mervyn King as Governor of the Bank of England in 2013?",
+    "acceptedAnswers": [
+      "Mark Carney",
+      "Carney"
+    ],
+    "note": "Removed undated current appointment wording."
+  },
+  {
+    "id": "triviaqa-0c41de98ed743be745f021fe",
+    "keep": true,
+    "tier": 4,
+    "answer": "Leopoldo Galtieri",
+    "acceptedAnswers": [
+      "Leopoldo Galtieri",
+      "General Galtieri",
+      "Galtieri",
+      "General Leopoldo Galtieri"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c5b71b1ebddb8a670e5ff0b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c5c45e2e7032afedd04a619",
+    "keep": true,
+    "tier": 2,
+    "category": "Religion",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0c719d4258b3f451cfd27127",
+    "keep": true,
+    "tier": 3,
+    "text": "Who was the US secretary of state when American military operations began in Afghanistan in 2001?",
+    "acceptedAnswers": [
+      "Colin Powell",
+      "Powell"
+    ],
+    "note": "Limited scope to the start, rather than all20years."
+  },
+  {
+    "id": "triviaqa-0c7fd2556462144a935cd150",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0cb55cd52583dccad119a17a",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0cea2abbed84d8427d0fc1bb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0cf0d50cc1ca3edd39c9f653",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0cf48f2b4d9503de6b8778a0",
+    "keep": true,
+    "tier": 2,
+    "text": "Which Western astrological zodiac sign covers 21 October, the anniversary of the Battle of Trafalgar?",
+    "category": "General knowledge",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0cfaf9411f2c755b54dd46aa",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Francois Hollande",
+      "Hollande"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0d06cd82d89146a73a308c28",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0d99d29652a6a1b25887b866",
+    "keep": true,
+    "tier": 2,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0d9a964c030344473a9f3062",
+    "keep": true,
+    "tier": 3,
+    "text": "Which Spanish artist fell out with Andre Breton and was expelled from the Surrealist movement?",
+    "note": "Removed incorrect SpanishCivilWar chronology."
+  },
+  {
+    "id": "triviaqa-0db1eb1aae40a8c7a4f0257c",
+    "keep": true,
+    "tier": 3,
+    "category": "Sports",
+    "acceptedAnswers": [
+      "Cross country skiing and shooting",
+      "Cross-country skiing and shooting",
+      "Skiing and shooting",
+      "Shooting and skiing",
+      "Cross country skiing & shooting",
+      "Skiing & shooting",
+      "Shooting & skiing",
+      "Shooting and cross country skiing",
+      "Shooting & cross country skiing"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0dbfcd1787d71a88af49488c",
+    "keep": true,
+    "tier": 4,
+    "text": "Which British monarch created the George Cross in 1940?",
+    "acceptedAnswers": [
+      "George VI",
+      "George6",
+      "George the sixth",
+      "King George VI"
+    ],
+    "note": "Removed embedded answer choices."
+  },
+  {
+    "id": "triviaqa-0dd43f2a2f8a326770a4d872",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-0e0813f52495b6fdb7518120",
+    "keep": true,
+    "tier": 3,
+    "text": "Who led the Soviet Communist Party from 1985 to 1991 and became the USSR's final president?",
+    "acceptedAnswers": [
+      "Mikhail Gorbachev",
+      "Gorbachev"
+    ],
+    "note": "Corrected presidency versus GeneralSecretary dates."
+  },
+  {
+    "id": "triviaqa-0e239a8557b43dfde1c982e0",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0ea2f9486a002868e3780416",
+    "keep": true,
+    "tier": 3,
+    "text": "Which 1942 Pacific naval battle ended with four Japanese fleet carriers sunk?",
+    "acceptedAnswers": [
+      "Battle of Midway",
+      "Midway"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0ec928d84fdb2ebcc88bf73c",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Lafayette",
+      "Marquis de Lafayette",
+      "Gilbert du Motier",
+      "Marquis of Lafayette"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0ed090b10c0b4c2f35d5129a",
+    "keep": true,
+    "tier": 2,
+    "text": "What is Odin's hall where chosen slain warriors feast in Norse mythology called?",
+    "category": "Mythology",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0f0892b6c50cf2019d04db0b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0f3834617cf80aa34c82734b",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Anwar Sadat",
+      "Anwar El-Sadat",
+      "Sadat"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-0f5703c652885b122e0ad8e7",
+    "keep": true,
+    "tier": 2,
+    "acceptedAnswers": [
+      "Franklin Roosevelt",
+      "Franklin D Roosevelt",
+      "FDR"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1011abf13c78364a6abe410b",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Garfield",
+      "James Garfield",
+      "James Abram Garfield"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-10434ef43936499e412a1302",
+    "keep": true,
+    "tier": 3,
+    "text": "Which US president announced the Strategic Defense Initiative, nicknamed Star Wars, in 1983?",
+    "answer": "Ronald Reagan",
+    "acceptedAnswers": [
+      "Ronald Reagan",
+      "Reagan"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-10444835c7a3d50d8a8f7f4e",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-105deb9735126297990445c9",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-105f39f6022069bcda26125a",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Papa Doc",
+      "PapaDoc",
+      "Francois Duvalier"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-109894f5765e3e74fd492b2e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-10c0b64a3fab149e195c3520",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-10cad9f4f947680119c53be3",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Henry V",
+      "Henry5",
+      "Henry the fifth",
+      "King Henry V"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-112d3360caa2df56b9ad56ff",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "William III",
+      "William3",
+      "William the third",
+      "William of Orange",
+      "William III of Orange"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-113f15f9c2a71e85b81a3c54",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1146b16d729024f03fe5c912",
+    "keep": true,
+    "tier": 3,
+    "category": "Fashion",
+    "acceptedAnswers": [
+      "Stella McCartney",
+      "McCartney"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-118e9073990f9a4b3d448b23",
+    "keep": true,
+    "tier": 3,
+    "text": "Which rapper was fatally shot in Las Vegas in 1996 and had been named after a Peruvian rebel leader?",
+    "category": "Entertainment",
+    "acceptedAnswers": [
+      "Tupac Shakur",
+      "Tupac",
+      "2Pac",
+      "Tupac Amaru Shakur"
+    ],
+    "note": "Corrected death-location implication."
+  },
+  {
+    "id": "triviaqa-119acc1ff9375d5bec60bb6e",
+    "keep": true,
+    "tier": 3,
+    "text": "Which war's major fighting was halted by the armistice signed at Panmunjom in July 1953?",
+    "acceptedAnswers": [
+      "Korean War",
+      "The Korean War",
+      "Korean"
+    ],
+    "note": "Corrected armistice versus peace treaty claim."
+  },
+  {
+    "id": "triviaqa-11b70796f68e79cbcc021e22",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-11bac275f2c6c952e14bf5d9",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-11c6c37dc7f3547f85d9024a",
+    "keep": true,
+    "tier": 4,
+    "text": "Who resumed the presidency of Uganda in 1980 after his first term had ended in 1971?",
+    "acceptedAnswers": [
+      "Milton Obote",
+      "Obote"
+    ],
+    "note": "Removed wrong IdiAmin-overthrow year and direct-successor claim."
+  },
+  {
+    "id": "triviaqa-11e08570392a378e8f9b175d",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Henry VII",
+      "Henry7",
+      "Henry the seventh",
+      "King Henry VII"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12212e1fcb9708acbe531046",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Richard II",
+      "Richard2",
+      "Richard the second",
+      "King Richard II"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-122535077f321c16511744c7",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Andrew Jackson",
+      "Jackson"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-122d24f0c995b184b4eac54d",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1246a4ccbb590ee93748376d",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Prince Arthur",
+      "Arthur",
+      "Arthur Tudor",
+      "Arthur Prince of Wales"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-125f029e9816dc8e732d6f9a",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Nero",
+      "Emperor Nero"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-127ec57ac5acf94f95bf29e3",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Farouk",
+      "Faruq",
+      "King Farouk",
+      "Farouk I",
+      "Faruq I"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1298183226e69bf4959c5969",
+    "keep": true,
+    "tier": 3,
+    "category": "Entertainment",
+    "acceptedAnswers": [
+      "Babar the elephant",
+      "Babar"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12ba11a4e68ed2f35cd2c685",
+    "keep": true,
+    "tier": 3,
+    "text": "What term denotes one of the ten main divisions of a Roman legion?",
+    "acceptedAnswers": [
+      "Cohort",
+      "A cohort"
+    ],
+    "note": "Clarified organizational division rather than exact size."
+  },
+  {
+    "id": "triviaqa-12d3edbfa841c60e37538fb2",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12d8ffe789c5322eb3266727",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12d94aa38c12c786a316bcbb",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12dc0d816d5ad70f3bd59f8a",
+    "keep": true,
+    "tier": 3,
+    "text": "Which fleet was defeated and scattered at the 1588 Battle of Gravelines?",
+    "acceptedAnswers": [
+      "Spanish Armada",
+      "The Spanish Armada",
+      "Armada"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-12ec15eddadd97071397d829",
+    "keep": true,
+    "tier": 3,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1323c99e448ddb1143383389",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-13323845c25a0c281fabbf0b",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1336a304e4a659b76ea29ccd",
+    "keep": true,
+    "tier": 4,
+    "category": "Sports",
+    "acceptedAnswers": [
+      "Eric Moussambani",
+      "Moussambani",
+      "Eric Moussambani Malonga"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-13806de044710248fa958c61",
+    "keep": true,
+    "tier": 4,
+    "text": "Which US singer and actress helped produce the Broadway musical Priscilla, Queen of the Desert?",
+    "category": "Entertainment",
+    "acceptedAnswers": [
+      "Bette Midler",
+      "Midler"
+    ],
+    "note": "Corrected title typo."
+  },
+  {
+    "id": "triviaqa-138de5eacfaaef55ffeb38e8",
+    "keep": true,
+    "tier": 3,
+    "text": "What was the rowing race distance, in metres, at the 2024 Paris Olympics?",
+    "category": "Sports",
+    "acceptedAnswers": [
+      "2000",
+      "2,000",
+      "Two thousand",
+      "2000m",
+      "2000metres",
+      "2000meters",
+      "2km"
+    ],
+    "note": "Anchored distance toParis2024rather than claiming allpast/future Olympic races."
+  },
+  {
+    "id": "triviaqa-1396625fdbdda6d78873b8a0",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Amphora",
+      "An amphora"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-13a556b6fc8eeef33c6124ab",
+    "keep": true,
+    "tier": 4,
+    "text": "Which French marshal became King Charles XIV John of Sweden?",
+    "acceptedAnswers": [
+      "Jean Baptiste Bernadotte",
+      "Jean-Baptiste Bernadotte",
+      "Bernadotte",
+      "Jean Bernadotte"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-13e832da269b401850f1a851",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-13f9e28d9798958219dc28ee",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Idris",
+      "Idris I",
+      "King Idris",
+      "Idris of Libya"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-14529539fa3ac1200a562cf8",
+    "keep": true,
+    "tier": 4,
+    "category": "Mythology",
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1463772678446ac16e3fb5c4",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Edward III",
+      "Edward3",
+      "Edward the third",
+      "King Edward III"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1468a52421b2ac49130a5ded",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-147a4343a5eb4564075a8d3e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected for ambiguity, damaged data, unsupported/current-relative detail, or duplicating an existing reviewed fact."
+  },
+  {
+    "id": "triviaqa-1494fd8ed42dfe4581b023eb",
+    "keep": true,
+    "tier": 4,
+    "acceptedAnswers": [
+      "Henry V",
+      "Henry5",
+      "Henry the fifth",
+      "King Henry V"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-14d97cfc7c59e2425f7a9128",
+    "keep": true,
+    "tier": 4,
+    "text": "Which humanitarian founded a charity in 1953 known for care homes and hospices, and married Leonard Cheshire?",
+    "acceptedAnswers": [
+      "Sue Ryder",
+      "Ryder"
+    ],
+    "note": "Removed incorrect former-wife implication."
+  },
+  {
+    "id": "triviaqa-1513609373a2db6ef4750a2b",
+    "keep": true,
+    "tier": 3,
+    "answer": "Jimmy Carter",
+    "acceptedAnswers": [
+      "Jimmy Carter",
+      "James Earl Carter",
+      "James Carter",
+      "Carter"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-1549e38b65f892a4e63f72bf",
+    "keep": true,
+    "tier": 3,
+    "acceptedAnswers": [
+      "Stuka",
+      "The Stuka"
+    ],
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  },
+  {
+    "id": "triviaqa-154c8aa40630b34e822af456",
+    "keep": true,
+    "tier": 4,
+    "note": "Editorial difficulty and standalone typed-answer review; source facts not individually primary-source verified."
+  }
+]

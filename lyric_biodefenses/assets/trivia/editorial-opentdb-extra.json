@@ -1,0 +1,1739 @@
+[
+  {
+    "id": "opentdb-5bf04e92761d9c29fd2ec105",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-12319912919d69a5e843ef31",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which band released Walk Like an Egyptian in 1986?"
+  },
+  {
+    "id": "opentdb-fe9a5ca8eb2946465161ab16",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What was Bitcoin's block size limit in megabytes in 2010?",
+    "answer": "1",
+    "acceptedAnswers": [
+      "1",
+      "one",
+      "1 MB",
+      "one megabyte"
+    ]
+  },
+  {
+    "id": "opentdb-c45210927201ae6e1c1c227e",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The moon",
+      "Moon",
+      "Earth's moon"
+    ]
+  },
+  {
+    "id": "opentdb-6438d0d7779cfaf269f1d7e2",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-f7edfc2008f1a121e7aae7ee",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-ca5e8ae4b51789595d972f50",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "A Nightmare on Elm Street",
+      "Nightmare on Elm Street"
+    ]
+  },
+  {
+    "id": "opentdb-16650c4a648f5f22ba6b578d",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "The original SNES release of Final Fantasy VI was sold in North America under what numbered title?",
+    "acceptedAnswers": [
+      "Final Fantasy III",
+      "Final Fantasy 3",
+      "FFIII",
+      "FF3",
+      "III",
+      "3"
+    ]
+  },
+  {
+    "id": "opentdb-c5322cdfb1fa750348ab56e2",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-53bac2772e222b25abcb01e8",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which presidential residence in Washington, DC, was burned by British troops on August 24, 1814?",
+    "acceptedAnswers": [
+      "The White House",
+      "White House"
+    ]
+  },
+  {
+    "id": "opentdb-fb80e9ac3dbc9caa75cc6edb",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-60bc0fd5f3d786dff587b7f3",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-64df895782d5ac91f7ed2746",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Danny Elfman",
+      "Elfman"
+    ]
+  },
+  {
+    "id": "opentdb-2a4ad74d3da812d76870bfec",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Patrick Stump",
+      "Stump"
+    ]
+  },
+  {
+    "id": "opentdb-fc45ca4d704e156da460f300",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-0b37ef57cfa6b77053b1c03f",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Casey Kasem",
+      "Kasem"
+    ]
+  },
+  {
+    "id": "opentdb-0715b2ea6d5bbe609a0851da",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-fdbd4d9b0ef07cd0dcbb76b9",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which year did the Second Continental Congress approve the Declaration of Independence on July 4?",
+    "answer": "1776",
+    "acceptedAnswers": [
+      "1776"
+    ]
+  },
+  {
+    "id": "opentdb-67f544c78be22d005474c79f",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-2f04b66c0eff878aa1630b97",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-0194b3da76565e538457da06",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-4c8eaf7c9aa4b1933859bd1a",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "A-Spec",
+      "A Spec"
+    ]
+  },
+  {
+    "id": "opentdb-1e2720f12758e39d59065176",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-f275747fd1cd061b6b421ca7",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who became First Secretary of the Soviet Communist Party in September 1953?",
+    "acceptedAnswers": [
+      "Nikita Khrushchev",
+      "Khrushchev",
+      "Khruschev"
+    ]
+  },
+  {
+    "id": "opentdb-8f598a5f231d3daf45d37145",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-5a599343575a4572f0053408",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What city was the capital of South Vietnam from 1955 until 1975?",
+    "acceptedAnswers": [
+      "Saigon",
+      "Ho Chi Minh City"
+    ]
+  },
+  {
+    "id": "opentdb-9eb3fc9ee4fd97d16c93f266",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Casey Mongillo",
+      "Mongillo"
+    ]
+  },
+  {
+    "id": "opentdb-7ba908784edf89e9889247db",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Gloin",
+      "Glóin"
+    ]
+  },
+  {
+    "id": "opentdb-c71552727196ad6ea62b093c",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "At standard sea-level pressure, at how many degrees Fahrenheit does pure water boil?",
+    "answer": "212",
+    "acceptedAnswers": [
+      "212",
+      "212F",
+      "212 degrees Fahrenheit",
+      "two hundred twelve"
+    ]
+  },
+  {
+    "id": "opentdb-3952214ffb31210c53e3f325",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Zero Time Dilemma",
+      "Zero Escape Zero Time Dilemma"
+    ]
+  },
+  {
+    "id": "opentdb-740147a07195bc89a54b8e9f",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-e1492dbd54334c6e21a2016e",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which invasion of Russia in 1812 is commemorated by Tchaikovsky's 1812 Overture?",
+    "answer": "Napoleon's invasion",
+    "acceptedAnswers": [
+      "Napoleon's invasion",
+      "Napoleonic invasion",
+      "French invasion",
+      "French invasion of Russia",
+      "Napoleon's invasion of Russia",
+      "The Napoleonic Wars"
+    ]
+  },
+  {
+    "id": "opentdb-06800df3764502d8b4a25c76",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-fb046b70f5f9d331197fc96a",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-c400cb49df67e35ed3987d97",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Ford Falcon",
+      "Falcon",
+      "Ford Falcon XB",
+      "Ford Falcon XB GT"
+    ]
+  },
+  {
+    "id": "opentdb-653e10f8539208d00ce059d2",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-65302d7ce9f39fd8e256a728",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Greek mythology, the father of the Minotaur was what kind of animal?",
+    "acceptedAnswers": [
+      "Bull",
+      "A bull"
+    ]
+  },
+  {
+    "id": "opentdb-8e6e4cce0566a699b9e314b2",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Ronald Reagan",
+      "Reagan"
+    ]
+  },
+  {
+    "id": "opentdb-15835135945e2c0015a8d19d",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-c515fc96b09b9c65118c179c",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the 1818 Mary Shelley novel about Victor Frankenstein and the creature he creates?",
+    "answer": "Frankenstein",
+    "acceptedAnswers": [
+      "Frankenstein"
+    ]
+  },
+  {
+    "id": "opentdb-7e170b24c0894b0cd450caa2",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "A human circadian rhythm follows a cycle of approximately how many hours?"
+  },
+  {
+    "id": "opentdb-65db010deeff48a6bb959153",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which social science is traditionally nicknamed the dismal science?"
+  },
+  {
+    "id": "opentdb-66e6564e0f0329939715318a",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Gilbert Gottfried",
+      "Gottfried"
+    ]
+  },
+  {
+    "id": "opentdb-9be8dbe2802bfc31e28f0d4e",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "GoldSrc",
+      "Goldsource",
+      "Gold Source"
+    ]
+  },
+  {
+    "id": "opentdb-c93f9e8ff7914557ec23f47c",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-6cc1560a6a7f16d9b4b9031b",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-1371fa638982b0ecf2321b57",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-213059d8e5a85622d76a5349",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-fd2e33bdd33548dfd45cfe33",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Merlin 66",
+      "Rolls Royce Merlin 66",
+      "Merlin"
+    ]
+  },
+  {
+    "id": "opentdb-4a9bbe462abe9636ee20970c",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Thomas Hobbes",
+      "Hobbes"
+    ]
+  },
+  {
+    "id": "opentdb-f1c19821ec0884f62dc8e4f0",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-497d57736ea8a98935cdf099",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Michael Crichton's 1990 novel Jurassic Park, which Toyota SUV model is used for the park tour vehicles?",
+    "answer": "Toyota Land Cruiser",
+    "acceptedAnswers": [
+      "Toyota Land Cruiser",
+      "Land Cruiser"
+    ]
+  },
+  {
+    "id": "opentdb-ebafb2277272f77eb3756972",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Whistler was the development codename for which Microsoft operating system?",
+    "acceptedAnswers": [
+      "Windows XP",
+      "XP"
+    ]
+  },
+  {
+    "id": "opentdb-49691d16794f9e459583f53b",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "John Steinbeck",
+      "Steinbeck"
+    ]
+  },
+  {
+    "id": "opentdb-045a42ae316cb26a288fd674",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of the god of war in Tahitian mythology?",
+    "answer": "Oro",
+    "acceptedAnswers": [
+      "Oro",
+      "'Oro"
+    ]
+  },
+  {
+    "id": "opentdb-ba3b0c99702ae34b56d78cf1",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-afda1b90e5973b0f91d91faa",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-decbdead27c6f525c7fc7c09",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The Artful Dodger",
+      "Artful Dodger",
+      "Dodger"
+    ]
+  },
+  {
+    "id": "opentdb-ed6b519c9199a11585463ef4",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-670fd0eb2a657b33657553fd",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The Kingfish",
+      "Kingfish"
+    ]
+  },
+  {
+    "id": "opentdb-c60354afe7b0d469ac35875d",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-aaa48094c28e137f43311944",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-5a2e816c8cec3305d0db0a49",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "According to the standard cosmological estimate, approximately how many billions of years old is the universe?",
+    "answer": "13.8",
+    "acceptedAnswers": [
+      "13.8",
+      "13.8 billion",
+      "13.8 billion years"
+    ]
+  },
+  {
+    "id": "opentdb-f8ca99b71d3789a99209fb41",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Hayao Miyazaki",
+      "Miyazaki"
+    ]
+  },
+  {
+    "id": "opentdb-e223411b6ba9ce62fa861ff2",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Elvin Gadd",
+      "E Gadd",
+      "Professor E Gadd",
+      "Professor Elvin Gadd"
+    ]
+  },
+  {
+    "id": "opentdb-7097cbd97b76e074507502a6",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Down syndrome is usually caused by an extra copy of which numbered chromosome?",
+    "acceptedAnswers": [
+      "21",
+      "Chromosome 21",
+      "twenty one"
+    ]
+  },
+  {
+    "id": "opentdb-9550003ef33e580b4118d390",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-7bdbf2f7af67c2f4f9d0a32e",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The Elder Scrolls IV Oblivion",
+      "Oblivion",
+      "TES IV Oblivion",
+      "Elder Scrolls 4 Oblivion"
+    ]
+  },
+  {
+    "id": "opentdb-fa3af9f484c16f3bc84122a0",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-f635c75c7cd019cdee0f45aa",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-974b1ae08385646692e7e843",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Complete this variant of the proverb: Curiosity killed the cat, but ___ brought it back.",
+    "answer": "Satisfaction",
+    "acceptedAnswers": [
+      "Satisfaction"
+    ]
+  },
+  {
+    "id": "opentdb-5f854d76b352d322ac32cc9b",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-4a533f17b8ab3610a290e37f",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What word does the P stand for in the academic degree PhD?"
+  },
+  {
+    "id": "opentdb-a1e81d82270d7d4c45ff6639",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-ab721708e8de351980d005ed",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-83823812231e003e855d5998",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-3c69dd47ee4c5350f3976803",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which California city is the Disney film The Love Bug (1968) set?"
+  },
+  {
+    "id": "opentdb-d29c784302207b31c77aba08",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In what year was Garry's Mod originally released as a mod, before the later standalone Steam release?",
+    "answer": "2004",
+    "acceptedAnswers": [
+      "2004"
+    ]
+  },
+  {
+    "id": "opentdb-fd86c1b69471cddda6450d1a",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-02bdddefee94d04c97be51f0",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-0a527749fcbddb08f09cd5a8",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who wrote The Little Prince?",
+    "acceptedAnswers": [
+      "Antoine de Saint-Exupéry",
+      "Saint Exupery",
+      "de Saint Exupery",
+      "Antoine de Saint Exupery"
+    ]
+  },
+  {
+    "id": "opentdb-e49087d5c218089898ef6514",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which Soviet assault rifle is exclusive to the terrorist team in classic Counter-Strike: Global Offensive?",
+    "acceptedAnswers": [
+      "AK-47",
+      "AK47"
+    ]
+  },
+  {
+    "id": "opentdb-cf9d6af797a3c5b78cab2922",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "USS Pueblo",
+      "Pueblo"
+    ]
+  },
+  {
+    "id": "opentdb-c31c3af1e93d0f32deee97df",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-580b4cb0fb3f1e69bb302453",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-e12090ae34024305c103b3a0",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Jackie Earle Haley",
+      "Haley"
+    ]
+  },
+  {
+    "id": "opentdb-56281d183412ab28b0e5563e",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-66cdf0624a9c600444750ee3",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Alain Prost",
+      "Prost"
+    ]
+  },
+  {
+    "id": "opentdb-94cb23f8ca7b504b6288ab77",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-88b89c56de7fdf5dc25fc990",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-fd63edb8d4d251fec18fa9df",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-ba8a09b694136cd76a8c230e",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-be8451603b373db5aeadeeae",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-a6628f2862b5caac254b032d",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-63ac508bdeba7dc4d27d42d8",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Pie O My",
+      "Pie-O-My"
+    ]
+  },
+  {
+    "id": "opentdb-60ed65dc97018838bc0333a0",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which year did Norway adopt its constitution?"
+  },
+  {
+    "id": "opentdb-c29eba94a17a9fb0a467ffd4",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Mr. Rogers",
+      "Mister Rogers",
+      "Fred Rogers",
+      "Rogers"
+    ]
+  },
+  {
+    "id": "opentdb-6cc828923bd1dbabbe8f7367",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-db5c6591c6f891191da80a59",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-841d68b7e4a6d9cf7384c5fd",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-c9538c45350e57bd8f6f5439",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-7544668bb78a38a60825939c",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-b008268de55fc4064faf160a",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-579c8d3faa2c4823c45a8c87",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who voices Finn in the original English-language Adventure Time series?",
+    "acceptedAnswers": [
+      "Jeremy Shada",
+      "Shada"
+    ]
+  },
+  {
+    "id": "opentdb-33df5f9d965cfa2a4efb8459",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Gordon Ramsay",
+      "Ramsay"
+    ]
+  },
+  {
+    "id": "opentdb-37db59ae46b71f349d30f817",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which Dream Theater song plays over the ending credits of Guitar Hero: World Tour?",
+    "answer": "Pull Me Under",
+    "acceptedAnswers": [
+      "Pull Me Under",
+      "Dream Theater Pull Me Under"
+    ]
+  },
+  {
+    "id": "opentdb-1ef01ce268d0e090262cce74",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The Junkyard Gang",
+      "Junkyard Gang"
+    ]
+  },
+  {
+    "id": "opentdb-eccf366a78bc63a98565fa37",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which year was the United States National Security Agency established?",
+    "answer": "1952",
+    "acceptedAnswers": [
+      "1952"
+    ]
+  },
+  {
+    "id": "opentdb-dc2c8ad72e95e154950919d1",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of the SI unit of electrical capacitance?",
+    "acceptedAnswers": [
+      "Farad",
+      "Farads"
+    ]
+  },
+  {
+    "id": "opentdb-26a9bab0ad0762fd22e2dbb5",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-e0246c0ce2a0b8a1982912ac",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "How many gold does a Spider Donut cost in the Hotland spider bake sale in Undertale?",
+    "answer": "9999",
+    "acceptedAnswers": [
+      "9999",
+      "9999G",
+      "9999 gold"
+    ]
+  },
+  {
+    "id": "opentdb-6ce237ef0b85cedf7f851514",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-eeb1a62f6cd4af33c3ceace6",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-559617b6b9fe9b58cab3dc67",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Mr. Spittle",
+      "Spittle"
+    ]
+  },
+  {
+    "id": "opentdb-e128b781e7a7c9596ac7bfe3",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-7c93b57b3295158a94eacba1",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Enrico Marini",
+      "Marini",
+      "Enrico"
+    ]
+  },
+  {
+    "id": "opentdb-05e390f089f0edf6c7c5578b",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-4045fe06c4fda6824e8e0096",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of the female Kerbal among the original four starting astronauts in Kerbal Space Program?",
+    "acceptedAnswers": [
+      "Valentina Kerman",
+      "Valentina"
+    ]
+  },
+  {
+    "id": "opentdb-bf9ffde6270f1806d79e4431",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-5991b41a8dc14f8da9b3a10b",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of Alice's pet cat in Lewis Carroll's Alice's Adventures in Wonderland?",
+    "acceptedAnswers": [
+      "Dinah"
+    ]
+  },
+  {
+    "id": "opentdb-25cd2ee194a684d322e52bf2",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Armando Christian Pérez",
+      "Armando Perez",
+      "Armando Christian Perez"
+    ]
+  },
+  {
+    "id": "opentdb-4a2ab37276aa49128c2fa71b",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Rudyard Kipling's The Jungle Book, what kind of snake is Kaa?",
+    "acceptedAnswers": [
+      "Python",
+      "A python"
+    ]
+  },
+  {
+    "id": "opentdb-7d01d5a8e41e7386e1f9dc85",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Roy Mustang",
+      "Mustang",
+      "Roy"
+    ]
+  },
+  {
+    "id": "opentdb-3ca1f19ee661caea221a7238",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Captain Jack",
+      "Jack"
+    ]
+  },
+  {
+    "id": "opentdb-762efdf44e97d8cc4d3ad15e",
+    "keep": false,
+    "tier": 4,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-378e0272e36906449276c969",
+    "keep": true,
+    "tier": 3,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-3a8f42f6c0b6bec63159798b",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What term describes animal characters given human traits, such as Bugs Bunny and Tony the Tiger?",
+    "acceptedAnswers": [
+      "Anthropomorphic",
+      "Anthropomorphism",
+      "Anthropomorphic characters"
+    ]
+  },
+  {
+    "id": "opentdb-4565b05b510338f8804113e2",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which computer company acquired Compaq in 2002?",
+    "acceptedAnswers": [
+      "Hewlett Packard",
+      "HP"
+    ]
+  },
+  {
+    "id": "opentdb-2472aa87a10f7b06c4c4feb7",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-84563f1e71f66c5ee6b1f54b",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What was the designation of the US World War II submachine gun nicknamed the Grease Gun?",
+    "acceptedAnswers": [
+      "M3",
+      "M3 submachine gun"
+    ]
+  },
+  {
+    "id": "opentdb-975f0de7c707496e6abd37f7",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Morse code, which letter is represented by three dots?"
+  },
+  {
+    "id": "opentdb-2f590769ebfedd5b9fb161be",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-bc8d02ee067a09fbb7fd4fde",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-95454b2ee7a93bfcaed4c36d",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-aaec7e687e0aade75a35c4c5",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-b67f2f0d4b4a60757d0e8743",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which Filipino national hero wrote the novel Noli Me Tangere?",
+    "acceptedAnswers": [
+      "José Rizal",
+      "Jose Rizal",
+      "Rizal"
+    ]
+  },
+  {
+    "id": "opentdb-a78825054056d3a68af341cc",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-f7f854d6cb4214194689e2f1",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Jeff Wayne's Musical Version of The War of the Worlds, what are the odds quoted for anything coming from Mars?",
+    "acceptedAnswers": [
+      "A million to one",
+      "Million to one",
+      "1000000 to 1",
+      "1000000:1",
+      "1 million to one"
+    ]
+  },
+  {
+    "id": "opentdb-6b5ccdb36d4cee6c4dd5fe9c",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which Georgia city was Kanye West born?",
+    "answer": "Atlanta",
+    "acceptedAnswers": [
+      "Atlanta",
+      "Atlanta Georgia"
+    ]
+  },
+  {
+    "id": "opentdb-99deec343b1bba54cad07c58",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-af5d61cd2221d730a2b4a497",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-214ffd21d91539708853f95d",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What scientific adjective describes the sense of taste?",
+    "answer": "Gustatory",
+    "acceptedAnswers": [
+      "Gustatory",
+      "Gustatory perception",
+      "Gustation"
+    ]
+  },
+  {
+    "id": "opentdb-5dc2ea1eea8563674a4e630a",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which battle on September 17, 1862, caused the bloodiest single day of the American Civil War?",
+    "acceptedAnswers": [
+      "Battle of Antietam",
+      "Antietam",
+      "Battle of Sharpsburg",
+      "Sharpsburg"
+    ]
+  },
+  {
+    "id": "opentdb-062e00baddc42c7bb9ac4c3b",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-179f7c911c5ce16109a40451",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Mercy",
+      "Angela Ziegler"
+    ]
+  },
+  {
+    "id": "opentdb-6a71f636680ad3bd006afcd3",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-dbd096a50394988525ebacc4",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-d5ec2b539142e64a45fd56df",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "2401 Penitent Tangent",
+      "Penitent Tangent"
+    ]
+  },
+  {
+    "id": "opentdb-e89242ba287dffab93c5ff72",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-0f86b0cfa0e4868dbd99dfcc",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the two-word scientific species name of the polar bear?",
+    "acceptedAnswers": [
+      "Ursus maritimus"
+    ]
+  },
+  {
+    "id": "opentdb-8719cafd4fc3466fe5b5b17a",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Ole Kirk Christiansen",
+      "Christiansen",
+      "Ole Christiansen"
+    ]
+  },
+  {
+    "id": "opentdb-953c84bb378db9428ce5898d",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-36ec6393a2c3d66c3790700f",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-1a5a69835fa45471adcfddc4",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-46fe9c99aca18f588f489644",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which Portuguese-speaking African country has Maputo as its capital?",
+    "acceptedAnswers": [
+      "Mozambique",
+      "Moçambique"
+    ]
+  },
+  {
+    "id": "opentdb-05edd16d5295c9bb6c6f8e9e",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-5d4ba9fd261aeb34a4489425",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which Ford SUV model is used for the park tour vehicles in the 1993 film Jurassic Park?",
+    "answer": "Ford Explorer",
+    "acceptedAnswers": [
+      "Ford Explorer",
+      "Explorer",
+      "Ford Explorer XLT"
+    ]
+  },
+  {
+    "id": "opentdb-c1de8e8f3da0d69226f6b723",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which numbered King Charles ruled Sweden during the Great Northern War?",
+    "acceptedAnswers": [
+      "Charles XII",
+      "Charles 12",
+      "Charles the Twelfth",
+      "Karl XII",
+      "Karl 12",
+      "XII",
+      "12"
+    ]
+  },
+  {
+    "id": "opentdb-f069bac93044dd6e2867131f",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-a78d062045a84cada9afddea",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Jean Claude Van Damme",
+      "Van Damme"
+    ]
+  },
+  {
+    "id": "opentdb-b514987e4c54c4298d4a15fb",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-461b12543e9bcfe6d653f0bb",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-125fe9ff9341560915a60076",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "George Gershwin",
+      "Gershwin"
+    ]
+  },
+  {
+    "id": "opentdb-bc7d59ffcb56d75a79e0d31d",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of the large corporation competing with the local shop in Stardew Valley?",
+    "answer": "Joja Corporation",
+    "acceptedAnswers": [
+      "Joja Corporation",
+      "Joja Co",
+      "Joja",
+      "JojaMart"
+    ]
+  },
+  {
+    "id": "opentdb-7298fb7e1c464afc171cf8f4",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Billy Corgan",
+      "Corgan"
+    ]
+  },
+  {
+    "id": "opentdb-0b5eccfe05a3dab19cab3b35",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "The Witch",
+      "Witch"
+    ]
+  },
+  {
+    "id": "opentdb-f082786dac57e321ae497492",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Dan Smith",
+      "Smith"
+    ]
+  },
+  {
+    "id": "opentdb-016b42478ef987d34117893b",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-527ffea4fb23de2604389b12",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Approximately what percentage of Earth's atmosphere is oxygen?",
+    "answer": "21",
+    "acceptedAnswers": [
+      "21",
+      "21%",
+      "21 percent",
+      "twenty one percent",
+      "20.95",
+      "20.95%"
+    ]
+  },
+  {
+    "id": "opentdb-02fa2539402a3359a4fd2906",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In modern computing terminology, what is a common full expansion of RAID?",
+    "acceptedAnswers": [
+      "Redundant Array of Independent Disks",
+      "Redundant Array of Inexpensive Disks"
+    ]
+  },
+  {
+    "id": "opentdb-ae57297eb4d40ed73e7137c4",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Jotaro Kujo",
+      "Jotaro",
+      "Kujo"
+    ]
+  },
+  {
+    "id": "opentdb-f129dde248eaf3255ce17197",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In what year was Grand Theft Auto V originally released?",
+    "answer": "2013",
+    "acceptedAnswers": [
+      "2013"
+    ]
+  },
+  {
+    "id": "opentdb-a70d3ec96d300ac9d31d4b10",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-ce74ea488aca13571e136f18",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Saint Helena",
+      "St Helena",
+      "St. Helena"
+    ]
+  },
+  {
+    "id": "opentdb-1af2fa22296f25b0f554795e",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Golf Putting Green",
+      "Putting green",
+      "Golf green",
+      "Green"
+    ]
+  },
+  {
+    "id": "opentdb-3ffa27fbfe601de23648edd1",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which year was O. J. Simpson acquitted of murder charges in his criminal trial?"
+  },
+  {
+    "id": "opentdb-87a6c215c6ceb4aa76cd64e1",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Which cryptographer's surname does the S represent in RSA?",
+    "acceptedAnswers": [
+      "Shamir",
+      "Adi Shamir"
+    ]
+  },
+  {
+    "id": "opentdb-1019bc0ecc5ef23f44ad9dd0",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In which year CE did the Crisis of the Third Century begin in the Roman Empire?",
+    "answer": "235",
+    "acceptedAnswers": [
+      "235",
+      "235 AD",
+      "AD 235",
+      "235 CE",
+      "CE 235"
+    ]
+  },
+  {
+    "id": "opentdb-b6cb44746aee6323e73d3b11",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-50e16a6555c707494b2729b1",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the architectural height of One World Trade Center, in feet?",
+    "answer": "1776",
+    "acceptedAnswers": [
+      "1776",
+      "1776 ft",
+      "1776 feet",
+      "1,776"
+    ]
+  },
+  {
+    "id": "opentdb-25fd370a0c4ae3510ea23769",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Maori tradition, Kupe discovered which island country called Aotearoa?",
+    "acceptedAnswers": [
+      "New Zealand",
+      "Aotearoa"
+    ]
+  },
+  {
+    "id": "opentdb-36600ea51e7c0d7d9e2926e4",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Erwin Rommel",
+      "Rommel"
+    ]
+  },
+  {
+    "id": "opentdb-76bce0e576df32eecbde00fb",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who created the Church of the Flying Spaghetti Monster in 2005?",
+    "acceptedAnswers": [
+      "Bobby Henderson",
+      "Henderson"
+    ]
+  },
+  {
+    "id": "opentdb-dae0f2c0c69c6eb960e3d2a8",
+    "keep": true,
+    "tier": 1,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-257b3e05fa843c0149748939",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-1328f693776a177d6f7fb78c",
+    "keep": true,
+    "tier": 2,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-4381a72413a8ed07d7827116",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who played Nemesis in the 2004 film Resident Evil: Apocalypse?",
+    "acceptedAnswers": [
+      "Matthew G Taylor",
+      "Matthew Taylor",
+      "Taylor"
+    ]
+  },
+  {
+    "id": "opentdb-1f978d867dd45a61d178a8b6",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-c3f1758c60591c37149a3b89",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "What is the name of David Hasselhoff's 2015 song for the film Kung Fury?"
+  },
+  {
+    "id": "opentdb-ad46059f425a60091b087eca",
+    "keep": false,
+    "tier": 3,
+    "note": "Rejected ambiguous, choice-dependent, duplicate, unsupported or false-premise source wording."
+  },
+  {
+    "id": "opentdb-1bdbaba9a6cf1932675687ef",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "Who was US president when the Panama Canal opened in 1914?",
+    "acceptedAnswers": [
+      "Woodrow Wilson",
+      "Wilson"
+    ]
+  },
+  {
+    "id": "opentdb-6b8f49f00a985c29bc0c0fff",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-f9cddbf9051637459ef9e92b",
+    "keep": true,
+    "tier": 4,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Database",
+      "DATABASE",
+      "Man With a Mission Database"
+    ]
+  },
+  {
+    "id": "opentdb-d9edd50ce3318b9a30a6c0be",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-ab43712ebf73d23bcc88a64e",
+    "keep": true,
+    "tier": 2,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In what year did O Canada officially become Canada's national anthem?"
+  },
+  {
+    "id": "opentdb-155a7eeedf78141cb0c019aa",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In what year was the video-game publisher Ubisoft founded?",
+    "answer": "1986",
+    "acceptedAnswers": [
+      "1986"
+    ]
+  },
+  {
+    "id": "opentdb-233caa35b8784ff2a7b0cd6e",
+    "keep": true,
+    "tier": 4,
+    "note": "Individual review of standalone typed-answer wording, expected answer and semantic difficulty. Not blanket primary-source verification."
+  },
+  {
+    "id": "opentdb-123ff1a770d3746fcaa43cd3",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In Back to the Future Part II, Marty and Doc Brown travel to which future year?",
+    "answer": "2015",
+    "acceptedAnswers": [
+      "2015"
+    ]
+  },
+  {
+    "id": "opentdb-9a1f0f670d1e35d95e79c372",
+    "keep": true,
+    "tier": 3,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "acceptedAnswers": [
+      "Peppino",
+      "Peppino Spaghetti"
+    ]
+  },
+  {
+    "id": "opentdb-915e0723f13902cf0d4f3884",
+    "keep": true,
+    "tier": 1,
+    "note": "Corrected wording/answer scope or added explicit typed variants during editorial review.",
+    "text": "In what year did Britain hand over sovereignty of Hong Kong to China?"
+  }
+]

@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "count": 32,
+    "created": "2026-10-06",
+    "purpose": "Harder editorial anchors for tiers3/4 and independent offline fallback.",
+    "tierCounts": [
+      0,
+      0,
+      16,
+      16
+    ],
+    "referenceChecks": [
+      "https://science.nasa.gov/neptune/moons/triton/",
+      "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+      "https://history.state.gov/milestones/1899-1913/portsmouth-treaty",
+      "https://abelprize.no/abel-prize-laureates/2016",
+      "https://www.usgs.gov/educational-resources/wegeners-puzzling-continental-drift-evidence",
+      "https://periodic-table.rsc.org/element/51/antimony",
+      "https://pubmed.ncbi.nlm.nih.gov/21530590/",
+      "https://www.metmuseum.org/ko/exhibitions/the-infinite-artistry-of-japanese-ceramics"
+    ]
+  },
+  "questions": [
+    {
+      "id": "original-advanced-v1-001",
+      "text": "Who wrote the novel The Trial? A surname is enough.",
+      "answer": "Franz Kafka",
+      "acceptedAnswers": [
+        "Franz Kafka",
+        "Kafka"
+      ],
+      "tier": 3,
+      "category": "Literature",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-002",
+      "text": "Which chemical element has the symbol W?",
+      "answer": "Tungsten",
+      "acceptedAnswers": [
+        "Tungsten",
+        "Wolfram"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-003",
+      "text": "Titan is the largest moon of which planet?",
+      "answer": "Saturn",
+      "acceptedAnswers": [
+        "Saturn"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-004",
+      "text": "Who wrote Brave New World? A surname is enough.",
+      "answer": "Aldous Huxley",
+      "acceptedAnswers": [
+        "Aldous Huxley",
+        "Huxley"
+      ],
+      "tier": 3,
+      "category": "Literature",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-005",
+      "text": "Which river flows through Budapest?",
+      "answer": "Danube",
+      "acceptedAnswers": [
+        "Danube",
+        "Danube River",
+        "The Danube"
+      ],
+      "tier": 3,
+      "category": "Geography",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-006",
+      "text": "What is the capital city of New Zealand?",
+      "answer": "Wellington",
+      "acceptedAnswers": [
+        "Wellington"
+      ],
+      "tier": 3,
+      "category": "Geography",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-007",
+      "text": "Which atmospheric layer contains most of Earth's ozone layer?",
+      "answer": "Stratosphere",
+      "acceptedAnswers": [
+        "Stratosphere",
+        "The stratosphere"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-008",
+      "text": "Who composed the ballet Swan Lake? A surname is enough.",
+      "answer": "Pyotr Ilyich Tchaikovsky",
+      "acceptedAnswers": [
+        "Pyotr Ilyich Tchaikovsky",
+        "Tchaikovsky",
+        "Pyotr Tchaikovsky",
+        "Peter Tchaikovsky",
+        "Peter Ilyich Tchaikovsky",
+        "Pyotr Ilich Tchaikovsky"
+      ],
+      "tier": 3,
+      "category": "Music",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-009",
+      "text": "What boundary around a black hole marks the point beyond which light cannot escape?",
+      "answer": "Event horizon",
+      "acceptedAnswers": [
+        "Event horizon",
+        "The event horizon"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-010",
+      "text": "Which treaty signed in 1919 imposed postwar peace terms on Germany?",
+      "answer": "Treaty of Versailles",
+      "acceptedAnswers": [
+        "Treaty of Versailles",
+        "Versailles",
+        "Versailles Treaty"
+      ],
+      "tier": 3,
+      "category": "History",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-011",
+      "text": "What is the name of the SI unit of electrical resistance?",
+      "answer": "Ohm",
+      "acceptedAnswers": [
+        "Ohm",
+        "Ohms"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-012",
+      "text": "Which astronomer formulated the three laws of planetary motion? A surname is enough.",
+      "answer": "Johannes Kepler",
+      "acceptedAnswers": [
+        "Johannes Kepler",
+        "Kepler"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-013",
+      "text": "Who painted Guernica? A surname is enough.",
+      "answer": "Pablo Picasso",
+      "acceptedAnswers": [
+        "Pablo Picasso",
+        "Picasso"
+      ],
+      "tier": 3,
+      "category": "Art",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-014",
+      "text": "Who wrote Things Fall Apart? A surname is enough.",
+      "answer": "Chinua Achebe",
+      "acceptedAnswers": [
+        "Chinua Achebe",
+        "Achebe"
+      ],
+      "tier": 3,
+      "category": "Literature",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-015",
+      "text": "Kathmandu is the capital of which country?",
+      "answer": "Nepal",
+      "acceptedAnswers": [
+        "Nepal"
+      ],
+      "tier": 3,
+      "category": "Geography",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-016",
+      "text": "What is the geometric name for a polygon with twelve sides?",
+      "answer": "Dodecagon",
+      "acceptedAnswers": [
+        "Dodecagon",
+        "A dodecagon"
+      ],
+      "tier": 3,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-017",
+      "text": "What is the capital city of Kyrgyzstan?",
+      "answer": "Bishkek",
+      "acceptedAnswers": [
+        "Bishkek"
+      ],
+      "tier": 4,
+      "category": "Geography",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-018",
+      "text": "Which treaty ended the Russo-Japanese War in 1905?",
+      "answer": "Treaty of Portsmouth",
+      "acceptedAnswers": [
+        "Treaty of Portsmouth",
+        "Portsmouth",
+        "Portsmouth Treaty",
+        "Portsmouth Peace Treaty"
+      ],
+      "tier": 4,
+      "category": "History",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-019",
+      "text": "Which scientist proposed continental drift in 1912? A surname is enough.",
+      "answer": "Alfred Wegener",
+      "acceptedAnswers": [
+        "Alfred Wegener",
+        "Wegener",
+        "Alfred Lothar Wegener"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-020",
+      "text": "Which chemical element has the symbol Sb?",
+      "answer": "Antimony",
+      "acceptedAnswers": [
+        "Antimony"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-021",
+      "text": "Which Italian composer left Turandot unfinished at his death in 1924? A surname is enough.",
+      "answer": "Giacomo Puccini",
+      "acceptedAnswers": [
+        "Giacomo Puccini",
+        "Puccini"
+      ],
+      "tier": 4,
+      "category": "Music",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-022",
+      "text": "Who wrote The Master and Margarita? A surname is enough.",
+      "answer": "Mikhail Bulgakov",
+      "acceptedAnswers": [
+        "Mikhail Bulgakov",
+        "Bulgakov"
+      ],
+      "tier": 4,
+      "category": "Literature",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-023",
+      "text": "What is the Japanese art of repairing broken pottery with gold lacquer called?",
+      "answer": "Kintsugi",
+      "acceptedAnswers": [
+        "Kintsugi",
+        "Kintsukuroi"
+      ],
+      "tier": 4,
+      "category": "Art",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-024",
+      "text": "Which Danish astronomer's planetary observations helped Kepler develop his laws?",
+      "answer": "Tycho Brahe",
+      "acceptedAnswers": [
+        "Tycho Brahe",
+        "Brahe",
+        "Tycho"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-025",
+      "text": "What is the capital city of Bhutan?",
+      "answer": "Thimphu",
+      "acceptedAnswers": [
+        "Thimphu",
+        "Thimpu"
+      ],
+      "tier": 4,
+      "category": "Geography",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-026",
+      "text": "What is the largest bundle of nerve fibres connecting the brain's two cerebral hemispheres?",
+      "answer": "Corpus callosum",
+      "acceptedAnswers": [
+        "Corpus callosum",
+        "The corpus callosum"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-027",
+      "text": "Who proved Fermat's Last Theorem in the 1990s? A surname is enough.",
+      "answer": "Andrew Wiles",
+      "acceptedAnswers": [
+        "Andrew Wiles",
+        "Wiles",
+        "Andrew John Wiles",
+        "Andrew J. Wiles",
+        "Sir Andrew Wiles"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-028",
+      "text": "Which ancient Greek scholar estimated Earth's circumference using shadows at two cities?",
+      "answer": "Eratosthenes",
+      "acceptedAnswers": [
+        "Eratosthenes",
+        "Eratosthenes of Cyrene"
+      ],
+      "tier": 4,
+      "category": "History",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-029",
+      "text": "What is the name of Neptune's largest moon?",
+      "answer": "Triton",
+      "acceptedAnswers": [
+        "Triton"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-030",
+      "text": "Finnish, Estonian, and Hungarian belong to which language family?",
+      "answer": "Uralic",
+      "acceptedAnswers": [
+        "Uralic",
+        "Uralic languages",
+        "Uralic language family",
+        "Finno-Ugric",
+        "Finno-Ugrian",
+        "Finno Ugric",
+        "Finno Ugrian"
+      ],
+      "tier": 4,
+      "category": "Languages",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-031",
+      "text": "Which physicist gives his name to the quantum exclusion principle? A surname is enough.",
+      "answer": "Wolfgang Pauli",
+      "acceptedAnswers": [
+        "Wolfgang Pauli",
+        "Pauli"
+      ],
+      "tier": 4,
+      "category": "Science",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    },
+    {
+      "id": "original-advanced-v1-032",
+      "text": "What name is given to the cycle of rebirth in Hindu and Buddhist traditions?",
+      "answer": "Samsara",
+      "acceptedAnswers": [
+        "Samsara"
+      ],
+      "tier": 4,
+      "category": "Religion",
+      "source": "Original",
+      "sourceDifficulty": "editorial"
+    }
+  ]
+}

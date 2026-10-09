@@ -1,0 +1,9 @@
+Error: Game evaluation failed: {"exceptionId":4,"text":"Uncaught","lineNumber":99,"columnNumber":122,"scriptId":"37","stackTrace":{"callFrames":[{"functionName":"updateOverlay","scriptId":"37","url":"file:///C:/Users/DrewCohen/lyric_games/lyric_galaga/js/ui.js","lineNumber":99,"columnNumber":122},{"functionName":"updateHUD","scriptId":"37","url":"file:///C:/Users/DrewCohen/lyric_games/lyric_galaga/js/ui.js","lineNumber":125,"columnNumber":20},{"functionName":"","scriptId":"87","url":"","lineNumber":0,"columnNumber":93},{"functionName":"","scriptId":"87","url":"","lineNumber":0,"columnNumber":167}]},"exception":{"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot set properties of null (setting 'textContent')\n    at updateOverlay (file:///C:/Users/DrewCohen/lyric_games/lyric_galaga/js/ui.js:100:123)\n    at Object.updateHUD (file:///C:/Users/DrewCohen/lyric_games/lyric_galaga/js/ui.js:126:21)\n    at <anonymous>:1:94\n    at <anonymous>:1:168","objectId":"-1451863608657487815.4.2"}}
+    at client.gameEvaluate (C:\Users\DrewCohen\lyric_games\scripts\browser-smoke.js:44:42)
+    at async checkShooter (C:\Users\DrewCohen\lyric_games\scripts\browser-smoke.js:198:3)
+    at async checkFile (C:\Users\DrewCohen\lyric_games\scripts\browser-smoke.js:226:3)
+    at async main (C:\Users\DrewCohen\lyric_games\scripts\browser-smoke.js:276:9)
+
+
+DevTools listening on ws://127.0.0.1:50441/devtools/browser/5c8fc782-7999-4c07-a2f8-9e7a015c1297
+[21256:33032:1005/182330.505:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: QUOTA_EXCEEDED

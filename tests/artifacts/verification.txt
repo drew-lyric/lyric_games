@@ -1,0 +1,44 @@
+Lyric Games implementation verification
+
+PASS Antigen Assault deterministic simulation: 74/74 checks.
+PASS Existing Biodefenses simulation: 64/64 checks.
+PASS Existing Biodefenses LAN integration: 19/19 checks.
+PASS Shared host routing and containment: 10/10 checks.
+
+PASS Shared launcher/browser checks in Chrome and Edge:
+  Direct-file and HTTP play, preserved welcome screens, instructions dialog
+  and focus restoration, real keyboard movement/fire/switch/charge/detonate,
+  native Space activation of Resume, auto pause, restart, victory/game over
+  and retry, custom sprite replacement and missing-image fallback, read-only
+  rendering, 1440x900 and 1366x768 laptop fit, 740px layout, repeated switching,
+  hash navigation, LAN refresh restoration, explicit exit, and late room cleanup.
+
+PASS Antigen response checkbox supports native keyboard activation before and
+  during play, retains arena focus, suppresses enemy fire, and preserves the
+  selected mode when starting or restarting. Faster wave and boss-summon cadence
+  and unchanged flight/collision rules are covered by deterministic checks.
+PASS IVIG horizontal pickup collection, eight-shot four-color spray, countdown,
+  paused buff timer, restart cleanup, and read-only rendering in Chrome and Edge.
+  Rare pickup timing, five-second crossing, thirty-second duration, stage carry,
+  refresh, matching damage, and opsonin interaction have deterministic checks.
+PASS Visual review: rainbow IVIG glow and spray, compact sidebar toggle and
+  countdown, and smaller Lyric symbol contained inside the original ship hull.
+
+PASS Arrow keys move the ship horizontally and vertically within a configurable
+  twenty-percent arena-height band. The ship starts centered in the band; opposite
+  keys cancel and diagonal motion preserves speed. Projectiles launch from its
+  current position; pause freezes motion and stage changes recenter the ship.
+PASS Z cycles weapons again. Browser checks exercise vertical movement, key
+  release, band containment and Z selection without arrow-key weapon changes.
+PASS Pause, game-over and victory overlays tolerate the removed optional note.
+
+PASS Original Biodefenses direct-file browser checks in Chrome and Edge.
+PASS Original Biodefenses Chrome-vs-Edge LAN browser checks.
+
+Campaign progression smoke reached victory through all five levels and the
+boss in 472.8 simulation seconds using an invulnerable tracking autopilot.
+This checks progression and provides a tuning reference; it is not a measured
+human playtime or a difficulty assessment.
+
+Browser screenshots in this folder show the library, game welcome screens,
+regular play, opsonin activation, boss, victory, and laptop/narrow layouts.

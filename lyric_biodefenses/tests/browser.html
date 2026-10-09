@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Lyric Defense tests</title>
+<style>body{background:#15191b;color:#dfebe5;font:14px monospace;padding:24px}pre{white-space:pre-wrap}body[data-result="fail"]{color:#ff9696}</style>
+<script defer src="../js/config.js"></script><script defer src="../js/clue-bank.js"></script>
+<script defer src="../js/clues.js"></script><script defer src="../js/trivia-expanded-bank.js"></script>
+<script defer src="../js/trivia.js"></script><script defer src="../js/navigation.js"></script>
+<script defer src="../js/simulation.js"></script><script defer src="../js/transport.js"></script>
+<script defer src="../js/bot.js"></script><script defer src="test-suite.js"></script><script defer src="clue-tests.js"></script><script defer src="trivia-tests.js"></script>
+</head><body><h1>Lyric Defense verification</h1><pre id="results">Running…</pre>
+<script>window.addEventListener('DOMContentLoaded',function(){try{var results=LyricDefense.runTests().concat(LyricDefense.runClueTests(),LyricDefense.runTriviaTests());var passed=results.filter(function(r){return r.ok}).length;document.body.dataset.result=passed===results.length?'pass':'fail';document.getElementById('results').textContent=results.map(function(r){return(r.ok?'PASS ':'FAIL ')+r.name+(r.error?'\n  '+r.error:'')}).join('\n')+'\n\n'+passed+'/'+results.length+' checks passed.';}catch(error){document.body.dataset.result='fail';document.getElementById('results').textContent=error.stack;}});</script>
+</body></html>
