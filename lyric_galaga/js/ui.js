@@ -2,24 +2,90 @@
   'use strict';
   const LG=root.LyricGalaga;
   const $=id => document.getElementById(id);
-  const canvas=$('game-canvas'),dialog=$('instructions-dialog');
+  const canvas=$('game-canvas'),dialog=$('instructions-dialog'),settings=$('settings-dialog');
   const seed=(Date.now()^(typeof performance==='object'?Math.round(performance.now()*1000):0))>>>0;
   const game=new LG.Game({seed:seed}),renderer=new LG.Renderer(canvas);
-  const input={left:false,right:false,up:false,down:false,fire:false,cycle:false,detonate:false};
-  let raf=0,last=0,exiting=false,uiStatus=null,toastUntil=0,dialogPaused=false,dialogFocus=null;
+  const input={left:false,right:false,up:false,down:false,moveX:0,moveY:0,fire:false,fireTap:false,cycle:false,detonate:false};
+  const mobileQuery=matchMedia('(any-pointer: coarse)');
+  const embedded=root.parent!==root&&new URLSearchParams(location.search).has('launcher');
+  function phoneLayout() {return mobileQuery.matches&&Math.min(innerWidth,innerHeight)<=600;}
+  let controls=null,isMobile=phoneLayout(),landscape=innerWidth>innerHeight;
+  let raf=0,last=0,lastPaint=0,exiting=false,suspended=false,renderDirty=true,uiStatus=null,hudSignature='',toastUntil=0,dialogPaused=false,dialogFocus=null,controlOperation=0;
+  let controlMessage='Drag the joystick to steer. Tap or hold the arena to fire.';
   let announcement='';
   function isBossStage(state) {return !!state.boss||state.level>game.levels.length;}
   function clock(time) {const seconds=Math.floor(time||0);return String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');}
   function clearInput(cancelCharge) {
     Object.keys(input).forEach(key => {input[key]=false;});
+    if(controls)controls.clear(!!cancelCharge);
     if(cancelCharge)game.cancelCharge();
+    game.resetMovement();renderDirty=true;
   }
   function focusArena() {if(!exiting&&!dialog.open)canvas.focus({preventScroll:true});}
   function announce(value) {if(value!==announcement){announcement=value;$('status-region').textContent=value;}}
   function toast(value,duration) {$('toast').textContent=value;$('toast').hidden=false;toastUntil=performance.now()+(duration||2300);}
+  function textValue(id,value) {const node=$(id),next=String(value);if(node&&node.textContent!==next)node.textContent=next;}
+  function hide(id,value) {const node=$(id);if(node&&node.hidden!==!!value)node.hidden=!!value;}
+  function setControlMessage(value) {controlMessage=value;textValue('welcome-control-status',value);textValue('mobile-control-status',value);}
+  function refreshControls() {
+    if(exiting)return;
+    document.body.classList.toggle('mobile-game',isMobile);
+    document.body.classList.toggle('embedded-mobile-game',isMobile&&embedded);
+    document.body.dataset.controlMode=controls?controls.mode:'joystick';
+    hide('rotate-prompt',!isMobile||landscape);
+    hide('touch-controls',!isMobile||!landscape||game.state.status!=='playing'||dialog.open||settings.open);
+    hide('welcome-mobile-controls',game.state.status!=='ready');
+    const calibration=controls&&controls.mode==='tilt';
+    textValue('mobile-tilt-button',calibration?'Recalibrate tilt':'Enable tilt');
+    textValue('welcome-tilt-button',calibration?'Recalibrate tilt':'Enable tilt');
+    $('mobile-response').checked=game.state.antigenResponse;
+    $('mobile-resume-button').disabled=game.state.status!=='paused'||(isMobile&&!landscape);
+    $('touch-activate').disabled=!game.state.orbs.some(orb=>orb.status==='settled');
+    $('touch-cycle').style.setProperty('--equipped-color',LG.Assets.color(game.state.weapon));
+    $('touch-cycle').setAttribute('aria-label','Cycle weapon. Equipped: '+(game.state.weapon==='white'?'opsonin':game.state.weapon+' antibody'));
+    $('touch-activate').setAttribute('aria-label','Activate '+game.state.orbs.filter(orb=>orb.status==='settled').length+' settled opsonins');
+    textValue('welcome-control-status',controlMessage);textValue('mobile-control-status',controlMessage);
+    renderDirty=true;
+  }
+  function viewportChanged() {
+    const previous=landscape,wasMobile=isMobile;landscape=innerWidth>innerHeight;isMobile=phoneLayout();
+    if(controls&&wasMobile!==isMobile){clearInput(true);controls.setMode(isMobile?'joystick':'keyboard');}
+    if(isMobile&&previous!==landscape){pause('Flight paused after rotating the screen.');if(controls)controls.invalidateCalibration();}
+    refreshControls();
+  }
+  function library() {
+    pause();
+    if(embedded)root.parent.postMessage({type:'lyric-games:library'},location.protocol==='file:'?'*':location.origin);
+    else location.href='../index.html';
+  }
+  async function withReadyControls(action) {
+    if(exiting||(isMobile&&!landscape))return;
+    if(controls&&controls.mode==='tilt'&&controls.needsCalibration){
+      const operation=++controlOperation;setControlMessage('Hold the phone still in your comfortable playing position.');
+      const ready=await controls.calibrate();
+      if(exiting||operation!==controlOperation)return;
+      if(!ready){refreshControls();return;}
+      setControlMessage('Tilt to steer. Tap or hold the arena to fire.');
+    }
+    if(!exiting&&(!isMobile||landscape))action();
+  }
+  async function enableTilt() {
+    if(exiting||!controls||(isMobile&&!landscape))return;
+    pause();const operation=++controlOperation;setControlMessage('Allow motion, then hold the phone still to calibrate.');
+    // Called immediately from this button gesture, before any asynchronous work.
+    const ready=await (controls.mode==='tilt'?controls.calibrate():controls.enableTilt());
+    if(exiting||operation!==controlOperation)return;
+    if(ready)setControlMessage('Tilt to steer. Tap or hold the arena to fire.');
+    refreshControls();
+  }
+  function useJoystick() {
+    if(exiting||!controls)return;++controlOperation;clearInput(true);controls.setMode('joystick');
+    setControlMessage('Drag the left joystick to steer. Weapon and Activate are on the right.');refreshControls();
+  }
   function overlayNote(value) {const note=$('overlay-note');if(note)note.textContent=value;}
   function processEvents() {
     game.drainEvents().forEach(function(event) {
+      renderDirty=true;
       renderer.handleEvent(event);
       if(event.type==='pickup')toast('OPSONIN COLLECTED  ·  Z TO EQUIP WHITE');
       else if(event.type==='ivig')toast('IVIG ACTIVE  ·  ALL FOUR COLORS  ·  '+Math.round(event.duration||game.config.ivig.duration)+'s',2600);
@@ -30,22 +96,24 @@
     });
   }
   function start() {
-    if(exiting)return;clearInput(false);game.start();processEvents();updateHUD();focusArena();
+    return withReadyControls(function(){clearInput(false);game.start();processEvents();updateHUD();refreshControls();focusArena();last=performance.now();});
   }
   function pause(reason) {
     if(exiting)return false;clearInput(true);
-    const changed=game.pause();if(changed){processEvents();updateHUD();if(reason)announce(reason);}
+    const changed=game.pause();if(changed){processEvents();updateHUD();if(reason)announce(reason);}refreshControls();
     return changed;
   }
   function resume() {
-    if(exiting||dialog.open)return;clearInput(false);game.resume();processEvents();updateHUD();focusArena();last=performance.now();
+    if(exiting||dialog.open)return;if(settings.open)settings.close();
+    return withReadyControls(function(){clearInput(false);game.resume();processEvents();updateHUD();refreshControls();focusArena();last=performance.now();});
   }
   function restart() {
-    if(exiting)return;clearInput(false);renderer.reset();game.restart();uiStatus=null;toastUntil=0;$('toast').hidden=true;processEvents();updateHUD();focusArena();last=performance.now();
+    if(exiting)return;if(settings.open)settings.close();
+    return withReadyControls(function(){clearInput(false);renderer.reset();game.restart();uiStatus=null;hudSignature='';toastUntil=0;$('toast').hidden=true;processEvents();updateHUD();refreshControls();focusArena();last=performance.now();});
   }
   function stop() {
-    if(exiting)return;exiting=true;cancelAnimationFrame(raf);clearInput(true);game.pause();if(dialog.open)dialog.close();
-    document.removeEventListener('keydown',onKeyDown);document.removeEventListener('keyup',onKeyUp);
+    if(exiting)return;exiting=true;++controlOperation;cancelAnimationFrame(raf);clearInput(true);game.pause();if(dialog.open)dialog.close();if(settings.open)settings.close();
+    if(controls)controls.destroy();
   }
   function makeWeapons() {
     const list=$('weapon-list');
@@ -82,6 +150,7 @@
     overlay.hidden=!['ready','paused','gameover','victory'].includes(status);
     overlay.classList.toggle('compact',!welcome);
     $('welcome-flow').hidden=!welcome;$('welcome-art').hidden=!welcome;
+    $('welcome-mobile-controls').hidden=!welcome;
     $('overlay-title').style.whiteSpace='pre-line';
     if(welcome) {
       $('overlay-kicker').textContent='A LYRIC GAMES CAMPAIGN';$('overlay-badge').textContent='01—'+String(game.levels.length+1).padStart(2,'0');$('overlay-title').textContent='ANTIGEN\nASSAULT';
@@ -105,6 +174,9 @@
   }
   function updateHUD() {
     const s=game.state;
+    const settled=s.orbs.filter(orb=>orb.status==='settled').length;
+    const signature=[s.status,s.level,s.wave,s.title,s.score,s.lives,Math.floor(s.time),s.weapon,s.opsonins,settled,Math.ceil(s.ivigRemaining),Math.ceil(s.intermission),s.antigenResponse,s.unlocked.join(','),isMobile,landscape,controls&&controls.mode].join('|');
+    if(signature===hudSignature)return;hudSignature=signature;
     $('mission-title').textContent=s.title||'Antigen interception';
     const label=s.status==='playing'?'LIVE RESPONSE':s.status==='intermission'?'SECTOR CLEAR':s.status==='paused'?'FLIGHT PAUSED':s.status==='victory'?'CULTURE SECURED':s.status==='gameover'?'ARRAY OFFLINE':'SYSTEM READY';
     $('mission-state').innerHTML='<i class="status-dot"></i> '+label;
@@ -118,50 +190,51 @@
     $('pause-button').disabled=!active;$('pause-button').innerHTML=(s.status==='paused'?'Resume':'Pause')+' <kbd>P</kbd>';
     $('restart-button').disabled=s.status==='ready';
     $('antigen-response').checked=s.antigenResponse;
+    textValue('mobile-lives',s.lives);textValue('mobile-score',s.score);
+    textValue('mobile-weapon',s.weapon==='white'?'WHITE':s.ivigRemaining>0?'IVIG':s.weapon.toUpperCase());
+    $('mobile-weapon').style.color=LG.Assets.color(s.weapon);
+    textValue('mobile-stock',s.opsonins);textValue('mobile-settled',settled);
+    textValue('mobile-ivig',s.ivigRemaining>0?Math.ceil(s.ivigRemaining)+'s':'—');
     $('stage-banner').hidden=s.status!=='intermission';
     if(s.status==='intermission') {
       const next=s.level+1;$('stage-kicker').textContent='SECTOR '+String(s.level).padStart(2,'0')+' CLEAR';
       $('stage-banner-title').textContent=next>game.levels.length?'Adaptive antigen':game.levels[next-1].title;
       $('stage-countdown').textContent='NEXT RESPONSE IN '+Math.max(1,Math.ceil(s.intermission));
     }
-    updateWeapons();updateOverlay();
-  }
-  const controlled=new Set(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Space','KeyZ','KeyX','KeyP','Escape']);
-  function onKeyDown(event) {
-    if(exiting||dialog.open||event.altKey||event.ctrlKey||event.metaKey||!controlled.has(event.code))return;
-    if(event.code==='Space'&&document.activeElement&&['BUTTON','INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName))return;
-    const active=['playing','intermission','paused'].includes(game.state.status);
-    if(!active)return;event.preventDefault();
-    if(event.code==='KeyP'||event.code==='Escape') {if(!event.repeat){if(game.state.status==='paused')resume();else pause();}return;}
-    if(game.state.status!=='playing')return;
-    if(event.code==='ArrowLeft')input.left=true;
-    else if(event.code==='ArrowRight')input.right=true;
-    else if(event.code==='Space')input.fire=true;
-    else if(event.code==='ArrowUp')input.up=true;
-    else if(event.code==='ArrowDown')input.down=true;
-    else if(event.code==='KeyZ'&&!event.repeat)input.cycle=1;
-    else if(event.code==='KeyX'&&!event.repeat)input.detonate=true;
-  }
-  function onKeyUp(event) {
-    if(event.code==='ArrowLeft')input.left=false;
-    else if(event.code==='ArrowRight')input.right=false;
-    else if(event.code==='ArrowUp')input.up=false;
-    else if(event.code==='ArrowDown')input.down=false;
-    else if(event.code==='Space')input.fire=false;
-    if(event.code==='Space'&&document.activeElement&&['BUTTON','INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName))return;
-    if(!dialog.open&&controlled.has(event.code)&&game.state.status==='playing')event.preventDefault();
+    updateWeapons();updateOverlay();refreshControls();
   }
   function openInstructions() {
     if(exiting||dialog.open)return;
+    if(settings.open)settings.close();
     const count=game.levels.length;
-    dialog.querySelector('p').textContent='Clear '+(count===5?'five':count)+' '+(count===1?'sector':'sectors')+', then defeat a boss whose vulnerable core switches between four antigen colors. You have '+game.config.lives+' '+(game.config.lives===1?'life':'lives')+'. After a hit, your ship is protected for '+game.config.invulnerability+' seconds.';
-    dialogFocus=document.activeElement;dialogPaused=pause();dialog.showModal();$('close-instructions').focus({preventScroll:true});
+    dialog.querySelector('p:not(.mobile-instructions)').textContent='Clear '+(count===5?'five':count)+' '+(count===1?'sector':'sectors')+', then defeat a boss whose vulnerable core switches between four antigen colors. You have '+game.config.lives+' '+(game.config.lives===1?'life':'lives')+'. After a hit, your ship is protected for '+game.config.invulnerability+' seconds.';
+    dialogFocus=document.activeElement;dialogPaused=pause();dialog.showModal();refreshControls();$('close-instructions').focus({preventScroll:true});
+  }
+  function openSettings() {
+    if(exiting||dialog.open||settings.open)return;pause();settings.showModal();refreshControls();$('close-settings').focus({preventScroll:true});
+  }
+  function interrupt(reason) {
+    dialogPaused=false;pause(reason);last=0;lastPaint=0;
+    if(controls&&controls.mode==='tilt'){controls.invalidateCalibration();setControlMessage('Hold the phone still when resuming to recalibrate tilt.');}
+  }
+  function pageHide(event) {
+    if(event.persisted){interrupt('Flight paused while the page is suspended.');suspended=true;cancelAnimationFrame(raf);raf=0;}
+    else stop();
+  }
+  function pageShow(event) {
+    if(!event.persisted||exiting)return;suspended=false;last=0;lastPaint=0;clearInput(true);hudSignature='';renderDirty=true;updateHUD();
+    if(!raf)raf=requestAnimationFrame(frame);
   }
   function frame(now) {
-    if(exiting)return;const dt=last?Math.min(.1,(now-last)/1000):0;last=now;
-    game.step(dt,input);input.cycle=false;input.detonate=false;processEvents();
-    const cosmeticDt=game.state.status==='paused'?0:dt;renderer.render(game.state,cosmeticDt);
-    if(game.state.status==='ready')renderer.drawWelcome($('welcome-art'),renderer.time);
+    if(exiting||suspended)return;const dt=last?Math.min(.1,(now-last)/1000):0;last=now;
+    Object.assign(input,controls.sample(dt));
+    game.step(dt,input);input.cycle=false;input.detonate=false;input.fireTap=false;processEvents();
+    const animated=['playing','intermission','ready'].includes(game.state.status);
+    if(!lastPaint||(animated?now-lastPaint>=1000/60-.1:renderDirty)){
+      const cosmeticDt=animated&&lastPaint?Math.min(.1,(now-lastPaint)/1000):0;
+      renderer.render(game.state,cosmeticDt);lastPaint=now;renderDirty=false;
+      if(game.state.status==='ready')renderer.drawWelcome($('welcome-art'),renderer.time);
+    }
     updateHUD();
     if(toastUntil&&now>toastUntil){$('toast').hidden=true;toastUntil=0;}
     raf=requestAnimationFrame(frame);
@@ -170,6 +243,19 @@
   $('pause-button').addEventListener('click',function(){if(game.state.status==='paused')resume();else pause();});
   $('restart-button').addEventListener('click',restart);
   $('instructions-button').addEventListener('click',openInstructions);
+  $('mobile-menu-button').addEventListener('click',openSettings);
+  $('close-settings').addEventListener('click',()=>settings.close());
+  settings.addEventListener('close',()=>{refreshControls();if(!exiting&&game.state.status==='paused')$('overlay-action').focus({preventScroll:true});});
+  $('mobile-resume-button').addEventListener('click',resume);
+  $('mobile-instructions-button').addEventListener('click',openInstructions);
+  $('mobile-restart-button').addEventListener('click',restart);
+  $('mobile-library-button').addEventListener('click',library);
+  $('rotate-library-button').addEventListener('click',library);
+  $('mobile-tilt-button').addEventListener('click',enableTilt);
+  $('welcome-tilt-button').addEventListener('click',enableTilt);
+  $('mobile-joystick-button').addEventListener('click',useJoystick);
+  $('welcome-joystick-button').addEventListener('click',useJoystick);
+  $('mobile-response').addEventListener('change',function(){clearInput(true);game.setAntigenResponse(this.checked);updateHUD();});
   $('antigen-response').addEventListener('change',function(){
     if(exiting)return;clearInput(true);game.setAntigenResponse(this.checked);processEvents();updateHUD();
     announce(this.checked?'Antigen response on. Enemy shots enabled.':'Antigen response off. No enemy shots; spawning is 50 percent faster.');
@@ -177,20 +263,27 @@
   });
   $('close-instructions').addEventListener('click',() => dialog.close());$('instructions-done').addEventListener('click',() => dialog.close());
   dialog.addEventListener('click',function(event){if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
-  dialog.addEventListener('close',function(){if(exiting)return;if(dialogPaused){dialogPaused=false;resume();}else if(dialogFocus&&typeof dialogFocus.focus==='function')dialogFocus.focus({preventScroll:true});});
-  document.addEventListener('keydown',onKeyDown);document.addEventListener('keyup',onKeyUp);
-  root.addEventListener('blur',function(){if(!exiting)pause('Flight paused because the game lost focus.');});
-  document.addEventListener('visibilitychange',function(){if(document.hidden&&!exiting)pause('Flight paused because the game is hidden.');});
-  root.addEventListener('pagehide',stop);
+  dialog.addEventListener('close',function(){if(exiting)return;if(dialogPaused){dialogPaused=false;resume();}else if(dialogFocus&&typeof dialogFocus.focus==='function')dialogFocus.focus({preventScroll:true});refreshControls();});
+  controls=new LG.Controls({mode:isMobile?'joystick':'keyboard',surface:$('play-surface'),joystick:$('touch-joystick'),stick:$('touch-stick'),cycleButton:$('touch-cycle'),activateButton:$('touch-activate'),
+    isPlaying:()=>!exiting&&game.state.status==='playing'&&!dialog.open&&!settings.open&&(!isMobile||landscape),
+    onPause:()=>{if(dialog.open||settings.open)return false;if(game.state.status==='paused')resume();else pause();return true;},
+    onCancel:()=>game.cancelCharge(),onChange:()=>{if(controls)refreshControls();},
+    onUnavailable:message=>{if(exiting)return;pause();setControlMessage(message+' Use the joystick to steer.');refreshControls();},
+    onOrientationChange:()=>{if(exiting)return;interrupt('Flight paused after rotating the screen.');viewportChanged();}
+  });
+  root.addEventListener('resize',viewportChanged);mobileQuery.addEventListener('change',viewportChanged);
+  root.addEventListener('blur',()=>{if(!exiting)interrupt('Flight paused because the game lost focus.');});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden&&!exiting)interrupt('Flight paused because the game is hidden.');});
+  root.addEventListener('pagehide',pageHide);root.addEventListener('pageshow',pageShow);
   root.addEventListener('message',function(event) {
     const data=event.data;if(root.parent===root||event.source!==root.parent||!data||data.type!=='lyric-games:prepare-exit'||typeof data.requestId!=='string')return;
     if(location.protocol!=='file:'&&event.origin!==location.origin)return;
     stop();root.parent.postMessage({type:'lyric-games:exit-ready',requestId:data.requestId},location.protocol==='file:'?'*':location.origin);
   });
-  LG.app={game:game,renderer:renderer,input:input,start:start,pause:pause,resume:resume,restart:restart,updateHUD:updateHUD,stop:stop,openInstructions:openInstructions,isStopped:() => exiting};
+  LG.app={game:game,renderer:renderer,input:input,controls:controls,start:start,pause:pause,resume:resume,restart:restart,updateHUD:updateHUD,stop:stop,openInstructions:openInstructions,openSettings:openSettings,isStopped:() => exiting};
   makeWeapons();
   function drawIVIGIcon(){const icon=$('ivig-icon');icon.getContext('2d').clearRect(0,0,48,48);LG.Assets.draw(icon.getContext('2d'),'ivig',0,0,48,48,0);}
   drawIVIGIcon();
-  LG.Assets.subscribe(function(){document.querySelectorAll('.weapon-chip').forEach(chip => {const id=chip.dataset.weapon,icon=chip.querySelector('canvas');icon.getContext('2d').clearRect(0,0,44,44);LG.Assets.draw(icon.getContext('2d'),id==='white'?'opsonin':'antigen-'+id,0,0,44,44,0,{color:id});});drawIVIGIcon();});
-  LG.Assets.load();updateHUD();renderer.render(game.state,0);renderer.drawWelcome($('welcome-art'),0);raf=requestAnimationFrame(frame);
+  LG.Assets.subscribe(function(){document.querySelectorAll('.weapon-chip').forEach(chip => {const id=chip.dataset.weapon,icon=chip.querySelector('canvas');icon.getContext('2d').clearRect(0,0,44,44);LG.Assets.draw(icon.getContext('2d'),id==='white'?'opsonin':'antigen-'+id,0,0,44,44,0,{color:id});});drawIVIGIcon();renderDirty=true;});
+  LG.Assets.load();viewportChanged();updateHUD();renderer.render(game.state,0);renderer.drawWelcome($('welcome-art'),0);raf=requestAnimationFrame(frame);
 })(typeof globalThis !== 'undefined' ? globalThis : window);

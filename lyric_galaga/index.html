@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0c1728">
   <title>Lyric Antigen Assault</title>
   <link rel="stylesheet" href="styles.css">
@@ -11,6 +11,7 @@
   <script defer src="js/simulation.js"></script>
   <script defer src="js/assets.js"></script>
   <script defer src="js/render.js"></script>
+  <script defer src="js/controls.js"></script>
   <script defer src="js/ui.js"></script>
 </head>
 <body>
@@ -34,14 +35,27 @@
       </div>
       <div class="workspace">
         <section class="arena-panel panel" aria-label="Antigen Assault game">
+          <div id="mobile-hud" class="mobile-hud" aria-label="Campaign status">
+            <span>Lives <strong id="mobile-lives">3</strong></span>
+            <span>Score <strong id="mobile-score">000000</strong></span>
+            <span class="mobile-weapon-stat"><strong id="mobile-weapon">GREEN</strong></span>
+            <span>Orbs <strong id="mobile-stock">0</strong><small> / <strong id="mobile-settled">0</strong> placed</small></span>
+            <span>IVIG <strong id="mobile-ivig">—</strong></span>
+            <button id="mobile-menu-button" class="button-quiet" aria-haspopup="dialog" aria-label="Pause and open settings">Pause</button>
+          </div>
           <div class="hud-strip">
             <div class="hud-stat stage-stat"><span class="eyebrow">CAMPAIGN</span><strong id="stage-value">01 <span>/ 05</span></strong><small id="wave-value">WAVE 01 / 04</small></div>
             <div class="hud-stat"><span class="eyebrow">SCORE</span><strong id="score-value">000000</strong></div>
             <div class="hud-stat lives-stat"><span class="eyebrow">HULLS</span><div id="lives-value" class="hulls" aria-label="3 lives"><i></i><i></i><i></i></div></div>
             <div class="hud-stat time-stat"><span class="eyebrow">TIME</span><strong id="time-value">00:00</strong></div>
           </div>
-          <div class="canvas-frame">
+          <div id="play-surface" class="canvas-frame">
             <canvas id="game-canvas" width="960" height="720" tabindex="0" aria-label="Antigen Assault arena. Arrow keys to move, with vertical travel limited to a band near the bottom. Space to fire, Z to cycle weapons, X to activate settled opsonins, P to pause."></canvas>
+            <div id="touch-controls" class="touch-controls" hidden aria-label="Touch flight controls">
+              <div id="touch-joystick" class="touch-joystick" role="group" aria-label="Drag to steer the ship"><span id="touch-stick" aria-hidden="true"></span><span class="joystick-caption" aria-hidden="true">MOVE</span></div>
+              <button id="touch-cycle" class="touch-action touch-cycle" aria-label="Cycle antibody weapon"><span aria-hidden="true">↻</span><small>WEAPON</small></button>
+              <button id="touch-activate" class="touch-action touch-activate" aria-label="Activate all settled opsonins"><span aria-hidden="true">✦</span><small>ACTIVATE</small></button>
+            </div>
             <div id="game-overlay" class="game-overlay">
               <section id="overlay-card" class="overlay-card" aria-labelledby="overlay-title">
                 <div class="overlay-topline"><span id="overlay-kicker" class="eyebrow">A LYRIC GAMES CAMPAIGN</span><span id="overlay-badge">01—06</span></div>
@@ -49,6 +63,10 @@
                 <h2 id="overlay-title">ANTIGEN<br>ASSAULT</h2>
                 <p id="overlay-description">The bloodstream is clogged with antigens.<br>Only Lyric polyclonal antibody blasters can destroy them and save the day!<br></p>
                 <div id="welcome-flow" class="welcome-flow"><span>01 <strong>MATCH</strong></span><i>→</i><span>02 <strong>BIND</strong></span><i>→</i><span>03 <strong>CLEAR</strong></span></div>
+                <div id="welcome-mobile-controls" class="welcome-mobile-controls">
+                  <div class="mobile-control-choices"><button id="welcome-tilt-button" class="button-quiet">Enable tilt</button><button id="welcome-joystick-button" class="button-quiet">Use touch controls</button></div>
+                  <p id="welcome-control-status" role="status">Drag the joystick to steer. Tap or hold the arena to fire.</p>
+                </div>
                 <button id="overlay-action" class="button-primary">Start campaign <span aria-hidden="true">→</span></button>
               </section>
             </div>
@@ -87,9 +105,24 @@
     </main>
   </div>
 
+  <div id="rotate-prompt" class="rotate-prompt" role="status" hidden>
+    <div class="rotate-card"><span class="rotate-icon" aria-hidden="true">↻</span><h2>Turn your phone sideways</h2><p>Antigen Assault plays in landscape.<br>Your campaign stays paused while you rotate.</p><button id="rotate-library-button" class="button-quiet">All games</button></div>
+  </div>
+
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-heading"><h2 id="settings-title">Paused</h2><button id="close-settings" class="button-quiet" aria-label="Close settings">Close <span aria-hidden="true">×</span></button></div>
+    <label class="response-toggle mobile-response-toggle" for="mobile-response"><span>Antigen response</span><input type="checkbox" id="mobile-response" checked></label>
+    <p class="mobile-setting-note">Off: no enemy shots; waves and summons arrive 50% faster.</p>
+    <div class="mobile-control-choices"><button id="mobile-tilt-button" class="button-quiet">Enable tilt</button><button id="mobile-joystick-button" class="button-quiet">Use joystick</button></div>
+    <p id="mobile-control-status" aria-live="polite">Drag the joystick to steer. Tap or hold the arena to fire.</p>
+    <div class="mobile-menu-actions"><button id="mobile-instructions-button" class="button-quiet">Instructions</button><button id="mobile-restart-button" class="button-quiet">Restart campaign</button><button id="mobile-library-button" class="button-quiet">All games</button></div>
+    <button id="mobile-resume-button" class="button-primary">Resume</button>
+  </dialog>
+
   <dialog id="instructions-dialog" aria-labelledby="instructions-title">
     <div class="dialog-heading"><span class="eyebrow">FLIGHT MANUAL / LYRIC GAMES</span><button id="close-instructions" class="button-quiet" aria-label="Close instructions">Close <span aria-hidden="true">×</span></button></div>
     <h2 id="instructions-title">Protect the culture.</h2>
+    <p class="mobile-instructions">On your phone, play sideways. Enable tilt to steer, or drag the joystick. Tap or hold the arena to fire. Use the Weapon button to cycle antibodies and Activate to call macrophages. In white mode, hold to charge and release to launch an opsonin. Open Pause to change controls or recalibrate tilt.</p>
     <p>Clear five sectors, then defeat a boss whose vulnerable core switches between four antigen colors. You have three lives. After a hit, your ship is protected for two seconds.</p>
     <dl class="instructions-list"><div><dt>01 / MATCH</dt><dd>Move with <kbd>←</kbd> <kbd>→</kbd> <kbd>↑</kbd> <kbd>↓</kbd>. Vertical travel covers a band about 20% of the arena height near the bottom. Hold <kbd>SPACE</kbd> to fire. Use <kbd>Z</kbd> to cycle antibodies. Only the matching color binds and destroys an antigen. New colors unlock in sectors 2, 3, and 4.</dd></div><div><dt>02 / PLACE</dt><dd>Shoot rare white orbs with any antibody to collect opsonins. Use <kbd>Z</kbd> to cycle to white. Hold <kbd>SPACE</kbd> to charge the power bar, then release: more power places the orb farther up the arena. Flying orbs pass through antigens.</dd></div><div><dt>03 / ENGULF</dt><dd>Press <kbd>X</kbd> to activate all settled opsonins. After half a second, macrophages engulf nearby antigens of every color. Their attack also damages a nearby boss. Inventory carries between sectors; placed orbs clear at each transition.</dd></div><div><dt>04 / IVIG</dt><dd>Hit the rare rainbow antibody as it crosses the arena. For 30 seconds of active play, your ship glows and fires eight antibodies per volley: two of each color. White mode still places opsonins.</dd></div><div><dt>05 / RESPONSE</dt><dd>Toggle Antigen response in the sidebar. When off, antigens and the boss stop firing, and waves and summons arrive 50% faster. Their movement and collision damage stay the same.</dd></div></dl>
     <p class="instructions-footnote"><kbd>P</kbd> or <kbd>ESC</kbd> pauses. Switching windows pauses automatically. Switching weapons or pausing cancels a charge without using an opsonin.</p>

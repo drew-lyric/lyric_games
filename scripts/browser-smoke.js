@@ -116,6 +116,9 @@ async function checkShooter(client) {
   await client.screenshot('shooter-welcome');
   await client.gameEvaluate("document.getElementById('overlay-action').click()");
   await client.gameWait("LyricGalaga.app.game.state.status==='playing'", 5000);
+  // Input checks should not depend on random enemy fire hitting during a slow
+  // browser run. Survival and damage are covered by the simulation suite.
+  await client.gameEvaluate('LyricGalaga.app.game.state.player.invulnerable=1000');
   assert(await client.gameEvaluate("!LyricGalaga.app.game.state.antigenResponse"), 'Starting a run discarded the response setting');
   await client.gameEvaluate("LyricGalaga.app.game.state.antigens.forEach(a=>a.shotTimer=0)");
   await delay(100);
@@ -144,7 +147,7 @@ async function checkShooter(client) {
   await client.tap('z', 'KeyZ');
   await client.gameWait("LyricGalaga.app.game.state.weapon==='white'");
   await client.key(' ', 'Space', true); await delay(220);
-  assert(await client.gameEvaluate('Boolean(LyricGalaga.app.game.state.charge) && LyricGalaga.app.game.state.opsonins===2'), 'Charge spent stock before release');
+  assert(await client.gameEvaluate('Boolean(LyricGalaga.app.game.state.charge) && LyricGalaga.app.game.state.opsonins===2'), 'Held Space should charge without spending stock: '+JSON.stringify(await client.gameEvaluate('({status:LyricGalaga.app.game.state.status,stock:LyricGalaga.app.game.state.opsonins,charge:LyricGalaga.app.game.state.charge,weapon:LyricGalaga.app.game.state.weapon,fire:LyricGalaga.app.controls.keyboard.sample().fire})')));
   await client.key(' ', 'Space', false);
   await client.gameWait('LyricGalaga.app.game.state.opsonins===1 && LyricGalaga.app.game.state.orbs.length===1');
   await client.gameWait("LyricGalaga.app.game.state.orbs[0].status==='settled'", 5000);

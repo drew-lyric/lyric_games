@@ -7,7 +7,7 @@
     width: 960, height: 720, step: 1 / 60, maxFrame: 0.25,
     lives: 3, invulnerability: 2, intermission: 3, eventLimit: 300,
     antigenResponse: true, passiveSpawnRate: 1.5,
-    player: { speed: 425, radius: 18, bottom: 65, muzzle: 19, verticalRangeFraction: 0.2, fireInterval: 0.17 },
+    player: { speed: 425, accelerationTime: 0.15, decelerationTime: 0.2, radius: 18, bottom: 65, muzzle: 19, verticalRangeFraction: 0.2, fireInterval: 0.17 },
     antibody: { speed: 760, radius: 5, damage: 1 },
     enemy: { shotSpeed: 160, shotRadius: 5, shotInterval: 6.7, shotJitter: 2, score: 100 },
     opsonin: {

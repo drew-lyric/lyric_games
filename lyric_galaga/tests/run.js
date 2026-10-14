@@ -116,18 +116,21 @@ test('vertical arrows move within a twenty-percent band with room above and belo
 test('diagonal movement retains the same speed and vertical range is configurable', function () {
   const game = fixture({ player: { verticalRangeFraction: 0.1 } }), p = game.state.player, x = p.x, y = p.y;
   tick(game, { right: true, up: true });
-  assert.ok(Math.abs(Math.hypot(p.x - x, p.y - y) - game.config.player.speed * game.config.step) < 1e-8);
+  const firstSpeed = game.config.player.speed * game.config.step / game.config.player.accelerationTime;
+  assert.ok(Math.abs(Math.hypot(p.x - x, p.y - y) - firstSpeed * game.config.step) < 1e-8);
   assert.ok(p.x > x && p.y < y);
   advance(game, 1, { up: true }); assert.equal(p.y, game.config.height - game.config.player.bottom - game.config.height * 0.1);
 });
 
 test('antibodies and placed opsonins launch from the current vertical ship position', function () {
-  const game = fixture(); advance(game, 0.1, { up: true }); const y = game.state.player.y;
+  const game = fixture(); advance(game, 0.1, { up: true });
   tick(game, { fire: true });
-  assert.ok(Math.abs(game.state.shots[0].y - (y - 26 - game.config.antibody.speed * game.config.step)) < 1e-8);
+  assert.ok(Math.abs(game.state.shots[0].y - (game.state.player.y - 26 - game.config.antibody.speed * game.config.step)) < 1e-8);
   game.state.shots = []; game.state.opsonins = 1; game.state.weapon = 'white';
   tick(game, {}); tick(game, { fire: true }); tick(game, {});
-  assert.ok(game.state.orbs[0].y < y - 25 && game.state.orbs[0].y > y - 30);
+  const launch = game.drainEvents().find(function (event) { return event.type === 'orb-launch'; });
+  assert.equal(launch.x, game.state.player.x); assert.equal(launch.y, game.state.player.y - 25);
+  assert.ok(game.state.orbs[0].y < launch.y && game.state.orbs[0].y > launch.y - 5);
 });
 
 test('pause freezes vertical movement and stage changes and restart recenter the ship', function () {
@@ -137,6 +140,145 @@ test('pause freezes vertical movement and stage changes and restart recenter the
   game.resume(); game._enterLevel(2); assert.equal(game.state.player.y, centerY);
   advance(game, 0.1, { down: true }); assert.ok(game.state.player.y > centerY);
   game.restart(); assert.equal(game.state.player.y, centerY);
+});
+
+test('movement accelerates over 150 milliseconds and coasts to a stop over 200 milliseconds', function () {
+  const game = fixture(), p = game.state.player;
+  tick(game, { right: true });
+  assert.ok(p.vx > 0 && p.vx < game.config.player.speed); assert.equal(p.vy, 0);
+  advance(game, game.config.player.accelerationTime - game.config.step, { right: true });
+  assert.ok(Math.abs(p.vx - game.config.player.speed) < 1e-8);
+  const releasingX = p.x; tick(game);
+  assert.ok(p.x > releasingX); assert.ok(p.vx > 0 && p.vx < game.config.player.speed);
+  advance(game, game.config.player.decelerationTime - game.config.step);
+  assert.ok(Math.abs(p.vx) < 1e-8); const stoppedX = p.x;
+  advance(game, 0.25); assert.equal(p.x, stoppedX);
+});
+
+test('reversing direction changes velocity gradually without exceeding maximum speed', function () {
+  const game = fixture(), p = game.state.player;
+  advance(game, 0.15, { right: true }); const x = p.x;
+  tick(game, { left: true }); assert.ok(p.vx > 0); assert.ok(p.x > x);
+  advance(game, 0.3, { left: true });
+  assert.ok(Math.abs(p.vx + game.config.player.speed) < 1e-8);
+  assert.ok(Math.hypot(p.vx, p.vy) <= game.config.player.speed + 1e-8);
+});
+
+test('normalized analog input preserves strength, caps diagonals and sanitizes invalid axes', function () {
+  const game = fixture(), p = game.state.player;
+  advance(game, 0.15, { moveX: 0.5 }); assert.equal(p.vx, game.config.player.speed * 0.5);
+  game.resetMovement(); tick(game, { moveX: NaN, moveY: Infinity });
+  assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  advance(game, 0.15, { moveX: 99, moveY: -99 });
+  assert.ok(Math.abs(Math.hypot(p.vx, p.vy) - game.config.player.speed) < 1e-8);
+  assert.ok(p.vx > 0 && p.vy < 0);
+});
+
+test('keyboard movement takes precedence over analog including cancelling opposite arrows', function () {
+  const game = fixture(), p = game.state.player;
+  tick(game, { left: true, moveX: 1, moveY: 1 }); assert.ok(p.vx < 0); assert.equal(p.vy, 0);
+  game.resetMovement(); tick(game, { left: true, right: true, moveX: 1 });
+  assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  tick(game, { moveY: -1 }); assert.equal(p.vx, 0); assert.ok(p.vy < 0);
+});
+
+test('boundaries stop outward momentum without overshoot and allow immediate inward acceleration', function () {
+  const game = fixture(), p = game.state.player;
+  advance(game, 3, { moveX: -1, moveY: -1 });
+  assert.equal(p.x, 30); assert.equal(p.y, 511); assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  tick(game, { moveX: 1, moveY: 1 }); assert.ok(p.x > 30); assert.ok(p.y > 511);
+  advance(game, 4, { moveX: 1, moveY: 1 });
+  assert.equal(p.x, 930); assert.equal(p.y, 655); assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+});
+
+test('pause, stage changes, intermission and restart discard movement inertia', function () {
+  const game = fixture(), p = game.state.player;
+  tick(game, { right: true, down: true }); assert.ok(p.vx && p.vy);
+  game.pause(); assert.equal(p.vx, 0); assert.equal(p.vy, 0); game.resume();
+  tick(game); const x = p.x; tick(game); assert.equal(p.x, x);
+  tick(game, { right: true }); game._enterLevel(1); assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  game.state.wave = 1; tick(game, { right: true }); assert.equal(game.state.status, 'intermission');
+  assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  game.restart(); assert.equal(game.state.player.vx, 0); assert.equal(game.state.player.vy, 0);
+});
+
+test('resetMovement preserves position and resets swept movement history and queued commands', function () {
+  const game = fixture(), p = game.state.player;
+  tick(game, { right: true, up: true }); const x = p.x, y = p.y;
+  game.resetMovement(); assert.equal(p.x, x); assert.equal(p.y, y);
+  assert.equal(p.previousX, x); assert.equal(p.previousY, y);
+  assert.equal(p.vx, 0); assert.equal(p.vy, 0);
+  assert.equal(game._input.right, false); assert.equal(game._input.up, false);
+  tick(game); assert.equal(p.x, x); assert.equal(p.y, y);
+});
+
+test('movement timing overrides are isolated and may disable the ramp for custom controls', function () {
+  const game = fixture({ player: { speed: 100, accelerationTime: 0, decelerationTime: 0 } });
+  tick(game, { moveX: 1 }); assert.equal(game.state.player.vx, 100);
+  tick(game); assert.equal(game.state.player.vx, 0);
+  assert.equal(LG.Config.player.accelerationTime, 0.15); assert.equal(LG.Config.player.decelerationTime, 0.2);
+});
+
+test('quick fire taps are latched across substep frames and emit only one paired volley', function () {
+  const game = fixture(); game.step(game.config.step / 2, { fireTap: true });
+  assert.equal(game.state.shots.length, 0); game.step(game.config.step / 2, {});
+  assert.equal(game.state.shots.length, 2); advance(game, 0.3);
+  assert.equal(game.drainEvents().filter(function (event) { return event.type === 'fire'; }).length, 1);
+});
+
+test('a physical fire press and release between fixed ticks emits one paired volley', function () {
+  const game = fixture(); game.step(game.config.step / 2, { fire: true });
+  assert.equal(game.state.shots.length, 0); game.step(game.config.step / 2, { fire: false });
+  assert.equal(game.state.shots.length, 2); advance(game, 0.3);
+  assert.equal(game.drainEvents().filter(function (event) { return event.type === 'fire'; }).length, 1);
+});
+
+test('a physical short white press releases exactly one orb on the next fixed tick', function () {
+  const game = fixture(); game.state.weapon = 'white'; game.state.opsonins = 2;
+  game.step(game.config.step / 2, { fire: true }); game.step(game.config.step / 2, { fire: false });
+  assert.ok(game.state.charge); assert.equal(game.state.opsonins, 2);
+  tick(game); assert.equal(game.state.charge, null); assert.equal(game.state.opsonins, 1);
+  assert.equal(game.state.orbs.length, 1); advance(game, 0.3); assert.equal(game.state.orbs.length, 1);
+});
+
+test('cancelling an unprocessed physical fire edge prevents delayed fire and white stock consumption', function () {
+  ['green', 'white'].forEach(function (weapon) {
+    const game = fixture(); game.state.weapon = weapon; game.state.opsonins = 1;
+    game.step(game.config.step / 2, { fire: true }); game.cancelCharge();
+    game.step(game.config.step / 2, { fire: false }); tick(game);
+    assert.equal(game.state.shots.length, 0); assert.equal(game.state.charge, null);
+    assert.equal(game.state.orbs.length, 0); assert.equal(game.state.opsonins, 1);
+  });
+});
+
+test('held fire with a matching tap edge retains one volley and the original repeat cadence', function () {
+  const game = fixture(); game.step(game.config.step / 2, { fire: true, fireTap: true });
+  game.step(game.config.step / 2, { fire: true }); assert.equal(game.state.shots.length, 2);
+  advance(game, 0.5 - game.config.step, { fire: true }); assert.equal(game.state.shots.length, 6);
+});
+
+test('a quick white tap releases one low-power opsonin on the following fixed tick', function () {
+  const game = fixture(); game.state.weapon = 'white'; game.state.opsonins = 2;
+  tick(game, { fireTap: true }); assert.ok(game.state.charge); assert.equal(game.state.opsonins, 2);
+  tick(game); assert.equal(game.state.charge, null); assert.equal(game.state.opsonins, 1);
+  assert.equal(game.state.orbs.length, 1); assert.ok(game.state.orbs[0].power < 0.03);
+  advance(game, 0.2); assert.equal(game.state.orbs.length, 1);
+});
+
+test('touch cancellation clears an unprocessed quick tap without firing or spending stock', function () {
+  const game = fixture(); game.state.weapon = 'white'; game.state.opsonins = 1;
+  game.step(game.config.step / 2, { fireTap: true }); game.cancelCharge();
+  game.step(game.config.step / 2, {}); tick(game);
+  assert.equal(game.state.charge, null); assert.equal(game.state.orbs.length, 0); assert.equal(game.state.opsonins, 1);
+  game.state.weapon = 'green'; game.step(game.config.step / 2, { fireTap: true }); game.cancelCharge();
+  game.step(game.config.step / 2, {}); assert.equal(game.state.shots.length, 0);
+});
+
+test('cycling to white while a synthetic tap fires still requires a fresh press', function () {
+  const game = fixture(); game.state.opsonins = 1;
+  tick(game, { fireTap: true, cycle: 1 }); assert.equal(game.state.weapon, 'white');
+  assert.equal(game.state.charge, null); tick(game); tick(game, { fireTap: true });
+  assert.ok(game.state.charge); tick(game); assert.equal(game.state.opsonins, 0);
 });
 
 test('backward cycling wraps through stocked white and cancels charging without spending stock', function () {

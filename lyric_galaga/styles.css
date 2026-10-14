@@ -43,3 +43,90 @@
   .game-overlay.compact .overlay-card{padding:22px 26px}
   .game-overlay.compact h2{font-size:28px}
 }
+
+/* Touch play uses the viewport height, leaving the unchanged 4:3 arena centered
+   between thumb controls. The launcher owns safe-area padding when embedded. */
+.mobile-hud,.welcome-mobile-controls,.mobile-instructions{display:none}
+.touch-controls{position:absolute;inset:0;pointer-events:none;z-index:2}
+.touch-action,.touch-joystick{position:absolute;pointer-events:auto;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.touch-action{width:64px;height:64px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;background:#1b334aea;border:2px solid #7095b0;box-shadow:0 3px 14px #020c1880;color:#e2edf5;padding:0}
+.touch-action>span{font-size:25px;line-height:1.05}
+.touch-action small{font:8px var(--mono);letter-spacing:.2px}
+.touch-cycle{left:12px;bottom:12px;border-color:var(--equipped-color,#7095b0)}
+.touch-activate{left:12px;bottom:88px}
+.touch-action:not(:disabled):active,.touch-action.pressed{transform:none;background:#345774;border-color:#c4e1ef;box-shadow:inset 0 0 16px #81c4e333}
+.touch-action:disabled{opacity:.38}
+.touch-joystick{display:none;width:96px;height:96px;left:12px;bottom:12px;border-radius:50%;border:2px solid #7194ab;background:#183248b8;box-shadow:inset 0 0 24px #050f2180}
+#touch-stick{position:absolute;left:calc(50% - 20px);top:calc(50% - 20px);display:block;width:40px;height:40px;border:2px solid #acd0de;border-radius:50%;background:#527a93cc;box-shadow:0 2px 8px #09172799;pointer-events:none;transform:translate(var(--stick-x,0px),var(--stick-y,0px))}
+.joystick-caption{position:absolute;bottom:8px;width:100%;text-align:center;font:8px var(--mono);letter-spacing:1px;color:#b7cddd;pointer-events:none}
+body[data-control-mode="joystick"] .touch-joystick{display:block}
+body[data-control-mode="joystick"] .touch-cycle,body[data-control-mode="joystick"] .touch-activate{left:auto;right:12px}
+.rotate-prompt{position:fixed;inset:0;z-index:10;display:grid;place-items:center;padding:24px;background:#0c1728f8}
+.rotate-card{max-width:340px;text-align:center}
+.rotate-icon{display:block;font:64px var(--sans);color:var(--accent);margin-bottom:16px}
+.rotate-card h2{font-size:23px;font-weight:500;line-height:1.25}
+.rotate-card p{font-size:14px;line-height:1.65;color:var(--muted);margin:14px 0}
+.rotate-card button{min-height:44px;min-width:120px}
+.mobile-control-choices,.mobile-menu-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.mobile-control-choices button,.mobile-menu-actions button{min-height:44px;flex:1;white-space:nowrap;border-color:var(--line);background:#20334a;padding:8px 12px}
+.mobile-response-toggle{min-height:44px;margin-top:6px;font:13px var(--sans);letter-spacing:0}
+.mobile-response-toggle input{width:22px;height:22px}
+#settings-dialog .mobile-setting-note{font-size:11px;margin-top:3px}
+#mobile-control-status{font-size:12px;min-height:36px}
+#settings-dialog .button-primary{min-height:44px;margin-top:14px}
+#settings-dialog .dialog-heading h2{font-size:23px}
+#settings-dialog .dialog-heading{margin-bottom:10px}
+#settings-dialog .dialog-heading button{min-width:64px;min-height:44px}
+
+body.mobile-game{--safe-top:env(safe-area-inset-top,0px);--safe-right:env(safe-area-inset-right,0px);--safe-bottom:env(safe-area-inset-bottom,0px);--safe-left:env(safe-area-inset-left,0px);height:100vh;height:100dvh;min-height:0;overflow:hidden;padding:var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left)}
+body.mobile-game.embedded-mobile-game{--safe-top:0px;--safe-right:0px;--safe-bottom:0px;--safe-left:0px}
+body.mobile-game .app-shell{padding:0;margin:0;max-width:none;height:100%;display:flex;flex-direction:column;min-height:0}
+body.mobile-game .app-header,body.mobile-game .mission-heading,body.mobile-game .hud-strip,body.mobile-game .arena-footer,body.mobile-game .mission-panel,body.mobile-game .app-footer{display:none}
+body.mobile-game .app-shell>main{display:flex;flex-direction:column;flex:1;min-height:0}
+body.mobile-game .workspace{display:flex;flex:1;min-height:0;gap:0;align-items:stretch}
+body.mobile-game .arena-panel{display:flex;flex-direction:column;flex:1;min-height:0;border:0;background:#101c2e}
+body.mobile-game .mobile-hud{display:flex;align-items:center;justify-content:center;gap:14px;flex-shrink:0;height:45px;padding:0 8px;border-bottom:1px solid #344961;background:#182638;font:10px var(--mono);white-space:nowrap;color:var(--muted)}
+body.mobile-game .mobile-hud>span{display:flex;gap:5px;align-items:center}
+body.mobile-game .mobile-hud strong{font-weight:600;color:var(--ink)}
+body.mobile-game .mobile-hud small{font-size:9px}
+body.mobile-game .mobile-hud button{min-width:64px;min-height:44px;font-size:12px;margin-left:auto;padding:8px 10px;border-left:1px solid var(--line)}
+body.mobile-game .mobile-weapon-stat{min-width:45px;justify-content:center}
+body.mobile-game .canvas-frame{flex:1;min-height:0;width:100%;isolation:isolate}
+body.mobile-game #game-canvas{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;object-fit:contain;image-rendering:auto;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+body.mobile-game .game-overlay{padding:8px;background:#0b1528dc;backdrop-filter:none;z-index:4}
+body.mobile-game .overlay-card{width:min(480px,100%);max-width:480px;max-height:100%;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:14px 20px;scrollbar-width:thin;touch-action:pan-y}
+body.mobile-game .overlay-topline .eyebrow{font-size:7px;letter-spacing:.8px}
+body.mobile-game .overlay-topline>span:last-child{font-size:8px}
+body.mobile-game #welcome-art{width:140px;height:44px;object-fit:contain;margin:4px auto}
+body.mobile-game .overlay-card h2{font-size:25px;line-height:1.08;letter-spacing:-.9px;margin-top:4px}
+body.mobile-game .overlay-card p{font-size:11px;line-height:1.5;margin:7px 0}
+body.mobile-game .welcome-flow{display:none}
+body.mobile-game .welcome-mobile-controls{display:block;padding-top:6px;margin-top:8px;border-top:1px solid var(--line)}
+body.mobile-game .welcome-mobile-controls .mobile-control-choices{margin-top:0}
+body.mobile-game .welcome-mobile-controls .button-quiet{font-size:12px}
+body.mobile-game #welcome-control-status{font-size:11px;line-height:1.45;color:#c3d5e5;margin-bottom:0}
+body.mobile-game .overlay-card .button-primary{min-height:44px;padding:9px 14px;font-size:12px;margin-top:10px}
+body.mobile-game .game-overlay.compact .overlay-card{max-width:395px;padding:16px 20px}
+body.mobile-game .game-overlay.compact h2{font-size:25px}
+body.mobile-game .stage-banner{min-width:230px;max-width:calc(100% - 24px);padding:13px 18px;z-index:3}
+body.mobile-game .stage-banner strong{font-size:17px}
+body.mobile-game .arena-toast{font-size:10px;white-space:normal;max-width:65%;z-index:3}
+body.mobile-game dialog{width:min(540px,calc(100vw - var(--safe-left) - var(--safe-right) - 24px));max-height:calc(100vh - var(--safe-top) - var(--safe-bottom) - 20px);max-height:calc(100dvh - var(--safe-top) - var(--safe-bottom) - 20px);padding:14px 20px;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y}
+body.mobile-game dialog::backdrop{backdrop-filter:none}
+body.mobile-game dialog button{min-height:44px}
+body.mobile-game dialog h2{font-size:22px}
+body.mobile-game .mobile-instructions{display:block}
+body.mobile-game .instructions-list{gap:12px;margin-top:15px}
+body.mobile-game .instructions-list>div{padding-top:12px}
+body.mobile-game .instructions-list dd,body.mobile-game dialog>p{font-size:12px}
+body.mobile-game .dialog-heading{margin-bottom:10px}
+body.mobile-game .dialog-heading .eyebrow{font-size:7px;letter-spacing:.8px}
+body.mobile-game .dialog-heading button{min-width:66px;font-size:12px}
+body.mobile-game .touch-controls{touch-action:none;-webkit-user-select:none;user-select:none}
+@media(max-width:720px){body.mobile-game .mobile-hud{gap:9px;font-size:9px}body.mobile-game .mobile-hud small{font-size:8px}}
+@media(max-width:550px){body.mobile-game .mobile-hud{gap:6px;padding:0 5px}body.mobile-game .mobile-hud small{display:none}body.mobile-game .mobile-hud button{min-width:50px;font-size:11px}}
+@media(hover:none){
+  body.mobile-game .button-quiet:not(:disabled):hover{background:transparent;color:var(--muted)}
+  body.mobile-game .button-primary:not(:disabled):hover{background:#315b70;border-color:#5c8ca3}
+  body.mobile-game button:not(:disabled):active{background:#345774;color:var(--ink);border-color:#c4e1ef}
+}

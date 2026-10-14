@@ -4,7 +4,7 @@ A solo antibody arcade campaign: five authored levels and a color-shifting antig
 
 ## Controls and rules
 
-Move with all four arrow keys. Up/down movement covers a band about 20% of the arena height near the bottom, giving room to dodge vertically. Hold Space to fire paired antibodies. Press Z to cycle unlocked colors. Match the target's color to destroy it; mismatched hits produce feedback without damage. Antigens have distinct silhouettes as well as colors. Green starts unlocked, with blue, purple, and gold introduced in levels 2, 3, and 4. Level 5 combines the full palette.
+Move with all four arrow keys. The ship accelerates gently and briefly coasts to a stop when released. Up/down movement covers a band about 20% of the arena height near the bottom, giving room to dodge vertically. Hold Space to fire paired antibodies. Press Z to cycle unlocked colors. Match the target's color to destroy it; mismatched hits produce feedback without damage. Antigens have distinct silhouettes as well as colors. Green starts unlocked, with blue, purple, and gold introduced in levels 2, 3, and 4. Level 5 combines the full palette.
 
 Start with three lives. Hostile shots and antigen collisions cost a life and grant two seconds of invulnerability. Antigens that escape loop back into play, so each stage finishes only after all its scheduled waves and surviving enemies are cleared. Wave counts and times are editable in `js/config.js`. Pause and intermissions do not advance those schedules.
 
@@ -17,6 +17,17 @@ Runs start with zero opsonins. Shoot a white pickup using any antibody to add on
 Press X to consume all resting orbs. A macrophage appears underneath each, winds up for 0.5 seconds, then clears antigens inside its circle. Each circle has 22% of the logical arena's area; its radius is `sqrt(0.22 * width * height / PI)`. Flying orbs are not activated. Inventory carries between stages, while deployed orbs clear at each new stage. Changing weapons, pausing, or losing focus cancels a charge without spending stock. Empty stock removes white from the cycle and returns the weapon to the last selected antibody.
 
 Press P or Escape to pause or resume. The game automatically pauses when it loses focus. Restart resets the entire campaign, including lives, inventory, and score. Use All games in the shared launcher to return to the library.
+
+### Mobile browser controls
+
+The phone layout targets iPhone Safari on iOS 16.4 or later, in landscape. The logical arena stays 960 by 720 with its 4:3 aspect ratio; safe-area spacing keeps controls clear of the notch and home indicator. Portrait shows a rotate prompt and pauses play rather than attempting to force browser orientation. Physical iPhone testing is still pending; see [MOBILE_TESTING.md](MOBILE_TESTING.md).
+
+- **Tilt:** tap **Enable tilt** on the welcome screen or in Pause. The permission request runs from that tap. Allow motion, hold the phone still for about half a second, then start or resume. Tilt controls horizontal movement and the existing vertical band. Weapon sits at the bottom left and Activate above it.
+- **Joystick:** choose touch controls, or use the fallback when permission is denied, sensors are absent, or readings stop. Drag the left joystick to steer. Weapon and Activate form a stack on the right, leaving the left thumb only the joystick to operate.
+- **Fire:** tap or hold the arena outside controls and menus. Ordinary antibodies fire repeatedly while held; a brief tap fires a volley. White mode requires a hold to charge, followed by release to launch. A cancelled touch, control change, pause, or orientation change discards the charge without spending stock. Multiple touches allow steering, firing, and weapon actions together.
+- **Pause:** opens Antigen response, control selection and tilt recalibration, instructions, restart, and All games. Turning portrait or backgrounding the browser clears movement and charging. Returning requires explicit resume; tilt recalibrates before flight continues. Returning from browser history also restores a paused game rather than advancing missed time.
+
+Tilt requires a supported sensor API and a secure context, normally HTTPS. Local files and ordinary HTTP hosts can use joystick controls when tilt is unavailable. Tilt sensitivity defaults to a 3-degree dead zone, full movement at 20 degrees from the calibrated position, and a 120 ms smoothing time. Readings missing for 0.5 seconds during play pause the game and offer joystick controls. Both landscape directions are mapped to screen coordinates; compass heading is unused.
 
 ## Boss behavior
 
@@ -38,7 +49,8 @@ Macrophages clear minions regardless of color. If any circle intersects the boss
 - `js/simulation.js`: seeded game state, fixed-step movement, projectile collisions, wave scheduling, pickups, charging, macrophage activations, lives, boss phases, and endings.
 - `js/assets.js`: sprite manifest, asynchronous image loading, sprite-sheet frames, and procedural fallback artwork.
 - `js/render.js`: canvas presentation and visual effects; rendering does not change combat state.
-- `js/ui.js`: keyboard input, overlays, HUD, pause, restart, and launcher lifecycle.
+- `js/controls.js`: keyboard, multi-touch pointers, joystick, motion permission and calibration, and normalized input sampling.
+- `js/ui.js`: desktop/mobile overlays, HUD, pause, restart, orientation/background handling, and launcher lifecycle.
 
 Scripts use the independent `globalThis.LyricGalaga` namespace and deferred classic script tags so they also work under `file://`. The simulation uses a 60 Hz logical step in a 960×720 arena; rendering runs through `requestAnimationFrame` and the canvas scales with the layout.
 
@@ -47,6 +59,10 @@ Scripts use the independent `globalThis.LyricGalaga` namespace and deferred clas
 Change `LyricGalaga.Config` in `js/config.js`. Distances are logical pixels and durations are seconds. The initial campaign is tuned toward an approachable 6–8-minute successful run, with harder pressure toward the finale.
 
 Tune the ship's vertical movement band with `Config.player.verticalRangeFraction` (default `0.2`, or 20% of the arena height). The band stays near the bottom of the arena.
+
+Player speed remains 425 logical pixels per second. `Config.player.accelerationTime` is `0.15` seconds to reach full speed, and `decelerationTime` is `0.2` seconds to stop from full speed. Keyboard and analog steering share this fixed-step movement, diagonal speed is capped, and contact with an arena limit clears velocity into that limit. Pause, stage changes, and restart clear momentum.
+
+`LyricGalaga.Controls.defaults` holds joystick radius, tilt dead zone/full angle, smoothing, calibration duration/timeout, and sensor timeout. Override these through `Config.controls` or a Controls instance's `config` option. `Controls.sample(dt)` returns keyboard directions, normalized `moveX` / `moveY`, held `fire`, short-tap `fireTap`, and one-shot `cycle` / `detonate` actions. `Game.step(dt, input)` accepts the same fields; active arrow-key directions take precedence over analog axes. `fireTap` preserves a complete tap received between simulation ticks. `Game.resetMovement()` clears velocity and movement input; cancelling a charge remains a separate action. Keep permission and sensor handling outside the seeded simulation so recorded analog inputs remain deterministic.
 
 Each level has an ID, title/subtitle, speed multiplier, and a finite list of waves. Wave records contain `at`, `count`, `colors`, and `patterns`. Colors and patterns cycle over the wave's members. Add or edit records to change the campaign without changing rendering. Offscreen survivors retain their identity and remain part of the outstanding enemy count.
 
@@ -78,4 +94,8 @@ Frames count left-to-right and then top-to-bottom. Destination width and height 
 
 ## Verify
 
-From this folder, run `node tests/run.js` for the deterministic simulation checks. From the root folder, run `node scripts/browser-smoke.js` for real-browser integration and rendering checks. See the root README for the complete cross-game verification commands.
+From this folder, run `node tests/run.js` for deterministic simulation checks and `node ../tests/controls-tests.js` for keyboard, pointer, and motion-adapter checks. From the root, run `node scripts/browser-smoke.js` for the existing desktop integration baseline and `node scripts/mobile-browser-smoke.js` for mobile viewport, touch, and lifecycle checks. The emulated browser checks do not substitute for physical iPhone Safari tests; record those separately in [MOBILE_TESTING.md](MOBILE_TESTING.md). See the root README for the complete cross-game commands.
+
+### Eventual Capacitor packaging
+
+There is no audio playback or native application project in this iteration. The browser code and local sprite fallbacks remain dependency-free. A future shooter-only package must include the shared branding image at `../lyric_biodefenses/assets/branding/lyric-logo.jpg` or update that reference when relocating it. Package scripts and replacement artwork with their relative paths intact. Test motion permission, safe areas, orientation, background/resume, and touch cancellation again in the actual WKWebView container; a Safari pass alone does not validate the native wrapper. Native lifecycle/orientation configuration and any future audio unlock belong to that packaging iteration.

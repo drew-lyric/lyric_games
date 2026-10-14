@@ -8,6 +8,8 @@ Open the root **index.html** in Chrome or Edge. Select a game, choose **INSTRUCT
 
 The launcher loads one game at a time. Each game also has its own entrypoint in its folder, so it can be played and developed independently.
 
+Antigen Assault also has a mobile browser layout targeting iPhone Safari on iOS 16.4 or later. Open the HTTPS-hosted launcher or shooter directly and turn the phone sideways. Choose **Enable tilt** to allow motion and calibrate, or use the touch joystick. This iteration changes the browser game only; it does not add a Capacitor project. Physical iPhone validation remains pending; see [the mobile testing checklist](lyric_galaga/MOBILE_TESTING.md).
+
 ## Host the collection
 
 Copy this folder to a static web host with its relative directory structure intact. All three solo games work from the same root URL. Biodefenses LAN play uses the bundled Node host instead of a static server.
@@ -30,11 +32,13 @@ See [the Sterile Solver guide](lyric_sterilesolve/README.md) for controls, conse
 
 ## Antigen Assault
 
-- **Arrow keys:** move the ship left/right and up/down. Vertical travel covers a band about 20% of the arena height near the bottom.
+- **Arrow keys:** accelerate the ship left/right and up/down, with brief deceleration when released. Vertical travel covers a band about 20% of the arena height near the bottom.
 - **Space:** hold to fire paired antibodies. In white opsonin mode, hold to cycle the power bar and release to launch one orb. Stronger launches stop farther up the arena.
 - **Z:** cycle through unlocked antibodies and opsonins when stocked.
 - **X:** consume every settled orb. After a 0.5-second macrophage windup, clear antigens inside each circle. Flying orbs are not activated.
 - **P / Escape:** pause or resume. The game also pauses when it loses focus.
+
+On a phone, tilt steers both axes. Tap or hold the arena to fire; in white mode, hold to charge and release to place an opsonin. **Weapon** cycles the current weapon and **Activate** consumes settled orbs. In tilt mode, Weapon sits at the bottom left with Activate above it. In joystick mode, the left thumb steers and both action buttons sit on the right. Buttons and menus do not also fire. **Pause** opens control selection/recalibration, Antigen response, instructions, restart, and All games. Rotating into portrait or returning from the background leaves the game paused; resume explicitly and recalibrate tilt when prompted.
 
 Match antibody and antigen colors. Green starts unlocked; blue, purple, and gold arrive in levels 2, 3, and 4. Level 5 mixes all four, followed by a boss whose current core color controls its vulnerability, movement, shots, and summons. Three lives protect the ship against collisions and hostile shots; escaped antigens return to play.
 
@@ -57,15 +61,21 @@ Run the dependency-free checks from this root folder:
 
 ```text
 node lyric_galaga/tests/run.js
+node tests/controls-tests.js
 node lyric_sterilesolve/tests/run.js
 node lyric_biodefenses/tests/run.js
 node lyric_biodefenses/tests/lan-tests.js
 node tests/hosting-tests.js
 node scripts/browser-smoke.js
+node scripts/mobile-browser-smoke.js
 node lyric_sterilesolve/scripts/browser-smoke.js
 ```
 
-The shared browser smoke test uses installed Chrome and Edge, including real keyboard input, launcher dialogs and lifecycle, direct-file and HTTP play, sprite replacement/fallback, LAN refresh and exit, and responsive layouts. Screenshots are written to `tests/artifacts/`. The original Biodefenses browser checks remain available:
+The shared browser smoke test uses installed Chrome and Edge, including real keyboard input, launcher dialogs and lifecycle, direct-file and HTTP play, sprite replacement/fallback, LAN refresh and exit, and responsive layouts. Screenshots are written to `tests/artifacts/`.
+
+The controls checks use simulated pointer, keyboard, and motion events. The mobile browser smoke test verifies the landscape layout and touch lifecycle using desktop browser emulation. These checks do not establish iPhone sensor permissions, Safari browser-bar behavior, or sustained device performance; record those results separately using the [physical-device checklist](lyric_galaga/MOBILE_TESTING.md).
+
+The original Biodefenses browser checks remain available:
 
 ```text
 node lyric_biodefenses/scripts/browser-smoke.js

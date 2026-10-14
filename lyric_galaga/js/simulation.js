@@ -51,7 +51,7 @@
       title: this.levels[0].title, unlocked: ['green'], weapon: 'green', opsonins: 0,
       antigenResponse: this._antigenResponse, ivigRemaining: 0,
       score: 0, lives: c.lives,
-      player: { x: c.width / 2, y: playerBand(c).startY, radius: c.player.radius, invulnerable: 0, cooldown: 0 },
+      player: { x: c.width / 2, y: playerBand(c).startY, vx: 0, vy: 0, radius: c.player.radius, invulnerable: 0, cooldown: 0 },
       charge: null, antigens: [], shots: [], enemyShots: [], pickups: [], orbs: [], macrophages: [], boss: null
     };
     this._events = [];
@@ -59,7 +59,8 @@
     this._eventId = 0;
     this._activationId = 0;
     this._accumulator = 0;
-    this._input = { left: false, right: false, up: false, down: false, fire: false, cycle: false, detonate: false };
+    this._input = { left: false, right: false, up: false, down: false, moveX: 0, moveY: 0, fire: false, cycle: false, detonate: false };
+    this._fireTapPending = false;
     this._previousFire = false;
     this._requireFireRelease = false;
     this._lastAntibody = 'green';
@@ -101,6 +102,7 @@
     this._pausedStatus = this.state.status;
     this.state.status = 'paused';
     this.cancelCharge();
+    this.resetMovement();
     this._accumulator = 0;
     this._event('pause');
     return true;
@@ -114,7 +116,15 @@
   };
   LG.Game.prototype.cancelCharge = function () {
     this.state.charge = null;
+    this._fireTapPending = false;
     this._requireFireRelease = true;
+  };
+  LG.Game.prototype.resetMovement = function () {
+    const player = this.state.player;
+    player.vx = player.vy = 0;
+    player.previousX = player.x; player.previousY = player.y;
+    this._input.left = this._input.right = this._input.up = this._input.down = false;
+    this._input.moveX = this._input.moveY = 0;
   };
   LG.Game.prototype.cycleWeapon = function (direction) {
     if (this.state.status !== 'playing') return;
@@ -148,13 +158,21 @@
     this._input.right = !!input.right;
     this._input.up = !!input.up;
     this._input.down = !!input.down;
-    this._input.fire = !!input.fire;
+    this._input.moveX = Number.isFinite(input.moveX) ? clamp(input.moveX, -1, 1) : 0;
+    this._input.moveY = Number.isFinite(input.moveY) ? clamp(input.moveY, -1, 1) : 0;
+    // A touch/keyboard press may begin and end between two fixed ticks on a
+    // high-refresh display. Retain that rising edge until combat samples it.
+    const fire = !!input.fire;
+    this._fireTapPending = this._fireTapPending || !!input.fireTap || (fire && !this._input.fire);
+    this._input.fire = fire;
     if (input.cycle) this._input.cycle = input.cycle < 0 ? -1 : 1;
     this._input.detonate = this._input.detonate || !!input.detonate;
     this._accumulator += Math.min(dt, this.config.maxFrame);
     while (this._accumulator + EPS >= this.config.step && ['playing', 'intermission'].includes(this.state.status)) {
       this._accumulator -= this.config.step;
-      this._fixedStep(this.config.step, this._input);
+      const tickInput = Object.assign({}, this._input, { fire: this._input.fire || this._fireTapPending });
+      this._fireTapPending = false;
+      this._fixedStep(this.config.step, tickInput);
       this._input.cycle = this._input.detonate = false;
     }
   };
@@ -163,6 +181,7 @@
     s.antigens = []; s.shots = []; s.enemyShots = []; s.pickups = []; s.orbs = []; s.macrophages = [];
     s.boss = null;
     this.cancelCharge();
+    this.resetMovement();
     s.player.cooldown = 0;
   };
   LG.Game.prototype._enterLevel = function (number) {
@@ -227,11 +246,22 @@
   };
   LG.Game.prototype._updatePlayer = function (dt, input) {
     const p = this.state.player, c = this.config;
-    const dx = (input.right ? 1 : 0) - (input.left ? 1 : 0), dy = (input.down ? 1 : 0) - (input.up ? 1 : 0);
-    const distance = c.player.speed * dt / (Math.hypot(dx, dy) || 1), band = playerBand(c);
+    const keyboard = input.left || input.right || input.up || input.down;
+    let dx = keyboard ? (input.right ? 1 : 0) - (input.left ? 1 : 0) : input.moveX || 0;
+    let dy = keyboard ? (input.down ? 1 : 0) - (input.up ? 1 : 0) : input.moveY || 0;
+    const magnitude = Math.hypot(dx, dy), band = playerBand(c);
+    if (magnitude > 1) { dx /= magnitude; dy /= magnitude; }
+    const targetX = dx * c.player.speed, targetY = dy * c.player.speed;
+    const deltaX = targetX - p.vx, deltaY = targetY - p.vy, difference = Math.hypot(deltaX, deltaY);
+    const duration = magnitude > EPS ? c.player.accelerationTime : c.player.decelerationTime;
+    const change = duration > EPS ? c.player.speed * dt / duration : Infinity;
+    if (difference <= change) { p.vx = targetX; p.vy = targetY; }
+    else { p.vx += deltaX / difference * change; p.vy += deltaY / difference * change; }
     p.previousX = p.x; p.previousY = p.y;
-    p.x = clamp(p.x + dx * distance, p.radius + 12, c.width - p.radius - 12);
-    p.y = clamp(p.y + dy * distance, band.minY, band.maxY);
+    p.x = clamp(p.x + p.vx * dt, p.radius + 12, c.width - p.radius - 12);
+    p.y = clamp(p.y + p.vy * dt, band.minY, band.maxY);
+    if ((p.x <= p.radius + 12 && p.vx < 0) || (p.x >= c.width - p.radius - 12 && p.vx > 0)) p.vx = 0;
+    if ((p.y <= band.minY && p.vy < 0) || (p.y >= band.maxY && p.vy > 0)) p.vy = 0;
     p.invulnerable = Math.max(0, p.invulnerable - dt);
     p.cooldown = Math.max(0, p.cooldown - dt);
   };
@@ -412,7 +442,7 @@
     this._event('boss-hit', { x: boss.x, y: boss.y, color: boss.color, damage: damage });
     if (boss.health <= 0) {
       this.state.score += this.config.boss.score;
-      this.state.status = 'victory'; this.cancelCharge();
+      this.state.status = 'victory'; this.cancelCharge(); this.resetMovement();
       this._event('destroy', { x: boss.x, y: boss.y, radius: boss.radius, color: boss.color, source: 'boss' });
       this._event('victory', { score: this.state.score });
       this.state.antigens = []; this.state.enemyShots = []; this.state.shots = []; this.state.orbs = []; this.state.macrophages = [];
@@ -548,7 +578,7 @@
     s.lives -= 1; s.player.invulnerable = this.config.invulnerability;
     this.cancelCharge();
     this._event('hurt', { x: s.player.x, y: s.player.y, color: s.weapon, lives: s.lives });
-    if (s.lives <= 0) { s.status = 'gameover'; this._event('gameover', { score: s.score }); }
+    if (s.lives <= 0) { s.status = 'gameover'; this.resetMovement(); this._event('gameover', { score: s.score }); }
     return true;
   };
   LG.Game.prototype._checkPlayerCollisions = function () {

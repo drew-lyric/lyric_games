@@ -99,6 +99,7 @@
     const frame = document.createElement('iframe');
     frame.id = 'game-frame';
     frame.title = catalog[id].title;
+    if(id==='antigen-assault')frame.allow='accelerometer; gyroscope';
     frame.src = catalog[id].src + '?launcher=1' + (fresh ? '&fresh=1' : '');
     frame.addEventListener('load', function () { if (active && active.frame === frame) frame.contentWindow.focus(); });
     active = { id: id, frame: frame };
@@ -107,6 +108,7 @@
     $('all-games').hidden = false;
     document.body.classList.add('playing');
     document.body.classList.toggle('sterile-active', id === 'sterile-solver');
+    document.body.classList.toggle('antigen-active', id === 'antigen-assault');
     document.title = catalog[id].title + ' · Lyric Games';
     $('game-mount').appendChild(frame);
   }
@@ -127,6 +129,7 @@
         $('all-games').hidden = true;
         document.body.classList.remove('playing');
         document.body.classList.remove('sterile-active');
+        document.body.classList.remove('antigen-active');
         document.title = 'Lyric Bio Game Selection';
         document.querySelector('[data-game="' + selected + '"]').focus({ preventScroll: true });
       }
